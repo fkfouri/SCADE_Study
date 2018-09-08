@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<File xmlns="http://www.esterel-technologies.com/ns/scade/6" xmlns:ed="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5" xmlns:kcg="http://www.esterel-technologies.com/ns/scade/pragmas/codegen/3">
+	<declarations>
+		<Constant name="STR_SIZE">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="uint16"/>
+					</type>
+				</NamedType>
+			</type>
+			<value>
+				<ConstValue value="5"/>
+			</value>
+			<pragmas>
+				<ed:Constant oid="!ed/49de/4DC3/424/5b942c31416b"/>
+			</pragmas>
+		</Constant>
+		<Type name="T_String">
+			<definition>
+				<Table>
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="char"/>
+							</type>
+						</NamedType>
+					</type>
+					<size>
+						<IdExpression>
+							<path>
+								<ConstVarRef name="STR_SIZE"/>
+							</path>
+						</IdExpression>
+					</size>
+				</Table>
+			</definition>
+			<pragmas>
+				<ed:Type oid="!ed/49ef/4DC3/424/5b942c8c68cc"/>
+			</pragmas>
+		</Type>
+		<Constant name="AMBAR">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="uint8"/>
+					</type>
+				</NamedType>
+			</type>
+			<value>
+				<ConstValue value="31"/>
+			</value>
+			<pragmas>
+				<ed:Constant oid="!ed/4a00/4DC3/424/5b942db87a57"/>
+			</pragmas>
+		</Constant>
+		<Constant name="BLACK">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="uint8"/>
+					</type>
+				</NamedType>
+			</type>
+			<value>
+				<ConstValue value="0"/>
+			</value>
+			<pragmas>
+				<ed:Constant oid="!ed/4a01/4DC3/424/5b942dc0f08"/>
+			</pragmas>
+		</Constant>
+		<Constant name="GREEN">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="uint8"/>
+					</type>
+				</NamedType>
+			</type>
+			<value>
+				<ConstValue value="51"/>
+			</value>
+			<pragmas>
+				<ed:Constant oid="!ed/4a02/4DC3/424/5b942dc7579"/>
+			</pragmas>
+		</Constant>
+		<Constant name="LG_BTN_EMPTY_TEXT">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="T_String"/>
+					</type>
+				</NamedType>
+			</type>
+			<value>
+				<!-- [' ', ' ', ' ', ' ', ' '] -->
+				<DataArrayOp>
+					<data>
+						<ConstValue value="' '"/>
+						<ConstValue value="' '"/>
+						<ConstValue value="' '"/>
+						<ConstValue value="' '"/>
+						<ConstValue value="' '"/>
+					</data>
+				</DataArrayOp>
+			</value>
+			<pragmas>
+				<ed:Constant oid="!ed/4a03/4DC3/424/5b942dcd7805"/>
+			</pragmas>
+		</Constant>
+		<Constant name="LG_BTN_FAIL_TEXT">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="T_String"/>
+					</type>
+				</NamedType>
+			</type>
+			<value>
+				<TextExpression text="['F ', 'A ', 'I ', 'L ', ' ']"/>
+			</value>
+			<pragmas>
+				<ed:Constant oid="!ed/4a04/4DC3/424/5b942dd8479"/>
+			</pragmas>
+		</Constant>
+		<Constant name="LG_BTN_NORM_TEXT">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="T_String"/>
+					</type>
+				</NamedType>
+			</type>
+			<value>
+				<TextExpression text="[' N', 'O ', 'R ', 'M ', ' ']"/>
+			</value>
+			<pragmas>
+				<ed:Constant oid="!ed/4a05/4DC3/424/5b942df041c8"/>
+			</pragmas>
+		</Constant>
+		<Constant name="LG_DOWN_TEXT">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="T_String"/>
+					</type>
+				</NamedType>
+			</type>
+			<value>
+				<TextExpression text="['D ', 'N ', ' ', ' ', ' ']"/>
+			</value>
+			<pragmas>
+				<ed:Constant oid="!ed/4a06/4DC3/424/5b942df97508"/>
+			</pragmas>
+		</Constant>
+		<Constant name="LG_UP_TEXT">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="T_String"/>
+					</type>
+				</NamedType>
+			</type>
+			<value>
+				<TextExpression text="['U ', 'P ', ' ', ' ', ' ']"/>
+			</value>
+			<pragmas>
+				<ed:Constant oid="!ed/4a07/4DC3/424/5b942dff202e"/>
+			</pragmas>
+		</Constant>
+		<Constant name="RED">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="uint8"/>
+					</type>
+				</NamedType>
+			</type>
+			<value>
+				<ConstValue value="21"/>
+			</value>
+			<pragmas>
+				<ed:Constant oid="!ed/4a08/4DC3/424/5b942e057cc1"/>
+			</pragmas>
+		</Constant>
+		<Constant name="WHITE">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="uint8"/>
+					</type>
+				</NamedType>
+			</type>
+			<value>
+				<ConstValue value="1"/>
+			</value>
+			<pragmas>
+				<ed:Constant oid="!ed/4a09/4DC3/424/5b942e0a6e4"/>
+			</pragmas>
+		</Constant>
+	</declarations>
+</File>
