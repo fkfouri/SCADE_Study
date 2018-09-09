@@ -117,7 +117,16 @@
 				</NamedType>
 			</type>
 			<value>
-				<TextExpression text="['F', 'A ', 'I ', 'L ', '']"/>
+				<!-- ['F', 'A', 'I', 'L', ' '] -->
+				<DataArrayOp>
+					<data>
+						<ConstValue value="'F'"/>
+						<ConstValue value="'A'"/>
+						<ConstValue value="'I'"/>
+						<ConstValue value="'L'"/>
+						<ConstValue value="' '"/>
+					</data>
+				</DataArrayOp>
 			</value>
 			<pragmas>
 				<ed:Constant oid="!ed/4a04/4DC3/424/5b942dd8479"/>
@@ -132,7 +141,16 @@
 				</NamedType>
 			</type>
 			<value>
-				<TextExpression text="[' N', 'O ', 'R ', 'M ', ' ']"/>
+				<!-- ['N', 'O', 'R', 'M', ' '] -->
+				<DataArrayOp>
+					<data>
+						<ConstValue value="'N'"/>
+						<ConstValue value="'O'"/>
+						<ConstValue value="'R'"/>
+						<ConstValue value="'M'"/>
+						<ConstValue value="' '"/>
+					</data>
+				</DataArrayOp>
 			</value>
 			<pragmas>
 				<ed:Constant oid="!ed/4a05/4DC3/424/5b942df041c8"/>
@@ -147,7 +165,16 @@
 				</NamedType>
 			</type>
 			<value>
-				<TextExpression text="['D ', 'N ', ' ', ' ', ' ']"/>
+				<!-- ['D', 'N', ' ', ' ', ' '] -->
+				<DataArrayOp>
+					<data>
+						<ConstValue value="'D'"/>
+						<ConstValue value="'N'"/>
+						<ConstValue value="' '"/>
+						<ConstValue value="' '"/>
+						<ConstValue value="' '"/>
+					</data>
+				</DataArrayOp>
 			</value>
 			<pragmas>
 				<ed:Constant oid="!ed/4a06/4DC3/424/5b942df97508"/>
@@ -162,7 +189,16 @@
 				</NamedType>
 			</type>
 			<value>
-				<TextExpression text="['U ', 'P ', ' ', ' ', ' ']"/>
+				<!-- ['U', 'P', ' ', ' ', ' '] -->
+				<DataArrayOp>
+					<data>
+						<ConstValue value="'U'"/>
+						<ConstValue value="'P'"/>
+						<ConstValue value="' '"/>
+						<ConstValue value="' '"/>
+						<ConstValue value="' '"/>
+					</data>
+				</DataArrayOp>
 			</value>
 			<pragmas>
 				<ed:Constant oid="!ed/4a07/4DC3/424/5b942dff202e"/>

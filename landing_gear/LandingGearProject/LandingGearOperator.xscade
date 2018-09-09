@@ -592,13 +592,13 @@
 						<ed:Equation oid="!ed/6494/4DC3/424/5b943cdf6a9a"/>
 					</pragmas>
 				</Equation>
-				<!-- _L8 = fby(_L4; 1; 2); -->
+				<!-- _L8 = fby(_L4; 1; true); -->
 				<Equation>
 					<lefts>
 						<VariableRef name="_L8"/>
 					</lefts>
 					<right>
-						<!-- fby(_L4; 1; 2) -->
+						<!-- fby(_L4; 1; true) -->
 						<FbyOp name="1">
 							<flows>
 								<IdExpression>
@@ -611,7 +611,7 @@
 								<ConstValue value="1"/>
 							</delay>
 							<values>
-								<ConstValue value="2"/>
+								<ConstValue value="true"/>
 							</values>
 						</FbyOp>
 					</right>
