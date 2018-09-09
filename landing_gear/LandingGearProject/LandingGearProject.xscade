@@ -117,7 +117,7 @@
 				</NamedType>
 			</type>
 			<value>
-				<TextExpression text="['F ', 'A ', 'I ', 'L ', ' ']"/>
+				<TextExpression text="['F', 'A ', 'I ', 'L ', '']"/>
 			</value>
 			<pragmas>
 				<ed:Constant oid="!ed/4a04/4DC3/424/5b942dd8479"/>
