@@ -39,30 +39,42 @@
 [STUDIO\TOOLS\CONFIGURATIONS\Code Generator]
 
 "C:\\Users\\Scade\\scade_study\\landing_gear\\LandingGearProject\\LandingGearProject.etp"="Simulation" 
+"E:\\SCADE_STUDY\\LANDING_GEAR\\LANDINGGEARPROJECT\\LandingGearProject.etp"="Simulation" 
 
 [STUDIO\TOOLS\CONFIGURATIONS\Reporter]
 
 "C:\\Users\\Scade\\scade_study\\landing_gear\\LandingGearProject\\LandingGearProject.etp"="HTML" 
+"E:\\SCADE_STUDY\\LANDING_GEAR\\LANDINGGEARPROJECT\\LandingGearProject.etp"="HTML" 
 
 [STUDIO\TOOLS\CONFIGURATIONS\Synchronization]
 
 "C:\\Users\\Scade\\scade_study\\landing_gear\\LandingGearProject\\LandingGearProject.etp"="KCG" 
+"E:\\SCADE_STUDY\\LANDING_GEAR\\LANDINGGEARPROJECT\\LandingGearProject.etp"="KCG" 
 
 [STUDIO\TOOLS\CONFIGURATIONS\Import/Export]
 
 "C:\\Users\\Scade\\scade_study\\landing_gear\\LandingGearProject\\LandingGearProject.etp"="KCG" 
+"C:\\Users\\Scade\\scade_study\\landing_gear\\LandingGearProject\\LandingGearProject.etp"="KCG" 
+"E:\\SCADE_STUDY\\LANDING_GEAR\\LANDINGGEARPROJECT\\LandingGearProject.etp"="KCG" 
+"E:\\SCADE_STUDY\\LANDING_GEAR\\LANDINGGEARPROJECT\\LandingGearProject.etp"="KCG" 
+"E:\\SCADE_STUDY\\LANDING_GEAR\\LANDINGGEARPROJECT\\LandingGearProject.etp"="KCG" 
+"E:\\SCADE_STUDY\\LANDING_GEAR\\LANDINGGEARPROJECT\\LandingGearProject.etp"="KCG" 
+"E:\\SCADE_STUDY\\LANDING_GEAR\\LANDINGGEARPROJECT\\LandingGearProject.etp"="KCG" 
+"E:\\SCADE_STUDY\\LANDING_GEAR\\LANDINGGEARPROJECT\\LandingGearProject.etp"="KCG" 
 
 [STUDIO\TOOLS\CONFIGURATIONS\Timing and Stack Analysis Tools]
 
 "C:\\Users\\Scade\\scade_study\\landing_gear\\LandingGearProject\\LandingGearProject.etp"="KCG" 
+"E:\\SCADE_STUDY\\LANDING_GEAR\\LANDINGGEARPROJECT\\LandingGearProject.etp"="KCG" 
 
 [STUDIO\TOOLS\CONFIGURATIONS\DiffAnalyzer]
 
 "C:\\Users\\Scade\\scade_study\\landing_gear\\LandingGearProject\\LandingGearProject.etp"="KCG" 
+"E:\\SCADE_STUDY\\LANDING_GEAR\\LANDINGGEARPROJECT\\LandingGearProject.etp"="KCG" 
 
 [STUDIO\Workspace]
 
-"ActiveProject"="C:\\Users\\Scade\\scade_study\\landing_gear\\LandingGearProject\\LandingGearProject.etp" 
+"ActiveProject"="E:\\SCADE_STUDY\\LANDING_GEAR\\LANDINGGEARPROJECT\\LandingGearProject.etp" 
 
 [SCADE\Editor\Shortcut]
 
@@ -85,4 +97,4 @@
 
 [STUDIO\TOOLS\CONFIGURATIONS\Import/Export]
 
-"C:\\Users\\Scade\\scade_study\\landing_gear\\LandingGearProject\\LandingGearProject.etp"="KCG" 
+"E:\\SCADE_STUDY\\LANDING_GEAR\\LANDINGGEARPROJECT\\LandingGearProject.etp"="KCG" 
