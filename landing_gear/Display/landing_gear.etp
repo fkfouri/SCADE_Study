@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Project id="1" oid_count="94">
+<Project id="1" oid_count="160">
 	<props>
 		<Prop id="1" name="@STUDIO:PRODUCT">
 			<value>UAPC</value>
@@ -92,126 +92,135 @@
 		</Prop>
 		<Prop id="60" name="REPCONFIGURATIONS">
 			<value>59</value>
+			<value>95</value>
 		</Prop>
-		<Prop id="61" name="@SDYREP:CONFSOURCE">
-			<configuration>59</configuration>
+		<Prop id="96" name="@SDYREP:CONFSOURCE">
+			<configuration>95</configuration>
 		</Prop>
-		<Prop id="62" name="@SDY:@SDYREP:OUTPUT">
+		<Prop id="97" name="@SDY:@SDYREP:OUTPUT">
 			<value>%ModelName%_Report</value>
-			<configuration>59</configuration>
+			<configuration>95</configuration>
 		</Prop>
-		<Prop id="63" name="@SDYREP:INTERNATIONALIZATION">
-			<configuration>59</configuration>
+		<Prop id="98" name="@SDYREP:INTERNATIONALIZATION">
+			<configuration>95</configuration>
 		</Prop>
-		<Prop id="64" name="@SDYREP:AUTHORS">
+		<Prop id="99" name="@SDYREP:AUTHORS">
 			<value>&lt;authors></value>
-			<configuration>59</configuration>
+			<configuration>95</configuration>
 		</Prop>
-		<Prop id="65" name="@SDYREP:CLASSIFICATION">
+		<Prop id="100" name="@SDYREP:CLASSIFICATION">
 			<value>&lt;document classification></value>
-			<configuration>59</configuration>
+			<configuration>95</configuration>
 		</Prop>
-		<Prop id="66" name="@SDYREP:COMPANYINFO">
+		<Prop id="101" name="@SDYREP:COMPANYINFO">
 			<value>&lt;company></value>
-			<configuration>59</configuration>
+			<configuration>95</configuration>
 		</Prop>
-		<Prop id="67" name="@SDYREP:DISTLIST">
+		<Prop id="102" name="@SDYREP:DISTLIST">
 			<value>&lt;distribution list></value>
-			<configuration>59</configuration>
+			<configuration>95</configuration>
 		</Prop>
-		<Prop id="68" name="@SDYREP:IMAGEPATH">
-			<configuration>59</configuration>
+		<Prop id="103" name="@SDYREP:IMAGEPATH">
+			<configuration>95</configuration>
 		</Prop>
-		<Prop id="69" name="@SDYREP:LOGOPATH">
-			<configuration>59</configuration>
+		<Prop id="104" name="@SDYREP:LOGOPATH">
+			<value>.</value>
+			<configuration>95</configuration>
 		</Prop>
-		<Prop id="70" name="@SDYREP:BANNERPATH">
-			<configuration>59</configuration>
+		<Prop id="105" name="@SDYREP:BANNERPATH">
+			<configuration>95</configuration>
 		</Prop>
-		<Prop id="71" name="@SDYREP:SUMMARY">
+		<Prop id="106" name="@SDYREP:SUMMARY">
 			<value>&lt;summary></value>
-			<configuration>59</configuration>
+			<configuration>95</configuration>
 		</Prop>
-		<Prop id="72" name="@SDYREP:DATE">
-			<value>&lt;date></value>
-			<configuration>59</configuration>
+		<Prop id="107" name="@SDYREP:DATE">
+			<value>07/10/2017</value>
+			<configuration>95</configuration>
 		</Prop>
-		<Prop id="73" name="@SDYREP:DESCRIPTION">
-			<value>&lt;description></value>
-			<configuration>59</configuration>
+		<Prop id="108" name="@SDYREP:DESCRIPTION">
+			<value>DF/CDS de controle de Trem de Pouso</value>
+			<configuration>95</configuration>
 		</Prop>
-		<Prop id="74" name="@SDYREP:INDEX">
+		<Prop id="109" name="@SDYREP:INDEX">
 			<value>&lt;index></value>
-			<configuration>59</configuration>
+			<configuration>95</configuration>
 		</Prop>
-		<Prop id="75" name="@SDYREP:ISSUE">
+		<Prop id="110" name="@SDYREP:ISSUE">
 			<value>&lt;issue number></value>
-			<configuration>59</configuration>
+			<configuration>95</configuration>
 		</Prop>
-		<Prop id="76" name="@SDYREP:REFERENCE">
-			<value>&lt;reference></value>
-			<configuration>59</configuration>
+		<Prop id="111" name="@SDYREP:REFERENCE">
+			<value>Warm up Arinc 661, Scade for Dummies</value>
+			<configuration>95</configuration>
 		</Prop>
-		<Prop id="77" name="@SDYREP:REFERENCENB">
+		<Prop id="112" name="@SDYREP:REFERENCENB">
 			<value>&lt;reference number></value>
-			<configuration>59</configuration>
+			<configuration>95</configuration>
 		</Prop>
-		<Prop id="78" name="@SDYREP:SUBTITLE">
-			<value>&lt;subtitle></value>
-			<configuration>59</configuration>
+		<Prop id="113" name="@SDYREP:SUBTITLE">
+			<value>Front End - Definition File</value>
+			<configuration>95</configuration>
 		</Prop>
-		<Prop id="79" name="@SDYREP:TITLE">
-			<value>&lt;title></value>
-			<configuration>59</configuration>
+		<Prop id="114" name="@SDYREP:TITLE">
+			<value>Controle de TRem de Pouso</value>
+			<configuration>95</configuration>
 		</Prop>
-		<Prop id="80" name="@SDYREP:HEADERLEFT">
+		<Prop id="115" name="@SDYREP:HEADERLEFT">
 			<value>$(ReferenceNr)
 $(CreatedDate)</value>
-			<configuration>59</configuration>
+			<configuration>95</configuration>
 		</Prop>
-		<Prop id="81" name="@SDYREP:HEADERCENTER">
+		<Prop id="116" name="@SDYREP:HEADERCENTER">
 			<value>$(IssueNr)</value>
-			<configuration>59</configuration>
+			<configuration>95</configuration>
 		</Prop>
-		<Prop id="82" name="@SDYREP:HEADERRIGHT">
+		<Prop id="117" name="@SDYREP:HEADERRIGHT">
 			<value>$(PageNumbering)</value>
-			<configuration>59</configuration>
+			<configuration>95</configuration>
 		</Prop>
-		<Prop id="83" name="@SDYREP:FOOTERLEFT">
+		<Prop id="118" name="@SDYREP:FOOTERLEFT">
 			<value></value>
-			<configuration>59</configuration>
+			<configuration>95</configuration>
 		</Prop>
-		<Prop id="84" name="@SDYREP:FOOTERCENTER">
+		<Prop id="119" name="@SDYREP:FOOTERCENTER">
 			<value>&lt;Corporate Info></value>
-			<configuration>59</configuration>
+			<configuration>95</configuration>
 		</Prop>
-		<Prop id="85" name="@SDYREP:FOOTERRIGHT">
+		<Prop id="120" name="@SDYREP:FOOTERRIGHT">
 			<value></value>
-			<configuration>59</configuration>
+			<configuration>95</configuration>
 		</Prop>
-		<Prop id="86" name="@SDYREP:SUBMODELS">
+		<Prop id="121" name="@SDYREP:SUBMODELS">
 			<value>false</value>
-			<configuration>59</configuration>
+			<configuration>95</configuration>
 		</Prop>
-		<Prop id="87" name="@SDYREP:SYMBOLS">
+		<Prop id="122" name="@SDYREP:SYMBOLS">
 			<value>false</value>
-			<configuration>59</configuration>
+			<configuration>95</configuration>
 		</Prop>
-		<Prop id="88" name="@SDYREP:WIDGETSETS">
+		<Prop id="123" name="@SDYREP:WIDGETSETS">
 			<value>false</value>
-			<configuration>59</configuration>
+			<configuration>95</configuration>
 		</Prop>
-		<Prop id="89" name="@SDYREP:SCREENSHOTS">
+		<Prop id="124" name="@SDYREP:SCREENSHOTS">
 			<value>true</value>
-			<configuration>59</configuration>
+			<configuration>95</configuration>
 		</Prop>
-		<Prop id="90" name="@SDYREP:RESOURCES">
+		<Prop id="125" name="@SDYREP:RESOURCES">
 			<value>$(CONFIG)/default</value>
-			<configuration>59</configuration>
+			<configuration>95</configuration>
 		</Prop>
-		<Prop id="91" name="@SDYREP:FORMAT">
+		<Prop id="126" name="@SDYREP:FORMAT">
 			<value>HTML</value>
-			<configuration>59</configuration>
+			<configuration>95</configuration>
+		</Prop>
+		<Prop id="127" name="@SDYREP:TRANSPSCREENSHOTS">
+			<value>false</value>
+			<configuration>95</configuration>
+		</Prop>
+		<Prop id="128" name="@SDYREP:COMMANDLINEOPTIONS">
+			<configuration>95</configuration>
 		</Prop>
 	</props>
 	<roots>
@@ -270,6 +279,6 @@ $(CreatedDate)</value>
 	</roots>
 	<configurations>
 		<Configuration id="51" name="DF Generation"/>
-		<Configuration id="59" name="Reporter"/>
+		<Configuration id="95" name="NewConf_Reporter"/>
 	</configurations>
 </Project>

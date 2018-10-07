@@ -61,6 +61,7 @@
 "E:\\SCADE_STUDY\\LANDING_GEAR\\LANDINGGEARPROJECT\\LandingGearProject.etp"="KCG" 
 "E:\\SCADE_STUDY\\LANDING_GEAR\\LANDINGGEARPROJECT\\LandingGearProject.etp"="KCG" 
 "E:\\SCADE_STUDY\\LANDING_GEAR\\LANDINGGEARPROJECT\\LandingGearProject.etp"="KCG" 
+"E:\\SCADE_STUDY\\LANDING_GEAR\\LANDINGGEARPROJECT\\LandingGearProject.etp"="KCG" 
 
 [STUDIO\TOOLS\CONFIGURATIONS\Timing and Stack Analysis Tools]
 
@@ -93,7 +94,7 @@
 
 [SCADE\Generator\Tool]
 
-"PragmaTarget"="" 
+"PragmaTarget"="C" 
 
 [STUDIO\TOOLS\CONFIGURATIONS\Import/Export]
 
