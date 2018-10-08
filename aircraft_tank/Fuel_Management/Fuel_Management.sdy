@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MappingFile>
+	 	<operatorMappings>
+		<OperatorMapping name="Main" oid="!ed/944c/47E9/27C4/5bbabdc430fb">
+			<mappingItems>
+				<MappingItem>
+					<output>
+						<A661_NOTIFY_WIDGET_EVENT name="Notify" type="a661_bool" pathname="..\Display_Tank\FM_Display.sgfx" layer="a661_layer" LayerIdent="1" WidgetIdent="7" ParameterIdent="A661_EVT_STATE_CHANGE" WidgetType="ToggleButton" WidgetName="TbTankStatus">
+							<A661Data>
+								<Notify/>
+							</A661Data>
+						</A661_NOTIFY_WIDGET_EVENT>
+					</output>
+					<inputs>
+						<Variable name="TankStatus" type="bool" oid="!ed/945a/47E9/27C4/5bbabf2c679f" instancepath="Main/"/>
+					</inputs>
+				</MappingItem>
+				<MappingItem>
+					<output>
+						<A661_NOTIFY_WIDGET_EVENT name="EvtEntryNumber" type="ushort" pathname="..\Display_Tank\FM_Display.sgfx" layer="a661_layer" LayerIdent="1" WidgetIdent="10" ParameterIdent="A661_EVT_SEL_ENTRY_CHANGE" WidgetType="ComboBox" WidgetName="CbFuelType">
+							<A661Data>
+								<DataField value="EvtEntryNumber"/>
+							</A661Data>
+						</A661_NOTIFY_WIDGET_EVENT>
+					</output>
+					<inputs>
+						<Variable name="FuelType" type="uint16" oid="!ed/945b/47E9/27C4/5bbabf326d90" instancepath="Main/"/>
+					</inputs>
+				</MappingItem>
+				<MappingItem>
+					<output>
+						<A661_NOTIFY_WIDGET_EVENT name="Notify" type="a661_bool" pathname="..\Display_Tank\FM_Display.sgfx" layer="a661_layer" LayerIdent="1" WidgetIdent="8" ParameterIdent="A661_EVT_SELECTION" WidgetType="PushButton" WidgetName="PbRefuel">
+							<A661Data>
+								<Notify/>
+							</A661Data>
+						</A661_NOTIFY_WIDGET_EVENT>
+					</output>
+					<inputs>
+						<Variable name="Refuel" type="bool" oid="!ed/945c/47E9/27C4/5bbabf37648f" instancepath="Main/"/>
+					</inputs>
+				</MappingItem>
+				<MappingItem>
+					<output>
+						<A661_NOTIFY_WIDGET_EVENT name="Notify" type="a661_bool" pathname="..\Display_Tank\FM_Display.sgfx" layer="a661_layer" LayerIdent="1" WidgetIdent="9" ParameterIdent="A661_EVT_SELECTION" WidgetType="PushButton" WidgetName="PbEmptyTank">
+							<A661Data>
+								<Notify/>
+							</A661Data>
+						</A661_NOTIFY_WIDGET_EVENT>
+					</output>
+					<inputs>
+						<Variable name="EmptyTank" type="bool" oid="!ed/945d/47E9/27C4/5bbabf3c614d" instancepath="Main/"/>
+					</inputs>
+				</MappingItem>
+				<MappingItem>
+					<output>
+						<Variable name="LayerVisible" type="bool" oid="!ed/9460/47E9/27C4/5bbabf494169" instancepath="Main/"/>
+					</output>
+					<inputs>
+						<A661_REQ_LAYER_VISIBLE name="Emit" type="a661_bool" pathname="..\Display_Tank\FM_Display.sgfx" layer="a661_layer" LayerIdent="1" WidgetIdent="-1" ParameterIdent="A661_REQ_LAYER_VISIBLE">
+							<A661Data>
+								<Emit/>
+							</A661Data>
+						</A661_REQ_LAYER_VISIBLE>
+					</inputs>
+				</MappingItem>
+				<MappingItem>
+					<output>
+						<Variable name="FuelVisible" type="bool" oid="!ed/9461/47E9/27C4/5bbabf4d5b35" instancepath="Main/" subelement=".Emit"/>
+					</output>
+					<inputs>
+						<A661_CMD_SET_PARAMETER name="Emit" type="a661_bool" pathname="..\Display_Tank\FM_Display.sgfx" layer="a661_layer" LayerIdent="1" WidgetIdent="3" ParameterIdent="A661_VISIBLE" WidgetType="GpRectangle" WidgetName="GprFuel">
+							<A661Data>
+								<Emit/>
+							</A661Data>
+						</A661_CMD_SET_PARAMETER>
+					</inputs>
+				</MappingItem>
+				<MappingItem>
+					<output>
+						<Variable name="FuelVisible" type="bool" oid="!ed/9461/47E9/27C4/5bbabf4d5b35" instancepath="Main/" subelement=".Value"/>
+					</output>
+					<inputs>
+						<A661_CMD_SET_PARAMETER name="Visible" type="a661_bool" pathname="..\Display_Tank\FM_Display.sgfx" layer="a661_layer" LayerIdent="1" WidgetIdent="3" ParameterIdent="A661_VISIBLE" WidgetType="GpRectangle" WidgetName="GprFuel">
+							<A661Data>
+								<DataField value="Visible"/>
+							</A661Data>
+						</A661_CMD_SET_PARAMETER>
+					</inputs>
+				</MappingItem>
+				<MappingItem>
+					<output>
+						<Variable name="FuelLevel" type="bool" oid="!ed/9462/47E9/27C4/5bbabf512074" instancepath="Main/" subelement=".Emit"/>
+					</output>
+					<inputs>
+						<A661_CMD_SET_PARAMETER name="Emit" type="a661_bool" pathname="..\Display_Tank\FM_Display.sgfx" layer="a661_layer" LayerIdent="1" WidgetIdent="3" ParameterIdent="A661_SIZE_Y" WidgetType="GpRectangle" WidgetName="GprFuel">
+							<A661Data>
+								<Emit/>
+							</A661Data>
+						</A661_CMD_SET_PARAMETER>
+					</inputs>
+				</MappingItem>
+				<MappingItem>
+					<output>
+						<Variable name="FuelLevel" type="uint32" oid="!ed/9462/47E9/27C4/5bbabf512074" instancepath="Main/" subelement=".Value"/>
+					</output>
+					<inputs>
+						<A661_CMD_SET_PARAMETER name="SizeY" type="ulong" pathname="..\Display_Tank\FM_Display.sgfx" layer="a661_layer" LayerIdent="1" WidgetIdent="3" ParameterIdent="A661_SIZE_Y" WidgetType="GpRectangle" WidgetName="GprFuel">
+							<A661Data>
+								<DataField value="SizeY"/>
+							</A661Data>
+						</A661_CMD_SET_PARAMETER>
+					</inputs>
+				</MappingItem>
+				<MappingItem>
+					<output>
+						<Variable name="TankFullVisible" type="bool" oid="!ed/9465/47E9/27C4/5bbabf677c4d" instancepath="Main/" subelement=".Emit"/>
+					</output>
+					<inputs>
+						<A661_CMD_SET_PARAMETER name="Emit" type="a661_bool" pathname="..\Display_Tank\FM_Display.sgfx" layer="a661_layer" LayerIdent="1" WidgetIdent="6" ParameterIdent="A661_VISIBLE" WidgetType="BlinkingContainer" WidgetName="BcTankFull">
+							<A661Data>
+								<Emit/>
+							</A661Data>
+						</A661_CMD_SET_PARAMETER>
+					</inputs>
+				</MappingItem>
+				<MappingItem>
+					<output>
+						<Variable name="TankFullVisible" type="bool" oid="!ed/9465/47E9/27C4/5bbabf677c4d" instancepath="Main/" subelement=".Value"/>
+					</output>
+					<inputs>
+						<A661_CMD_SET_PARAMETER name="Visible" type="a661_bool" pathname="..\Display_Tank\FM_Display.sgfx" layer="a661_layer" LayerIdent="1" WidgetIdent="6" ParameterIdent="A661_VISIBLE" WidgetType="BlinkingContainer" WidgetName="BcTankFull">
+							<A661Data>
+								<DataField value="Visible"/>
+							</A661Data>
+						</A661_CMD_SET_PARAMETER>
+					</inputs>
+				</MappingItem>
+				<MappingItem>
+					<output>
+						<Variable name="FuelColor" type="bool" oid="!ed/9466/47E9/27C4/5bbabf6f47e1" instancepath="Main/" subelement=".Emit"/>
+					</output>
+					<inputs>
+						<A661_CMD_SET_PARAMETER name="Emit" type="a661_bool" pathname="..\Display_Tank\FM_Display.sgfx" layer="a661_layer" LayerIdent="1" WidgetIdent="3" ParameterIdent="A661_FILL_INDEX" WidgetType="GpRectangle" WidgetName="GprFuel">
+							<A661Data>
+								<Emit/>
+							</A661Data>
+						</A661_CMD_SET_PARAMETER>
+						<A661_CMD_SET_PARAMETER name="Emit" type="a661_bool" pathname="..\Display_Tank\FM_Display.sgfx" layer="a661_layer" LayerIdent="1" WidgetIdent="3" ParameterIdent="A661_COLOR_INDEX" WidgetType="GpRectangle" WidgetName="GprFuel">
+							<A661Data>
+								<Emit/>
+							</A661Data>
+						</A661_CMD_SET_PARAMETER>
+					</inputs>
+				</MappingItem>
+				<MappingItem>
+					<output>
+						<Variable name="FuelColor" type="uint8" oid="!ed/9466/47E9/27C4/5bbabf6f47e1" instancepath="Main/" subelement=".Value"/>
+					</output>
+					<inputs>
+						<A661_CMD_SET_PARAMETER name="FillIndex" type="uchar" pathname="..\Display_Tank\FM_Display.sgfx" layer="a661_layer" LayerIdent="1" WidgetIdent="3" ParameterIdent="A661_FILL_INDEX" WidgetType="GpRectangle" WidgetName="GprFuel">
+							<A661Data>
+								<DataField value="FillIndex"/>
+							</A661Data>
+						</A661_CMD_SET_PARAMETER>
+						<A661_CMD_SET_PARAMETER name="ColorIndex" type="uchar" pathname="..\Display_Tank\FM_Display.sgfx" layer="a661_layer" LayerIdent="1" WidgetIdent="3" ParameterIdent="A661_COLOR_INDEX" WidgetType="GpRectangle" WidgetName="GprFuel">
+							<A661Data>
+								<DataField value="ColorIndex"/>
+							</A661Data>
+						</A661_CMD_SET_PARAMETER>
+					</inputs>
+				</MappingItem>
+				<MappingItem>
+					<output>
+						<Variable name="RefuelEnable" type="bool" oid="!ed/9463/47E9/27C4/5bbabf563d83" instancepath="Main/" subelement=".Emit"/>
+					</output>
+					<inputs>
+						<A661_CMD_SET_PARAMETER name="Emit" type="a661_bool" pathname="..\Display_Tank\FM_Display.sgfx" layer="a661_layer" LayerIdent="1" WidgetIdent="8" ParameterIdent="A661_VISIBLE" WidgetType="PushButton" WidgetName="PbRefuel">
+							<A661Data>
+								<Emit/>
+							</A661Data>
+						</A661_CMD_SET_PARAMETER>
+					</inputs>
+				</MappingItem>
+				<MappingItem>
+					<output>
+						<Variable name="RefuelEnable" type="bool" oid="!ed/9463/47E9/27C4/5bbabf563d83" instancepath="Main/" subelement=".Value"/>
+					</output>
+					<inputs>
+						<A661_CMD_SET_PARAMETER name="Visible" type="a661_bool" pathname="..\Display_Tank\FM_Display.sgfx" layer="a661_layer" LayerIdent="1" WidgetIdent="8" ParameterIdent="A661_VISIBLE" WidgetType="PushButton" WidgetName="PbRefuel">
+							<A661Data>
+								<DataField value="Visible"/>
+							</A661Data>
+						</A661_CMD_SET_PARAMETER>
+					</inputs>
+				</MappingItem>
+				<MappingItem>
+					<output>
+						<Variable name="FuelTypeEnable" type="bool" oid="!ed/9464/47E9/27C4/5bbabf6171e3" instancepath="Main/" subelement=".Emit"/>
+					</output>
+					<inputs>
+						<A661_CMD_SET_PARAMETER name="Emit" type="a661_bool" pathname="..\Display_Tank\FM_Display.sgfx" layer="a661_layer" LayerIdent="1" WidgetIdent="10" ParameterIdent="A661_VISIBLE" WidgetType="ComboBox" WidgetName="CbFuelType">
+							<A661Data>
+								<Emit/>
+							</A661Data>
+						</A661_CMD_SET_PARAMETER>
+					</inputs>
+				</MappingItem>
+				<MappingItem>
+					<output>
+						<Variable name="FuelTypeEnable" type="bool" oid="!ed/9464/47E9/27C4/5bbabf6171e3" instancepath="Main/" subelement=".Value"/>
+					</output>
+					<inputs>
+						<A661_CMD_SET_PARAMETER name="Visible" type="a661_bool" pathname="..\Display_Tank\FM_Display.sgfx" layer="a661_layer" LayerIdent="1" WidgetIdent="10" ParameterIdent="A661_VISIBLE" WidgetType="ComboBox" WidgetName="CbFuelType">
+							<A661Data>
+								<DataField value="Visible"/>
+							</A661Data>
+						</A661_CMD_SET_PARAMETER>
+					</inputs>
+				</MappingItem>
+			</mappingItems>
+		</OperatorMapping>
+	</operatorMappings>
+</MappingFile>

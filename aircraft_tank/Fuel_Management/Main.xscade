@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<File xmlns="http://www.esterel-technologies.com/ns/scade/6" xmlns:ed="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5" xmlns:kcg="http://www.esterel-technologies.com/ns/scade/pragmas/codegen/3">
+	<declarations>
+		<Operator kind="node" name="Main">
+			<inputs>
+				<Variable name="TankStatus">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="bool"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/945a/47E9/27C4/5bbabf2c679f"/>
+					</pragmas>
+				</Variable>
+				<Variable name="FuelType">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="uint16"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/945b/47E9/27C4/5bbabf326d90"/>
+					</pragmas>
+				</Variable>
+				<Variable name="Refuel">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="bool"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/945c/47E9/27C4/5bbabf37648f"/>
+					</pragmas>
+				</Variable>
+				<Variable name="EmptyTank">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="bool"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/945d/47E9/27C4/5bbabf3c614d"/>
+					</pragmas>
+				</Variable>
+			</inputs>
+			<outputs>
+				<Variable name="LayerVisible">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="bool"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/9460/47E9/27C4/5bbabf494169"/>
+					</pragmas>
+				</Variable>
+				<Variable name="FuelVisible">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="BoolMsg"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/9461/47E9/27C4/5bbabf4d5b35"/>
+					</pragmas>
+				</Variable>
+				<Variable name="FuelLevel">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="intMsg"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/9462/47E9/27C4/5bbabf512074"/>
+					</pragmas>
+				</Variable>
+				<Variable name="RefuelEnable">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="BoolMsg"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/9463/47E9/27C4/5bbabf563d83"/>
+					</pragmas>
+				</Variable>
+				<Variable name="FuelTypeEnable">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="BoolMsg"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/9464/47E9/27C4/5bbabf6171e3"/>
+					</pragmas>
+				</Variable>
+				<Variable name="TankFullVisible">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="BoolMsg"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/9465/47E9/27C4/5bbabf677c4d"/>
+					</pragmas>
+				</Variable>
+				<Variable name="FuelColor">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="intMsg2"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/9466/47E9/27C4/5bbabf6f47e1"/>
+					</pragmas>
+				</Variable>
+			</outputs>
+			<locals>
+				<Variable name="tank_status">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="int32"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/94a5/47E9/27C4/5bbabff568b7"/>
+					</pragmas>
+				</Variable>
+			</locals>
+			<pragmas>
+				<ed:Operator oid="!ed/944c/47E9/27C4/5bbabdc430fb" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
+					<diagrams>
+						<NetDiagram name="Diagram_Main_1" landscape="true" format="A4 (210 297)" oid="!ed/944d/47E9/27C4/5bbabdc46c72"/>
+					</diagrams>
+				</ed:Operator>
+			</pragmas>
+		</Operator>
+	</declarations>
+</File>

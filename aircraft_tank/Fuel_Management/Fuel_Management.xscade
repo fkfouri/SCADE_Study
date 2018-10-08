@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<File xmlns="http://www.esterel-technologies.com/ns/scade/6" xmlns:ed="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5" xmlns:kcg="http://www.esterel-technologies.com/ns/scade/pragmas/codegen/3">
+	<declarations>
+		<Constant name="A661_FALSE">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="bool"/>
+					</type>
+				</NamedType>
+			</type>
+			<value>
+				<ConstValue value="false"/>
+			</value>
+			<pragmas>
+				<ed:Constant oid="!ed/9374/47E9/27C4/5bbabb853b82"/>
+			</pragmas>
+		</Constant>
+		<Constant name="A661_TRUE">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="bool"/>
+					</type>
+				</NamedType>
+			</type>
+			<value>
+				<ConstValue value="true"/>
+			</value>
+			<pragmas>
+				<ed:Constant oid="!ed/9382/47E9/27C4/5bbabb9350c6"/>
+			</pragmas>
+		</Constant>
+		<Constant name="ALCOHOL_COLOR">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="uint8"/>
+					</type>
+				</NamedType>
+			</type>
+			<value>
+				<ConstValue value="64"/>
+			</value>
+			<pragmas>
+				<ed:Constant oid="!ed/9383/47E9/27C4/5bbabba67a34"/>
+			</pragmas>
+		</Constant>
+		<Constant name="CLOSED_ID">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="uint32"/>
+					</type>
+				</NamedType>
+			</type>
+			<value>
+				<ConstValue value="0"/>
+			</value>
+			<pragmas>
+				<ed:Constant oid="!ed/9384/47E9/27C4/5bbabbb214d4"/>
+			</pragmas>
+		</Constant>
+		<Constant name="DIESEL_COLOR">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="uint8"/>
+					</type>
+				</NamedType>
+			</type>
+			<value>
+				<ConstValue value="47"/>
+			</value>
+			<pragmas>
+				<ed:Constant oid="!ed/9385/47E9/27C4/5bbabbbb4264"/>
+			</pragmas>
+		</Constant>
+		<Constant name="FUEL_INCREMENT">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="uint32"/>
+					</type>
+				</NamedType>
+			</type>
+			<value>
+				<ConstValue value="1000"/>
+			</value>
+			<pragmas>
+				<ed:Constant oid="!ed/9386/47E9/27C4/5bbabbc63ad6"/>
+			</pragmas>
+		</Constant>
+		<Constant name="FUEL_LEVEL_OFFSET">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="uint32"/>
+					</type>
+				</NamedType>
+			</type>
+			<value>
+				<ConstValue value="100"/>
+			</value>
+			<pragmas>
+				<ed:Constant oid="!ed/9387/47E9/27C4/5bbabbde21cc"/>
+			</pragmas>
+		</Constant>
+		<Constant name="GASOLINE_COLOR">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="uint8"/>
+					</type>
+				</NamedType>
+			</type>
+			<value>
+				<ConstValue value="57"/>
+			</value>
+			<pragmas>
+				<ed:Constant oid="!ed/9388/47E9/27C4/5bbabbe940f6"/>
+			</pragmas>
+		</Constant>
+		<Constant name="MAX_FUEL_LEVEL">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="uint32"/>
+					</type>
+				</NamedType>
+			</type>
+			<value>
+				<ConstValue value="10000"/>
+			</value>
+			<pragmas>
+				<ed:Constant oid="!ed/9389/47E9/27C4/5bbabbf15888"/>
+			</pragmas>
+		</Constant>
+		<Constant name="OPEN_ID">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="uint32"/>
+					</type>
+				</NamedType>
+			</type>
+			<value>
+				<ConstValue value="1"/>
+			</value>
+			<pragmas>
+				<ed:Constant oid="!ed/938a/47E9/27C4/5bbabbf81f10"/>
+			</pragmas>
+		</Constant>
+		<Type name="BoolMsg">
+			<definition>
+				<Struct>
+					<fields>
+						<Field name="Emit">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="bool"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Field oid="!ed/9416/47E9/27C4/5bbabd2039d"/>
+							</pragmas>
+						</Field>
+						<Field name="Value">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="bool"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Field oid="!ed/9417/47E9/27C4/5bbabd38553e"/>
+							</pragmas>
+						</Field>
+					</fields>
+				</Struct>
+			</definition>
+			<pragmas>
+				<ed:Type oid="!ed/9413/47E9/27C4/5bbabcb44209"/>
+			</pragmas>
+		</Type>
+		<Type name="intMsg">
+			<definition>
+				<Struct>
+					<fields>
+						<Field name="Emit">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="bool"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Field oid="!ed/9428/47E9/27C4/5bbabd522849"/>
+							</pragmas>
+						</Field>
+						<Field name="Value">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="uint32"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Field oid="!ed/9429/47E9/27C4/5bbabd581e4b"/>
+							</pragmas>
+						</Field>
+					</fields>
+				</Struct>
+			</definition>
+			<pragmas>
+				<ed:Type oid="!ed/9414/47E9/27C4/5bbabcd22645"/>
+			</pragmas>
+		</Type>
+		<Type name="intMsg2">
+			<definition>
+				<Struct>
+					<fields>
+						<Field name="Emit">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="bool"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Field oid="!ed/943a/47E9/27C4/5bbabd7e2aab"/>
+							</pragmas>
+						</Field>
+						<Field name="Value">
+							<type>
+								<NamedType>
+									<type>
+										<TypeRef name="uint8"/>
+									</type>
+								</NamedType>
+							</type>
+							<pragmas>
+								<ed:Field oid="!ed/943b/47E9/27C4/5bbabd824f1"/>
+							</pragmas>
+						</Field>
+					</fields>
+				</Struct>
+			</definition>
+			<pragmas>
+				<ed:Type oid="!ed/9415/47E9/27C4/5bbabcdf2045"/>
+			</pragmas>
+		</Type>
+	</declarations>
+</File>
