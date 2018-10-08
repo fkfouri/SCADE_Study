@@ -1,6 +1,6 @@
 
 [STUDIO\TOOLS\CONFIGURATIONS\Generation]
-"E:\SCADE_Study\landing_gear\Display\landing_gear.etp"="DF Generation"
+"E:\Projetos\SCADE_Study\landing_gear\Display\landing_gear.etp"="DF Generation"
 
 [STUDIO\TOOLS\CONFIGURATIONS\Reporter]
-"E:\SCADE_Study\landing_gear\Display\landing_gear.etp"="NewConf_Reporter"
+"E:\Projetos\SCADE_Study\landing_gear\Display\landing_gear.etp"="Display_Reporter"
