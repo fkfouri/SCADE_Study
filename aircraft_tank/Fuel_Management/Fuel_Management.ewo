@@ -7,7 +7,7 @@
 [STUDIO\TOOLS\CONFIGURATIONS\Reporter]
 
 "E:\\Projetos\\SCADE_Study\\aircraft_tank\\Fuel_Management\\Fuel_Management\\Fuel_Management.etp"="HTML" 
-"E:\\Projetos\\SCADE_Study\\aircraft_tank\\Fuel_Management\\Fuel_Management.etp"="HTML" 
+"E:\\Projetos\\SCADE_Study\\aircraft_tank\\Fuel_Management\\Fuel_Management.etp"="RTF" 
 
 [STUDIO\TOOLS\CONFIGURATIONS\Synchronization]
 
@@ -17,6 +17,7 @@
 [STUDIO\TOOLS\CONFIGURATIONS\Import/Export]
 
 "E:\\Projetos\\SCADE_Study\\aircraft_tank\\Fuel_Management\\Fuel_Management\\Fuel_Management.etp"="KCG" 
+"E:\\Projetos\\SCADE_Study\\aircraft_tank\\Fuel_Management\\Fuel_Management.etp"="KCG" 
 "E:\\Projetos\\SCADE_Study\\aircraft_tank\\Fuel_Management\\Fuel_Management.etp"="KCG" 
 
 [STUDIO\TOOLS\CONFIGURATIONS\Timing and Stack Analysis Tools]
@@ -51,6 +52,44 @@
 [SCADE\Generator\Tool]
 
 "PragmaTarget"="C" 
+
+[SCADE\Simulator\Simulation]
+
+"Latency"="2620" 
+"RefreshRate"="1" 
+
+[SCADE\Simulator\BinaryDisplay]
+
+"Count"="0" 
+
+[SCADE\Simulator\OctalDisplay]
+
+"Count"="0" 
+
+[SCADE\Simulator\HexadecimalDisplay]
+
+"Count"="0" 
+
+[SCADE\Simulator\Watch]
+
+"Count"="1" 
+"Watch1"="Main/SetFuelLevel 1/value/" 
+
+[SCADE\Simulator\Graph]
+
+"Count"="0" 
+
+[SCADE\Simulator\ControlBreakpoint]
+
+"Count"="0" 
+
+[SCADE\Simulator\DataBreakpoint]
+
+"Count"="0" 
+
+[SCADE\Simulator\TclBreakpoint]
+
+"Count"="0" 
 
 [STUDIO\TOOLS\CONFIGURATIONS\Import/Export]
 

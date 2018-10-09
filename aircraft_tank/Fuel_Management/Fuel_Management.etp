@@ -274,22 +274,22 @@
 			<value>true</value>
 		</Prop>
 		<Prop id="80" name="@STUDIO:TITLE">
-			<value>&lt;title&gt;</value>
+			<value>Fuel Management</value>
 		</Prop>
 		<Prop id="81" name="@STUDIO:SUBTITLE">
-			<value>&lt;subtitle&gt;</value>
+			<value>Simulador de Administrador de combustível</value>
 		</Prop>
 		<Prop id="82" name="@STUDIO:DESCRIPTION">
 			<value>&lt;description&gt;</value>
 		</Prop>
 		<Prop id="83" name="@STUDIO:AUTHORS">
-			<value>&lt;authors&gt;</value>
+			<value>Luciana e Fabio Kfouri</value>
 		</Prop>
 		<Prop id="84" name="@STUDIO:COMPAGNY">
-			<value>&lt;company&gt;</value>
+			<value>Instituto Tecnologico de Aeronautica</value>
 		</Prop>
 		<Prop id="85" name="@STUDIO:DATE">
-			<value>&lt;date&gt;</value>
+			<value>2018-10-08</value>
 		</Prop>
 		<Prop id="86" name="@STUDIO:INDEX">
 			<value>&lt;index&gt;</value>
@@ -368,13 +368,13 @@
 			<value>1</value>
 			<configuration>14</configuration>
 		</Prop>
-		<Prop id="37" name="@REPORTER:SCRIPT">
-			<value>Reporter/ScadeReport.tcl</value>
-			<configuration>36</configuration>
-		</Prop>
 		<Prop id="122" name="@GENERATOR:DISPLAY_ENABLED_PANELS">
 			<value>..\Display_Tank\FM_Display.sgfx,DF Generation</value>
 			<configuration>24</configuration>
+		</Prop>
+		<Prop id="37" name="@REPORTER:SCRIPT">
+			<value>Reporter/ScadeReport.tcl</value>
+			<configuration>36</configuration>
 		</Prop>
 	</props>
 	<roots>
