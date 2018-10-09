@@ -1,0 +1,47 @@
+
+SCADE project: E:\Projetos\SCADE_Study\aircraft_tank\Display_Tank\Display_Tank.etp
+SCADE Display specification: FM_Display.sgfx
+
+Project Properties:
+- @SDY:DEFAULTCOLORTABLE: color_table.sct
+- @SDY:DEFAULTLSTABLE: line_stipple_table.sst
+- @SDY:DEFAULTLWTABLE: line_width_table.swt
+- @SDY:FONTTABLE: font_table.sft
+- @UAPC:CHARSETENCODING: Ascii
+- @UAPC:CONFFILE: a661.xml
+- @UAPC:DFPICTURETABLE: 
+- @UAPC:DFSYMBOLTABLE: 
+- @UAPC:STYLESETCAPACITIES: look_capacities.slc
+- @UAPC:STYLESETDEFINITION: look_definition.sld
+
+Reporter Properties:
+- @SDYREP:AUTHORS: <authors>
+- @SDYREP:CLASSIFICATION: <document classification>
+- @SDYREP:COMPANYINFO: <company>
+- @SDYREP:CONFSOURCE: E:\Projetos\SCADE_Study\aircraft_tank\Display_Tank\FM_Display.sgfx
+- @SDYREP:DATE: 2018-10-08
+- @SDYREP:DESCRIPTION: Sistema de controle de abastecimento 
+desenvolvido para cumprimento da Listex 1.
+- @SDYREP:DISTLIST: <distribution list>
+- @SDYREP:FOOTERCENTER: <Corporate Info>
+- @SDYREP:FOOTERLEFT: 
+- @SDYREP:FOOTERRIGHT: 
+- @SDYREP:FORMAT: RTF
+- @SDYREP:HEADERCENTER: $(IssueNr)
+- @SDYREP:HEADERLEFT: $(ReferenceNr)
+$(CreatedDate)
+- @SDYREP:HEADERRIGHT: $(PageNumbering)
+- @SDYREP:IMAGEPATH: 
+- @SDYREP:INDEX: <index>
+- @SDYREP:ISSUE: <issue number>
+- @SDYREP:LOGOPATH: E:\Projetos\SCADE_Study\aircraft_tank\Display_Tank
+- @SDYREP:OUTPUT: %ModelName%_Report
+- @SDYREP:REFERENCE: <reference>
+- @SDYREP:REFERENCENB: <reference number>
+- @SDYREP:RESOURCES: $(CONFIG)/default
+- @SDYREP:SCREENSHOTS: true
+- @SDYREP:SUBTITLE: Laboratio 2 - Definition File
+- @SDYREP:SUMMARY: <summary>
+- @SDYREP:SYMBOLS: false
+- @SDYREP:TITLE: Sistema de Controle de Abastecimento
+- @SDYREP:WIDGETSETS: false
