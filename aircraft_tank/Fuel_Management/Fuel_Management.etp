@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Project id="1" oid_count="110" defaultConfiguration="24">
+<Project id="1" oid_count="119" defaultConfiguration="24">
 	<props>
 		<Prop id="10" name="@STUDIO:PRODUCT">
 			<value>SC</value>
@@ -42,10 +42,6 @@
 			<value>$(TargetDir)\user_macros.h</value>
 			<configuration>14</configuration>
 		</Prop>
-		<Prop id="21" name="@GENERATOR:ENABLE_EXTENSIONS">
-			<value>false</value>
-			<configuration>14</configuration>
-		</Prop>
 		<Prop id="22" name="@SIMULATOR:CPU_TYPE">
 			<value>win64</value>
 			<configuration>14</configuration>
@@ -84,10 +80,6 @@
 			<value>size</value>
 			<configuration>24</configuration>
 		</Prop>
-		<Prop id="29" name="@GENERATOR:OPTLEVEL">
-			<value>0</value>
-			<configuration>24</configuration>
-		</Prop>
 		<Prop id="30" name="@GENERATOR:DEBUG">
 			<value>true</value>
 			<configuration>24</configuration>
@@ -98,10 +90,6 @@
 		</Prop>
 		<Prop id="32" name="@GENERATOR:SKIP_UNUSED">
 			<value>true</value>
-			<configuration>24</configuration>
-		</Prop>
-		<Prop id="33" name="@GENERATOR:TARGET_ADAPTOR">
-			<value>Simulator</value>
 			<configuration>24</configuration>
 		</Prop>
 		<Prop id="34" name="@GENERATOR:USER_CONFIG">
@@ -355,6 +343,38 @@
 		</Prop>
 		<Prop id="107" name="@SCADE:CHECKED">
 			<value>false</value>
+		</Prop>
+		<Prop id="111" name="@GENERATOR:ROOTNODE">
+			<value>Main</value>
+			<configuration>24</configuration>
+		</Prop>
+		<Prop id="112" name="@GENERATOR:INPUT_THRESHOLD">
+			<value>2</value>
+			<configuration>24</configuration>
+		</Prop>
+		<Prop id="113" name="@GENERATOR:EXPAND_MODE">
+			<value>1</value>
+			<configuration>24</configuration>
+		</Prop>
+		<Prop id="114" name="@GENERATOR:DISPLAY_DISABLED_PANELS">
+			<value>..\Display_Tank\FM_Display.sgfx</value>
+			<configuration>24</configuration>
+		</Prop>
+		<Prop id="116" name="@GENERATOR:SKIP_UNUSED">
+			<value>true</value>
+			<configuration>14</configuration>
+		</Prop>
+		<Prop id="117" name="@GENERATOR:ROOTNODE">
+			<value>Main</value>
+			<configuration>14</configuration>
+		</Prop>
+		<Prop id="118" name="@GENERATOR:INPUT_THRESHOLD">
+			<value>2</value>
+			<configuration>14</configuration>
+		</Prop>
+		<Prop id="119" name="@GENERATOR:EXPAND_MODE">
+			<value>1</value>
+			<configuration>14</configuration>
 		</Prop>
 	</props>
 	<roots>

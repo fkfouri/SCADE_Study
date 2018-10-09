@@ -2,7 +2,7 @@
 [STUDIO\TOOLS\CONFIGURATIONS\Code Generator]
 
 "E:\\Projetos\\SCADE_Study\\aircraft_tank\\Fuel_Management\\Fuel_Management\\Fuel_Management.etp"="KCG" 
-"E:\\Projetos\\SCADE_Study\\aircraft_tank\\Fuel_Management\\Fuel_Management.etp"="KCG" 
+"E:\\Projetos\\SCADE_Study\\aircraft_tank\\Fuel_Management\\Fuel_Management.etp"="Simulation" 
 
 [STUDIO\TOOLS\CONFIGURATIONS\Reporter]
 
@@ -17,6 +17,7 @@
 [STUDIO\TOOLS\CONFIGURATIONS\Import/Export]
 
 "E:\\Projetos\\SCADE_Study\\aircraft_tank\\Fuel_Management\\Fuel_Management\\Fuel_Management.etp"="KCG" 
+"E:\\Projetos\\SCADE_Study\\aircraft_tank\\Fuel_Management\\Fuel_Management.etp"="KCG" 
 
 [STUDIO\TOOLS\CONFIGURATIONS\Timing and Stack Analysis Tools]
 
