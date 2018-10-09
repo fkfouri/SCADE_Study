@@ -19,7 +19,7 @@
 					<type>
 						<NamedType>
 							<type>
-								<TypeRef name="uint32"/>
+								<TypeRef name="uint16"/>
 							</type>
 						</NamedType>
 					</type>
@@ -287,7 +287,7 @@
 					<type>
 						<NamedType>
 							<type>
-								<TypeRef name="uint32"/>
+								<TypeRef name="uint16"/>
 							</type>
 						</NamedType>
 					</type>
@@ -299,7 +299,7 @@
 					<type>
 						<NamedType>
 							<type>
-								<TypeRef name="uint32"/>
+								<TypeRef name="uint16"/>
 							</type>
 						</NamedType>
 					</type>
@@ -1026,8 +1026,8 @@
 									<positions>
 										<Point x="10626" y="1503"/>
 										<Point x="12933" y="1503"/>
-										<Point x="12933" y="1693"/>
-										<Point x="13843" y="1693"/>
+										<Point x="12933" y="1672"/>
+										<Point x="13843" y="1672"/>
 									</positions>
 								</Edge>
 								<EquationGE presentable="!ed/66f3/1E12/CAC/5bbbe7fd1a07">

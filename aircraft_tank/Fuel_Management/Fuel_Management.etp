@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Project id="1" oid_count="119" defaultConfiguration="24">
+<Project id="1" oid_count="122" defaultConfiguration="24">
 	<props>
 		<Prop id="10" name="@STUDIO:PRODUCT">
 			<value>SC</value>
@@ -99,10 +99,6 @@
 		<Prop id="35" name="@SIMULATOR:CPU_TYPE">
 			<value>win64</value>
 			<configuration>24</configuration>
-		</Prop>
-		<Prop id="37" name="@REPORTER:SCRIPT">
-			<value>Reporter/ScadeReport.tcl</value>
-			<configuration>36</configuration>
 		</Prop>
 		<Prop id="38" name="@REPORTER:RotateLandscape">
 			<value>true</value>
@@ -356,10 +352,6 @@
 			<value>1</value>
 			<configuration>24</configuration>
 		</Prop>
-		<Prop id="114" name="@GENERATOR:DISPLAY_DISABLED_PANELS">
-			<value>..\Display_Tank\FM_Display.sgfx</value>
-			<configuration>24</configuration>
-		</Prop>
 		<Prop id="116" name="@GENERATOR:SKIP_UNUSED">
 			<value>true</value>
 			<configuration>14</configuration>
@@ -375,6 +367,14 @@
 		<Prop id="119" name="@GENERATOR:EXPAND_MODE">
 			<value>1</value>
 			<configuration>14</configuration>
+		</Prop>
+		<Prop id="37" name="@REPORTER:SCRIPT">
+			<value>Reporter/ScadeReport.tcl</value>
+			<configuration>36</configuration>
+		</Prop>
+		<Prop id="122" name="@GENERATOR:DISPLAY_ENABLED_PANELS">
+			<value>..\Display_Tank\FM_Display.sgfx,DF Generation</value>
+			<configuration>24</configuration>
 		</Prop>
 	</props>
 	<roots>
