@@ -5,13 +5,13 @@
 <specification>
     <IDE>
         <project path="project2.etp"/>
-        <ratio horizontal="1" vertical="1"/>
+        <ratio horizontal="20" vertical="20"/>
     </IDE>
     <symbology>
         <dimension height="256" width="256"/>
     </symbology>
     <A661 library_version="1" supp_version="6">
-        <intprop name="ApplicationId">1</intprop>
+        <intprop name="ApplicationId">2</intprop>
     </A661>
     <children>
         <A661Layer name="a661_layer" oid="7208c0f8-c8d8-4f03-b8c3-ea037761036e">
@@ -24,7 +24,12 @@
                 <intprop name="Width">5120</intprop>
                 <intprop name="Height">5120</intprop>
             </model>
-            <runtime/>
+            <runtime>
+                <connect msg_id="A661_UA_CONTEXT_NUMBER" name="a661_layer_A661_UA_CONTEXT_NUMBER"/>
+                <connect msg_id="A661_REQ_LAYER_ACTIVE" name="a661_layer_A661_REQ_LAYER_ACTIVE"/>
+                <connect msg_id="A661_REQ_LAYER_INACTIVE" name="a661_layer_A661_REQ_LAYER_INACTIVE"/>
+                <connect msg_id="A661_REQ_LAYER_VISIBLE" name="a661_layer_A661_REQ_LAYER_VISIBLE"/>
+            </runtime>
             <events/>
             <children>
                 <widget name="PushButton" oid="d1febe10-baa8-4ea0-a596-f05e6bc8a655" type="PushButton">
@@ -132,5 +137,5 @@
     </children>
 </specification>
 
-<!-- crc32 : 1649527905 -->
+<!-- crc32 : 905146372 -->
 
