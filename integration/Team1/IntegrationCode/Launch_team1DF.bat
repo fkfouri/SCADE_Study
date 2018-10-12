@@ -1,4 +1,4 @@
-@SET PATH=C:/Program Files (x86)/Esterel Technologies/SCADE R17/SCADE A661/bin;%PATH%
+@SET PATH=E:/SCADE/suite/SCADE A661/bin;%PATH%
 
 @echo off
 

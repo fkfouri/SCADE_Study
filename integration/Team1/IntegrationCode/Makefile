@@ -1,5 +1,5 @@
 ROO	T=./
-CC_FLAGS=-ansi -I . -I ../UserApplication/KCG/ -I ../../CommunicationFramework/ -I "C:/Program Files (x86)/Esterel Technologies/SCADE R17/SCADE/" -I "C:/Program Files (x86)/Esterel Technologies/SCADE R17/SCADE/include/C/" -Wall -Wno-unused-variable -Wno-unused-function -Wno-unused-value
+CC_FLAGS=-ansi -I . -I ../UserApplication/KCG/ -I ../../CommunicationFramework/ -I "E:/SCADE/suite/SCADE/" -I "E:/SCADE/suite/SCADE/include/C/" -Wall -Wno-unused-variable -Wno-unused-function -Wno-unused-value
 SRC=team1UA.c ../../CommunicationFramework/CommunicationFramework.c ../UserApplication/KCG/kcg_consts.c ../UserApplication/KCG/kcg_types.c ../UserApplication/KCG/project1.c ../UserApplication/KCG/ua.c ../UserApplication/KCG/ua_LAY_1.c ../UserApplication/KCG/ua_private.c
 
 OBJ=$(SRC:.c=.o)
