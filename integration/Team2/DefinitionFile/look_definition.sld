@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<?dom version="19.0" ?>
-
+<!--+ FILE DESCRIPTION ====================================================
+ FILENAME          : look_definition.sld
+ DESCRIPTION       : Stylesets Look Definition
+                     according to Appendix J - Look Modeling
+ VERSION           : $Revision: 18634 $
+ MODIFICATION DATE : $Date: 2015-12-04 10:19:55 +0100 (Fri, 04 Dec 2015) $
+ COPYRIGHT (C)     : 2015 by Esterel Technologies. All Rights Reserved.
+ ACCESS, USE, REPRODUCTION OR DISTRIBUTION IS GOVERNED BY ESTEREL TECHNOLOGIES LICENSING CONDITIONS.
+=========================================================================== +-->
+<?dom version="R16" ?>
+<?scade_release version="R17" ?>
 <LookDefinition xmlns="http://www.aviation-ia.com/aeec/SupportFiles/661-5" xmlns:scade="http://www.esterel-technologies.com/ns/styleimpl/1" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:schemaLocation="http://www.aviation-ia.com/aeec/SupportFiles/661-5 Look.xsd">
-    <IDE>
-        <LookCapacitiesRef crc="2580556370" name="look_capacities"/>
-    </IDE>
     <freeText>SCADE A661 LookDefinition</freeText>
     <componentsDefinitions>
         <componentDefinition componentCapacitiesRef="C_Frame">
@@ -23,11 +28,11 @@
                     <property attributeRef="OutlineRadius">
                         <value>200</value>
                     </property>
-                    <property attributeRef="OutlineVisible">
-                        <valueRef>True</valueRef>
-                    </property>
                     <property attributeRef="OutlineThickness">
                         <value>10</value>
+                    </property>
+                    <property attributeRef="OutlineVisible">
+                        <valueRef>True</valueRef>
                     </property>
                     <property attributeRef="BackgroundVisible">
                         <valueRef>True</valueRef>
@@ -60,11 +65,11 @@
                     <property attributeRef="OutlineRadius">
                         <value>200</value>
                     </property>
-                    <property attributeRef="OutlineVisible">
-                        <valueRef>True</valueRef>
-                    </property>
                     <property attributeRef="OutlineThickness">
                         <value>10</value>
+                    </property>
+                    <property attributeRef="OutlineVisible">
+                        <valueRef>True</valueRef>
                     </property>
                     <property attributeRef="BackgroundVisible">
                         <valueRef>True</valueRef>
@@ -97,11 +102,11 @@
                     <property attributeRef="OutlineRadius">
                         <value>200</value>
                     </property>
-                    <property attributeRef="OutlineVisible">
-                        <valueRef>True</valueRef>
-                    </property>
                     <property attributeRef="OutlineThickness">
                         <value>10</value>
+                    </property>
+                    <property attributeRef="OutlineVisible">
+                        <valueRef>True</valueRef>
                     </property>
                     <property attributeRef="BackgroundVisible">
                         <valueRef>True</valueRef>
@@ -134,11 +139,11 @@
                     <property attributeRef="OutlineRadius">
                         <value>200</value>
                     </property>
-                    <property attributeRef="OutlineVisible">
-                        <valueRef>True</valueRef>
-                    </property>
                     <property attributeRef="OutlineThickness">
                         <value>10</value>
+                    </property>
+                    <property attributeRef="OutlineVisible">
+                        <valueRef>True</valueRef>
                     </property>
                     <property attributeRef="BackgroundVisible">
                         <valueRef>True</valueRef>
@@ -171,11 +176,11 @@
                     <property attributeRef="OutlineRadius">
                         <value>200</value>
                     </property>
-                    <property attributeRef="OutlineVisible">
-                        <valueRef>True</valueRef>
-                    </property>
                     <property attributeRef="OutlineThickness">
                         <value>10</value>
+                    </property>
+                    <property attributeRef="OutlineVisible">
+                        <valueRef>True</valueRef>
                     </property>
                     <property attributeRef="BackgroundVisible">
                         <valueRef>True</valueRef>
@@ -208,11 +213,11 @@
                     <property attributeRef="OutlineRadius">
                         <value>200</value>
                     </property>
-                    <property attributeRef="OutlineVisible">
-                        <valueRef>True</valueRef>
-                    </property>
                     <property attributeRef="OutlineThickness">
                         <value>10</value>
+                    </property>
+                    <property attributeRef="OutlineVisible">
+                        <valueRef>True</valueRef>
                     </property>
                     <property attributeRef="BackgroundVisible">
                         <valueRef>True</valueRef>
@@ -245,11 +250,11 @@
                     <property attributeRef="OutlineRadius">
                         <value>200</value>
                     </property>
-                    <property attributeRef="OutlineVisible">
-                        <valueRef>True</valueRef>
-                    </property>
                     <property attributeRef="OutlineThickness">
                         <value>10</value>
+                    </property>
+                    <property attributeRef="OutlineVisible">
+                        <valueRef>True</valueRef>
                     </property>
                     <property attributeRef="BackgroundVisible">
                         <valueRef>True</valueRef>
@@ -282,11 +287,11 @@
                     <property attributeRef="OutlineRadius">
                         <value>200</value>
                     </property>
-                    <property attributeRef="OutlineVisible">
-                        <valueRef>True</valueRef>
-                    </property>
                     <property attributeRef="OutlineThickness">
                         <value>10</value>
+                    </property>
+                    <property attributeRef="OutlineVisible">
+                        <valueRef>True</valueRef>
                     </property>
                     <property attributeRef="BackgroundVisible">
                         <valueRef>True</valueRef>
@@ -319,11 +324,11 @@
                     <property attributeRef="OutlineRadius">
                         <value>200</value>
                     </property>
-                    <property attributeRef="OutlineVisible">
-                        <valueRef>True</valueRef>
-                    </property>
                     <property attributeRef="OutlineThickness">
                         <value>10</value>
+                    </property>
+                    <property attributeRef="OutlineVisible">
+                        <valueRef>True</valueRef>
                     </property>
                     <property attributeRef="BackgroundVisible">
                         <valueRef>True</valueRef>
@@ -356,11 +361,11 @@
                     <property attributeRef="OutlineRadius">
                         <value>200</value>
                     </property>
-                    <property attributeRef="OutlineVisible">
-                        <valueRef>True</valueRef>
-                    </property>
                     <property attributeRef="OutlineThickness">
                         <value>10</value>
+                    </property>
+                    <property attributeRef="OutlineVisible">
+                        <valueRef>True</valueRef>
                     </property>
                     <property attributeRef="BackgroundVisible">
                         <valueRef>True</valueRef>
@@ -393,11 +398,11 @@
                     <property attributeRef="OutlineRadius">
                         <value>200</value>
                     </property>
-                    <property attributeRef="OutlineVisible">
-                        <valueRef>True</valueRef>
-                    </property>
                     <property attributeRef="OutlineThickness">
                         <value>10</value>
+                    </property>
+                    <property attributeRef="OutlineVisible">
+                        <valueRef>True</valueRef>
                     </property>
                     <property attributeRef="BackgroundVisible">
                         <valueRef>True</valueRef>
@@ -430,11 +435,11 @@
                     <property attributeRef="OutlineRadius">
                         <value>200</value>
                     </property>
-                    <property attributeRef="OutlineVisible">
-                        <valueRef>True</valueRef>
-                    </property>
                     <property attributeRef="OutlineThickness">
                         <value>10</value>
+                    </property>
+                    <property attributeRef="OutlineVisible">
+                        <valueRef>True</valueRef>
                     </property>
                     <property attributeRef="BackgroundVisible">
                         <valueRef>True</valueRef>
@@ -467,11 +472,11 @@
                     <property attributeRef="OutlineRadius">
                         <value>200</value>
                     </property>
-                    <property attributeRef="OutlineVisible">
-                        <valueRef>True</valueRef>
-                    </property>
                     <property attributeRef="OutlineThickness">
                         <value>10</value>
+                    </property>
+                    <property attributeRef="OutlineVisible">
+                        <valueRef>True</valueRef>
                     </property>
                     <property attributeRef="BackgroundVisible">
                         <valueRef>True</valueRef>
@@ -504,11 +509,11 @@
                     <property attributeRef="OutlineRadius">
                         <value>50</value>
                     </property>
-                    <property attributeRef="OutlineVisible">
-                        <valueRef>True</valueRef>
-                    </property>
                     <property attributeRef="OutlineThickness">
                         <value>20</value>
+                    </property>
+                    <property attributeRef="OutlineVisible">
+                        <valueRef>True</valueRef>
                     </property>
                     <property attributeRef="BackgroundVisible">
                         <valueRef>True</valueRef>
@@ -541,11 +546,11 @@
                     <property attributeRef="OutlineRadius">
                         <value>200</value>
                     </property>
-                    <property attributeRef="OutlineVisible">
-                        <valueRef>True</valueRef>
-                    </property>
                     <property attributeRef="OutlineThickness">
                         <value>10</value>
+                    </property>
+                    <property attributeRef="OutlineVisible">
+                        <valueRef>True</valueRef>
                     </property>
                     <property attributeRef="BackgroundVisible">
                         <valueRef>False</valueRef>
@@ -578,11 +583,11 @@
                     <property attributeRef="OutlineRadius">
                         <value>200</value>
                     </property>
-                    <property attributeRef="OutlineVisible">
-                        <valueRef>True</valueRef>
-                    </property>
                     <property attributeRef="OutlineThickness">
                         <value>10</value>
+                    </property>
+                    <property attributeRef="OutlineVisible">
+                        <valueRef>True</valueRef>
                     </property>
                     <property attributeRef="BackgroundVisible">
                         <valueRef>False</valueRef>
@@ -602,7 +607,6 @@
                 </properties>
             </styleset>
             <styleset id="40" name="NO_FRAME">
-                <scade:default/>
                 <properties>
                     <property attributeRef="BackColor">
                         <valueRef>C_BLACK</valueRef>
@@ -616,11 +620,11 @@
                     <property attributeRef="OutlineRadius">
                         <value>200</value>
                     </property>
-                    <property attributeRef="OutlineVisible">
-                        <valueRef>False</valueRef>
-                    </property>
                     <property attributeRef="OutlineThickness">
                         <value>10</value>
+                    </property>
+                    <property attributeRef="OutlineVisible">
+                        <valueRef>False</valueRef>
                     </property>
                     <property attributeRef="BackgroundVisible">
                         <valueRef>False</valueRef>
@@ -653,11 +657,11 @@
                     <property attributeRef="OutlineRadius">
                         <value>100</value>
                     </property>
-                    <property attributeRef="OutlineVisible">
-                        <valueRef>True</valueRef>
-                    </property>
                     <property attributeRef="OutlineThickness">
                         <value>20</value>
+                    </property>
+                    <property attributeRef="OutlineVisible">
+                        <valueRef>True</valueRef>
                     </property>
                     <property attributeRef="BackgroundVisible">
                         <valueRef>True</valueRef>
@@ -690,11 +694,11 @@
                     <property attributeRef="OutlineRadius">
                         <value>100</value>
                     </property>
-                    <property attributeRef="OutlineVisible">
-                        <valueRef>True</valueRef>
-                    </property>
                     <property attributeRef="OutlineThickness">
                         <value>30</value>
+                    </property>
+                    <property attributeRef="OutlineVisible">
+                        <valueRef>True</valueRef>
                     </property>
                     <property attributeRef="BackgroundVisible">
                         <valueRef>True</valueRef>
@@ -727,11 +731,11 @@
                     <property attributeRef="OutlineRadius">
                         <value>100</value>
                     </property>
-                    <property attributeRef="OutlineVisible">
-                        <valueRef>True</valueRef>
-                    </property>
                     <property attributeRef="OutlineThickness">
                         <value>20</value>
+                    </property>
+                    <property attributeRef="OutlineVisible">
+                        <valueRef>True</valueRef>
                     </property>
                     <property attributeRef="BackgroundVisible">
                         <valueRef>True</valueRef>
@@ -764,11 +768,11 @@
                     <property attributeRef="OutlineRadius">
                         <value>100</value>
                     </property>
-                    <property attributeRef="OutlineVisible">
-                        <valueRef>True</valueRef>
-                    </property>
                     <property attributeRef="OutlineThickness">
                         <value>30</value>
+                    </property>
+                    <property attributeRef="OutlineVisible">
+                        <valueRef>True</valueRef>
                     </property>
                     <property attributeRef="BackgroundVisible">
                         <valueRef>True</valueRef>
@@ -801,11 +805,11 @@
                     <property attributeRef="OutlineRadius">
                         <value>200</value>
                     </property>
-                    <property attributeRef="OutlineVisible">
-                        <valueRef>True</valueRef>
-                    </property>
                     <property attributeRef="OutlineThickness">
                         <value>10</value>
+                    </property>
+                    <property attributeRef="OutlineVisible">
+                        <valueRef>True</valueRef>
                     </property>
                     <property attributeRef="BackgroundVisible">
                         <valueRef>False</valueRef>
@@ -833,11 +837,9 @@
                     </property>
                     <property attributeRef="LineWidth">
                         <value>5</value>
-                        <!-- LW5 -->
                     </property>
                     <property attributeRef="Font">
                         <value>1</value>
-                        <!-- F2 -->
                     </property>
                     <property attributeRef="ColorIndex">
                         <valueRef>C_WHITE</valueRef>
@@ -851,11 +853,9 @@
                     </property>
                     <property attributeRef="LineWidth">
                         <value>5</value>
-                        <!-- LW5 -->
                     </property>
                     <property attributeRef="Font">
                         <value>1</value>
-                        <!-- F2 -->
                     </property>
                     <property attributeRef="ColorIndex">
                         <valueRef>C_CYAN</valueRef>
@@ -869,11 +869,9 @@
                     </property>
                     <property attributeRef="LineWidth">
                         <value>1</value>
-                        <!-- LW1 -->
                     </property>
                     <property attributeRef="Font">
                         <value>1</value>
-                        <!-- F2 -->
                     </property>
                     <property attributeRef="ColorIndex">
                         <valueRef>C_GREEN</valueRef>
@@ -887,11 +885,9 @@
                     </property>
                     <property attributeRef="LineWidth">
                         <value>5</value>
-                        <!-- LW5 -->
                     </property>
                     <property attributeRef="Font">
                         <value>1</value>
-                        <!-- F2 -->
                     </property>
                     <property attributeRef="ColorIndex">
                         <valueRef>C_YELLOW</valueRef>
@@ -905,11 +901,9 @@
                     </property>
                     <property attributeRef="LineWidth">
                         <value>5</value>
-                        <!-- LW5 -->
                     </property>
                     <property attributeRef="Font">
                         <value>1</value>
-                        <!-- F2 -->
                     </property>
                     <property attributeRef="ColorIndex">
                         <valueRef>C_AMBER</valueRef>
@@ -923,11 +917,9 @@
                     </property>
                     <property attributeRef="LineWidth">
                         <value>5</value>
-                        <!-- LW5 -->
                     </property>
                     <property attributeRef="Font">
                         <value>1</value>
-                        <!-- F2 -->
                     </property>
                     <property attributeRef="ColorIndex">
                         <valueRef>C_RED</valueRef>
@@ -941,11 +933,9 @@
                     </property>
                     <property attributeRef="LineWidth">
                         <value>5</value>
-                        <!-- LW5 -->
                     </property>
                     <property attributeRef="Font">
                         <value>1</value>
-                        <!-- F2 -->
                     </property>
                     <property attributeRef="ColorIndex">
                         <valueRef>C_50p_GREY</valueRef>
@@ -959,11 +949,9 @@
                     </property>
                     <property attributeRef="LineWidth">
                         <value>5</value>
-                        <!-- LW5 -->
                     </property>
                     <property attributeRef="Font">
                         <value>1</value>
-                        <!-- F2 -->
                     </property>
                     <property attributeRef="ColorIndex">
                         <valueRef>C_BLACK</valueRef>
@@ -977,11 +965,9 @@
                     </property>
                     <property attributeRef="LineWidth">
                         <value>5</value>
-                        <!-- LW5 -->
                     </property>
                     <property attributeRef="Font">
                         <value>1</value>
-                        <!-- F2 -->
                     </property>
                     <property attributeRef="ColorIndex">
                         <valueRef>C_40p_GREY</valueRef>
@@ -995,11 +981,9 @@
                     </property>
                     <property attributeRef="LineWidth">
                         <value>5</value>
-                        <!-- LW5 -->
                     </property>
                     <property attributeRef="Font">
                         <value>1</value>
-                        <!-- F2 -->
                     </property>
                     <property attributeRef="ColorIndex">
                         <valueRef>C_60p_GREY</valueRef>
@@ -1013,11 +997,9 @@
                     </property>
                     <property attributeRef="LineWidth">
                         <value>5</value>
-                        <!-- LW5 -->
                     </property>
                     <property attributeRef="Font">
                         <value>1</value>
-                        <!-- F2 -->
                     </property>
                     <property attributeRef="ColorIndex">
                         <valueRef>C_80p_GREY</valueRef>
@@ -1031,11 +1013,9 @@
                     </property>
                     <property attributeRef="LineWidth">
                         <value>5</value>
-                        <!-- LW5 -->
                     </property>
                     <property attributeRef="Font">
                         <value>1</value>
-                        <!-- F2 -->
                     </property>
                     <property attributeRef="ColorIndex">
                         <valueRef>C_DARKER_CYAN</valueRef>
@@ -1049,11 +1029,9 @@
                     </property>
                     <property attributeRef="LineWidth">
                         <value>5</value>
-                        <!-- LW5 -->
                     </property>
                     <property attributeRef="Font">
                         <value>2</value>
-                        <!-- F3 -->
                     </property>
                     <property attributeRef="ColorIndex">
                         <valueRef>C_WHITE</valueRef>
@@ -1067,11 +1045,9 @@
                     </property>
                     <property attributeRef="LineWidth">
                         <value>5</value>
-                        <!-- LW5 -->
                     </property>
                     <property attributeRef="Font">
                         <value>2</value>
-                        <!-- F3 -->
                     </property>
                     <property attributeRef="ColorIndex">
                         <valueRef>C_CYAN</valueRef>
@@ -1085,11 +1061,9 @@
                     </property>
                     <property attributeRef="LineWidth">
                         <value>5</value>
-                        <!-- LW5 -->
                     </property>
                     <property attributeRef="Font">
                         <value>2</value>
-                        <!-- F3 -->
                     </property>
                     <property attributeRef="ColorIndex">
                         <valueRef>C_GREEN</valueRef>
@@ -1103,11 +1077,9 @@
                     </property>
                     <property attributeRef="LineWidth">
                         <value>5</value>
-                        <!-- LW5 -->
                     </property>
                     <property attributeRef="Font">
                         <value>2</value>
-                        <!-- F3 -->
                     </property>
                     <property attributeRef="ColorIndex">
                         <valueRef>C_YELLOW</valueRef>
@@ -1121,11 +1093,9 @@
                     </property>
                     <property attributeRef="LineWidth">
                         <value>5</value>
-                        <!-- LW5 -->
                     </property>
                     <property attributeRef="Font">
                         <value>2</value>
-                        <!-- F3 -->
                     </property>
                     <property attributeRef="ColorIndex">
                         <valueRef>C_AMBER</valueRef>
@@ -1139,11 +1109,9 @@
                     </property>
                     <property attributeRef="LineWidth">
                         <value>5</value>
-                        <!-- LW5 -->
                     </property>
                     <property attributeRef="Font">
                         <value>2</value>
-                        <!-- F3 -->
                     </property>
                     <property attributeRef="ColorIndex">
                         <valueRef>C_RED</valueRef>
@@ -1157,11 +1125,9 @@
                     </property>
                     <property attributeRef="LineWidth">
                         <value>5</value>
-                        <!-- LW5 -->
                     </property>
                     <property attributeRef="Font">
                         <value>2</value>
-                        <!-- F3 -->
                     </property>
                     <property attributeRef="ColorIndex">
                         <valueRef>C_50p_GREY</valueRef>
@@ -1175,11 +1141,9 @@
                     </property>
                     <property attributeRef="LineWidth">
                         <value>5</value>
-                        <!-- LW5 -->
                     </property>
                     <property attributeRef="Font">
                         <value>2</value>
-                        <!-- F3 -->
                     </property>
                     <property attributeRef="ColorIndex">
                         <valueRef>C_BLACK</valueRef>
@@ -1193,11 +1157,9 @@
                     </property>
                     <property attributeRef="LineWidth">
                         <value>5</value>
-                        <!-- LW5 -->
                     </property>
                     <property attributeRef="Font">
                         <value>2</value>
-                        <!-- F3 -->
                     </property>
                     <property attributeRef="ColorIndex">
                         <valueRef>C_40p_GREY</valueRef>
@@ -1211,11 +1173,9 @@
                     </property>
                     <property attributeRef="LineWidth">
                         <value>5</value>
-                        <!-- LW5 -->
                     </property>
                     <property attributeRef="Font">
                         <value>2</value>
-                        <!-- F3 -->
                     </property>
                     <property attributeRef="ColorIndex">
                         <valueRef>C_60p_GREY</valueRef>
@@ -1229,11 +1189,9 @@
                     </property>
                     <property attributeRef="LineWidth">
                         <value>5</value>
-                        <!-- LW5 -->
                     </property>
                     <property attributeRef="Font">
                         <value>2</value>
-                        <!-- F3 -->
                     </property>
                     <property attributeRef="ColorIndex">
                         <valueRef>C_80p_GREY</valueRef>
@@ -1247,11 +1205,9 @@
                     </property>
                     <property attributeRef="LineWidth">
                         <value>5</value>
-                        <!-- LW5 -->
                     </property>
                     <property attributeRef="Font">
                         <value>2</value>
-                        <!-- F3 -->
                     </property>
                     <property attributeRef="ColorIndex">
                         <valueRef>C_DARKER_CYAN</valueRef>
@@ -1259,251 +1215,18 @@
                 </properties>
             </styleset>
             <styleset id="100" name="FREE">
-                <scade:default/>
                 <properties>
                     <property attributeRef="Haloing">
                         <valueRef>False</valueRef>
                     </property>
                     <property attributeRef="LineWidth">
                         <value>3</value>
-                        <!-- LW3 -->
                     </property>
                     <property attributeRef="Font">
                         <value>UA_VALUE</value>
                     </property>
                     <property attributeRef="ColorIndex">
                         <value>UA_VALUE</value>
-                    </property>
-                </properties>
-            </styleset>
-        </componentDefinition>
-        <componentDefinition componentCapacitiesRef="C_PictureSymbolLayout">
-            <styleset id="100" name="OPPOSITE_SIZE_100P">
-                <scade:default/>
-                <properties>
-                    <property attributeRef="SizeLinkMode">
-                        <valueRef>PERCENT_OPPOSITE_SIZE</valueRef>
-                    </property>
-                    <property attributeRef="PictSymbClipping">
-                        <valueRef>CLIPPING_NO_ROTATION</valueRef>
-                    </property>
-                    <property attributeRef="PictSymbSizeOrRatio">
-                        <value>1</value>
-                    </property>
-                </properties>
-            </styleset>
-            <styleset id="110" name="OPPOSITE_SIZE_100P_ROTATED">
-                <properties>
-                    <property attributeRef="SizeLinkMode">
-                        <valueRef>PERCENT_OPPOSITE_SIZE</valueRef>
-                    </property>
-                    <property attributeRef="PictSymbClipping">
-                        <valueRef>CLIPPING_WITH_ROTATION</valueRef>
-                    </property>
-                    <property attributeRef="PictSymbSizeOrRatio">
-                        <value>1</value>
-                    </property>
-                </properties>
-            </styleset>
-            <styleset id="200" name="SAME_SIZE_100P">
-                <properties>
-                    <property attributeRef="SizeLinkMode">
-                        <valueRef>PERCENT_SAME_SIZE</valueRef>
-                    </property>
-                    <property attributeRef="PictSymbClipping">
-                        <valueRef>CLIPPING_NO_ROTATION</valueRef>
-                    </property>
-                    <property attributeRef="PictSymbSizeOrRatio">
-                        <value>1</value>
-                    </property>
-                </properties>
-            </styleset>
-            <styleset id="210" name="SAME_SIZE_50P">
-                <properties>
-                    <property attributeRef="SizeLinkMode">
-                        <valueRef>PERCENT_SAME_SIZE</valueRef>
-                    </property>
-                    <property attributeRef="PictSymbClipping">
-                        <valueRef>CLIPPING_NO_ROTATION</valueRef>
-                    </property>
-                    <property attributeRef="PictSymbSizeOrRatio">
-                        <value>0.5</value>
-                    </property>
-                </properties>
-            </styleset>
-            <styleset id="300" name="FIXED_SIZE_300">
-                <properties>
-                    <property attributeRef="SizeLinkMode">
-                        <valueRef>FIXED_SIZE_ONE_DIRECTION</valueRef>
-                    </property>
-                    <property attributeRef="PictSymbClipping">
-                        <valueRef>CLIPPING_NO_ROTATION</valueRef>
-                    </property>
-                    <property attributeRef="PictSymbSizeOrRatio">
-                        <value>300</value>
-                    </property>
-                </properties>
-            </styleset>
-            <styleset id="301" name="FIXED_SIZE_450">
-                <properties>
-                    <property attributeRef="SizeLinkMode">
-                        <valueRef>FIXED_SIZE_ONE_DIRECTION</valueRef>
-                    </property>
-                    <property attributeRef="PictSymbClipping">
-                        <valueRef>CLIPPING_NO_ROTATION</valueRef>
-                    </property>
-                    <property attributeRef="PictSymbSizeOrRatio">
-                        <value>450</value>
-                    </property>
-                </properties>
-            </styleset>
-        </componentDefinition>
-        <componentDefinition componentCapacitiesRef="C_Symbol">
-            <styleset id="1" name="THIN">
-                <properties>
-                    <property attributeRef="ColorIndex">
-                        <value>UA_VALUE</value>
-                    </property>
-                    <property attributeRef="Halo">
-                        <value>0</value>
-                    </property>
-                    <property attributeRef="LineStipple">
-                        <value>0</value>
-                    </property>
-                    <property attributeRef="LineWidth">
-                        <value>0</value>
-                        <!-- LW0 -->
-                    </property>
-                    <property attributeRef="Font">
-                        <value>0</value>
-                        <!-- F1 -->
-                    </property>
-                </properties>
-            </styleset>
-            <styleset id="2" name="BOLD">
-                <properties>
-                    <property attributeRef="ColorIndex">
-                        <value>UA_VALUE</value>
-                    </property>
-                    <property attributeRef="Halo">
-                        <value>0</value>
-                    </property>
-                    <property attributeRef="LineStipple">
-                        <value>0</value>
-                    </property>
-                    <property attributeRef="LineWidth">
-                        <value>5</value>
-                        <!-- LW5 -->
-                    </property>
-                    <property attributeRef="Font">
-                        <value>0</value>
-                        <!-- F1 -->
-                    </property>
-                </properties>
-            </styleset>
-            <styleset id="3" name="DOTTED">
-                <properties>
-                    <property attributeRef="ColorIndex">
-                        <value>UA_VALUE</value>
-                    </property>
-                    <property attributeRef="Halo">
-                        <value>1</value>
-                    </property>
-                    <property attributeRef="LineStipple">
-                        <value>3</value>
-                    </property>
-                    <property attributeRef="LineWidth">
-                        <value>3</value>
-                        <!-- LW3 -->
-                    </property>
-                    <property attributeRef="Font">
-                        <value>0</value>
-                        <!-- F1 -->
-                    </property>
-                </properties>
-            </styleset>
-            <styleset id="4" name="DASHED">
-                <properties>
-                    <property attributeRef="ColorIndex">
-                        <value>UA_VALUE</value>
-                    </property>
-                    <property attributeRef="Halo">
-                        <value>0</value>
-                    </property>
-                    <property attributeRef="LineStipple">
-                        <value>1</value>
-                    </property>
-                    <property attributeRef="LineWidth">
-                        <value>2</value>
-                        <!-- LW2 -->
-                    </property>
-                    <property attributeRef="Font">
-                        <value>0</value>
-                        <!-- F1 -->
-                    </property>
-                </properties>
-            </styleset>
-            <styleset id="20" name="COLOR_WH">
-                <scade:default/>
-                <properties>
-                    <property attributeRef="ColorIndex">
-                        <valueRef>C_WHITE</valueRef>
-                    </property>
-                    <property attributeRef="Halo">
-                        <value>0</value>
-                    </property>
-                    <property attributeRef="LineStipple">
-                        <value>0</value>
-                    </property>
-                    <property attributeRef="LineWidth">
-                        <value>2</value>
-                        <!-- LW2 -->
-                    </property>
-                    <property attributeRef="Font">
-                        <value>0</value>
-                        <!-- F1 -->
-                    </property>
-                </properties>
-            </styleset>
-            <styleset id="21" name="COLOR_GR">
-                <properties>
-                    <property attributeRef="ColorIndex">
-                        <valueRef>C_30p_GREY</valueRef>
-                    </property>
-                    <property attributeRef="Halo">
-                        <value>0</value>
-                    </property>
-                    <property attributeRef="LineStipple">
-                        <value>0</value>
-                    </property>
-                    <property attributeRef="LineWidth">
-                        <value>2</value>
-                        <!-- LW2 -->
-                    </property>
-                    <property attributeRef="Font">
-                        <value>0</value>
-                        <!-- F1 -->
-                    </property>
-                </properties>
-            </styleset>
-            <styleset id="22" name="COLOR_YL">
-                <properties>
-                    <property attributeRef="ColorIndex">
-                        <valueRef>C_YELLOW</valueRef>
-                    </property>
-                    <property attributeRef="Halo">
-                        <value>0</value>
-                    </property>
-                    <property attributeRef="LineStipple">
-                        <value>0</value>
-                    </property>
-                    <property attributeRef="LineWidth">
-                        <value>2</value>
-                        <!-- LW2 -->
-                    </property>
-                    <property attributeRef="Font">
-                        <value>0</value>
-                        <!-- F1 -->
                     </property>
                 </properties>
             </styleset>
@@ -1512,10 +1235,18 @@
     <widgetsDefinitions>
         <widgetDefinition widgetCapacitiesRef="ActiveArea">
             <styleset id="1" name="NO_FILL">
-                <scade:default/>
+                <scade:default />
+                <properties>
+                    <property attributeRef="Color">
+                        <valueRef>C_HIGHLIGHT</valueRef>
+                    </property>
+                    <property attributeRef="Opacity">
+                        <value>0</value>
+                    </property>
+                </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="StHighlight"/>
+                        <stateItem stateRef="StHighlight" />
                     </statesList>
                     <properties>
                         <property attributeRef="Color">
@@ -1528,7 +1259,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="StFocus"/>
+                        <stateItem stateRef="StFocus" />
                     </statesList>
                     <properties>
                         <property attributeRef="Color">
@@ -1541,7 +1272,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="StHighlightFocus"/>
+                        <stateItem stateRef="StHighlightFocus" />
                     </statesList>
                     <properties>
                         <property attributeRef="Color">
@@ -1554,9 +1285,17 @@
                 </stateDefinition>
             </styleset>
             <styleset id="2" name="FILL_25">
+                <properties>
+                    <property attributeRef="Color">
+                        <valueRef>C_HIGHLIGHT</valueRef>
+                    </property>
+                    <property attributeRef="Opacity">
+                        <value>64</value>
+                    </property>
+                </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="StHighlight"/>
+                        <stateItem stateRef="StHighlight" />
                     </statesList>
                     <properties>
                         <property attributeRef="Color">
@@ -1569,7 +1308,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="StFocus"/>
+                        <stateItem stateRef="StFocus" />
                     </statesList>
                     <properties>
                         <property attributeRef="Color">
@@ -1582,7 +1321,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="StHighlightFocus"/>
+                        <stateItem stateRef="StHighlightFocus" />
                     </statesList>
                     <properties>
                         <property attributeRef="Color">
@@ -1595,9 +1334,17 @@
                 </stateDefinition>
             </styleset>
             <styleset id="3" name="FILL_50">
+                <properties>
+                    <property attributeRef="Color">
+                        <valueRef>C_HIGHLIGHT</valueRef>
+                    </property>
+                    <property attributeRef="Opacity">
+                        <value>128</value>
+                    </property>
+                </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="StHighlight"/>
+                        <stateItem stateRef="StHighlight" />
                     </statesList>
                     <properties>
                         <property attributeRef="Color">
@@ -1610,7 +1357,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="StFocus"/>
+                        <stateItem stateRef="StFocus" />
                     </statesList>
                     <properties>
                         <property attributeRef="Color">
@@ -1623,7 +1370,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="StHighlightFocus"/>
+                        <stateItem stateRef="StHighlightFocus" />
                     </statesList>
                     <properties>
                         <property attributeRef="Color">
@@ -1638,21 +1385,15 @@
         </widgetDefinition>
         <widgetDefinition widgetCapacitiesRef="CheckButton">
             <styleset id="50" name="F2_WH_CK">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -1674,7 +1415,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -1696,7 +1437,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -1718,7 +1459,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -1740,7 +1481,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -1762,7 +1503,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -1788,16 +1529,10 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -1819,7 +1554,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -1841,7 +1576,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -1863,7 +1598,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -1885,7 +1620,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -1907,7 +1642,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -1933,16 +1668,10 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -1964,7 +1693,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -1986,7 +1715,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -2008,7 +1737,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -2030,7 +1759,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -2052,7 +1781,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -2078,16 +1807,10 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -2109,7 +1832,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -2131,7 +1854,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -2153,7 +1876,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -2175,7 +1898,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -2197,7 +1920,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -2223,16 +1946,10 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -2254,7 +1971,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -2276,7 +1993,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -2298,7 +2015,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -2320,7 +2037,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -2342,7 +2059,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -2368,16 +2085,10 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -2399,7 +2110,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -2421,7 +2132,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -2443,7 +2154,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -2465,7 +2176,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -2487,7 +2198,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -2513,16 +2224,10 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -2544,7 +2249,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -2566,7 +2271,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -2588,7 +2293,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -2610,7 +2315,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -2632,7 +2337,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -2658,16 +2363,10 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -2689,7 +2388,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -2711,7 +2410,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -2733,7 +2432,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -2755,7 +2454,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -2777,7 +2476,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -2803,16 +2502,10 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -2834,7 +2527,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -2856,7 +2549,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -2878,7 +2571,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -2900,7 +2593,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -2922,7 +2615,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -2948,16 +2641,10 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -2979,7 +2666,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -3001,7 +2688,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -3023,7 +2710,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -3045,7 +2732,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -3067,7 +2754,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -3093,16 +2780,10 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -3124,7 +2805,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -3146,7 +2827,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -3168,7 +2849,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -3190,7 +2871,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -3212,7 +2893,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -3238,16 +2919,10 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -3269,7 +2944,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -3291,7 +2966,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -3313,7 +2988,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -3335,7 +3010,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -3357,7 +3032,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -3381,7 +3056,7 @@
         </widgetDefinition>
         <widgetDefinition widgetCapacitiesRef="ComboBox">
             <styleset id="110" name="RCT_F2_WH">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="Border">
                         <value>100</value>
@@ -3398,22 +3073,10 @@
                     <property attributeRef="PopUpSelectedEntryColor">
                         <valueRef>C_WHITE</valueRef>
                     </property>
-                    <property attributeRef="PopUpPictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="PopUpSymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -3435,7 +3098,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -3457,7 +3120,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -3479,7 +3142,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -3517,22 +3180,10 @@
                     <property attributeRef="PopUpSelectedEntryColor">
                         <valueRef>C_WHITE</valueRef>
                     </property>
-                    <property attributeRef="PopUpPictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="PopUpSymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -3554,7 +3205,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -3576,7 +3227,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -3598,7 +3249,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -3636,22 +3287,10 @@
                     <property attributeRef="PopUpSelectedEntryColor">
                         <valueRef>C_30p_GREY</valueRef>
                     </property>
-                    <property attributeRef="PopUpPictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="PopUpSymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -3673,7 +3312,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -3695,7 +3334,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -3717,7 +3356,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -3755,22 +3394,10 @@
                     <property attributeRef="PopUpSelectedEntryColor">
                         <valueRef>C_30p_GREY</valueRef>
                     </property>
-                    <property attributeRef="PopUpPictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="PopUpSymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -3792,7 +3419,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -3814,7 +3441,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -3836,7 +3463,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -3860,7 +3487,7 @@
         </widgetDefinition>
         <widgetDefinition widgetCapacitiesRef="ComboBoxEdit">
             <styleset id="110" name="RCT_F2_WH">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="Border">
                         <value>100</value>
@@ -3880,22 +3507,10 @@
                     <property attributeRef="PopUpSelectedEntryColor">
                         <valueRef>C_WHITE</valueRef>
                     </property>
-                    <property attributeRef="PopUpPictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="PopUpSymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -3917,7 +3532,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -3939,7 +3554,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -3961,7 +3576,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -3983,7 +3598,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4024,22 +3639,10 @@
                     <property attributeRef="PopUpSelectedEntryColor">
                         <valueRef>C_WHITE</valueRef>
                     </property>
-                    <property attributeRef="PopUpPictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="PopUpSymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4061,7 +3664,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4083,7 +3686,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4105,7 +3708,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4127,7 +3730,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4168,22 +3771,10 @@
                     <property attributeRef="PopUpSelectedEntryColor">
                         <valueRef>C_30p_GREY</valueRef>
                     </property>
-                    <property attributeRef="PopUpPictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="PopUpSymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4205,7 +3796,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4227,7 +3818,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4249,7 +3840,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4271,7 +3862,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4312,22 +3903,10 @@
                     <property attributeRef="PopUpSelectedEntryColor">
                         <valueRef>C_30p_GREY</valueRef>
                     </property>
-                    <property attributeRef="PopUpPictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="PopUpSymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4349,7 +3928,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4371,7 +3950,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4393,7 +3972,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4415,7 +3994,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4439,7 +4018,7 @@
         </widgetDefinition>
         <widgetDefinition widgetCapacitiesRef="CursorOver">
             <styleset id="0" name="BLANK">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="Frame">
                         <valueRef>NO_FRAME</valueRef>
@@ -4477,7 +4056,7 @@
         </widgetDefinition>
         <widgetDefinition widgetCapacitiesRef="EditBoxMasked">
             <styleset id="110" name="RCT_F2_WH">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="Border">
                         <value>100</value>
@@ -4485,7 +4064,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4498,7 +4077,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4511,7 +4090,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4524,7 +4103,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4544,7 +4123,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4557,7 +4136,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4570,7 +4149,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4583,7 +4162,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4603,7 +4182,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4616,7 +4195,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4629,7 +4208,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4642,7 +4221,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4662,7 +4241,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4675,7 +4254,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4688,7 +4267,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4701,7 +4280,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4721,7 +4300,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4734,7 +4313,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4747,7 +4326,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4760,7 +4339,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4780,7 +4359,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4793,7 +4372,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4806,7 +4385,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4819,7 +4398,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4839,7 +4418,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4852,7 +4431,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4865,7 +4444,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4878,7 +4457,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4898,7 +4477,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4911,7 +4490,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4924,7 +4503,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4937,7 +4516,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4957,7 +4536,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4970,7 +4549,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4983,7 +4562,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -4996,7 +4575,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5016,7 +4595,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5029,7 +4608,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5042,7 +4621,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5055,7 +4634,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5075,7 +4654,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5088,7 +4667,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5101,7 +4680,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5114,7 +4693,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5134,7 +4713,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5147,7 +4726,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5160,7 +4739,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5173,7 +4752,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5188,7 +4767,7 @@
         </widgetDefinition>
         <widgetDefinition widgetCapacitiesRef="EditBoxMultiLine">
             <styleset id="110" name="RCT_F2_WH">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="Border">
                         <value>60</value>
@@ -5196,7 +4775,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5209,7 +4788,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5222,7 +4801,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5235,7 +4814,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5255,7 +4834,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5268,7 +4847,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5281,7 +4860,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5294,7 +4873,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5314,7 +4893,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5327,7 +4906,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5340,7 +4919,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5353,7 +4932,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5373,7 +4952,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5386,7 +4965,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5399,7 +4978,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5412,7 +4991,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5432,7 +5011,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5445,7 +5024,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5458,7 +5037,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5471,7 +5050,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5491,7 +5070,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5504,7 +5083,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5517,7 +5096,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5530,7 +5109,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5550,7 +5129,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5563,7 +5142,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5576,7 +5155,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5589,7 +5168,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5609,7 +5188,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5622,7 +5201,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5635,7 +5214,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5648,7 +5227,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5668,7 +5247,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5681,7 +5260,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5694,7 +5273,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5707,7 +5286,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5727,7 +5306,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5740,7 +5319,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5753,7 +5332,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5766,7 +5345,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5786,7 +5365,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5799,7 +5378,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5812,7 +5391,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5825,7 +5404,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5845,7 +5424,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5858,7 +5437,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5871,7 +5450,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5884,7 +5463,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5899,7 +5478,7 @@
         </widgetDefinition>
         <widgetDefinition widgetCapacitiesRef="EditBoxNumeric">
             <styleset id="110" name="RCT_F2_WH">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="Border">
                         <value>100</value>
@@ -5910,7 +5489,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5923,7 +5502,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5936,7 +5515,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5949,7 +5528,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5972,7 +5551,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5985,7 +5564,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -5998,7 +5577,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6011,7 +5590,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6034,7 +5613,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6047,7 +5626,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6060,7 +5639,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6073,7 +5652,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6096,7 +5675,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6109,7 +5688,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6122,7 +5701,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6135,7 +5714,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6158,7 +5737,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6171,7 +5750,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6184,7 +5763,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6197,7 +5776,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6220,7 +5799,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6233,7 +5812,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6246,7 +5825,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6259,7 +5838,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6282,7 +5861,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6295,7 +5874,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6308,7 +5887,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6321,7 +5900,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6344,7 +5923,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6357,7 +5936,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6370,7 +5949,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6383,7 +5962,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6406,7 +5985,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6419,7 +5998,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6432,7 +6011,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6445,7 +6024,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6468,7 +6047,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6481,7 +6060,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6494,7 +6073,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6507,7 +6086,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6530,7 +6109,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6543,7 +6122,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6556,7 +6135,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6569,7 +6148,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6592,7 +6171,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6605,7 +6184,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6618,7 +6197,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6631,7 +6210,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6646,7 +6225,7 @@
         </widgetDefinition>
         <widgetDefinition widgetCapacitiesRef="EditBoxNumericBCD">
             <styleset id="110" name="RCT_F2_WH">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="Border">
                         <value>100</value>
@@ -6657,7 +6236,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6670,7 +6249,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6683,7 +6262,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6696,7 +6275,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6719,7 +6298,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6732,7 +6311,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6745,7 +6324,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6758,7 +6337,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6781,7 +6360,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6794,7 +6373,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6807,7 +6386,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6820,7 +6399,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6843,7 +6422,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6856,7 +6435,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6869,7 +6448,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6882,7 +6461,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6905,7 +6484,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6918,7 +6497,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6931,7 +6510,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6944,7 +6523,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6967,7 +6546,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6980,7 +6559,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -6993,7 +6572,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7006,7 +6585,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7029,7 +6608,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7042,7 +6621,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7055,7 +6634,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7068,7 +6647,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7091,7 +6670,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7104,7 +6683,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7117,7 +6696,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7130,7 +6709,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7153,7 +6732,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7166,7 +6745,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7179,7 +6758,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7192,7 +6771,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7215,7 +6794,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7228,7 +6807,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7241,7 +6820,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7254,7 +6833,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7277,7 +6856,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7290,7 +6869,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7303,7 +6882,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7316,7 +6895,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7339,7 +6918,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7352,7 +6931,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7365,7 +6944,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7378,7 +6957,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7393,7 +6972,7 @@
         </widgetDefinition>
         <widgetDefinition widgetCapacitiesRef="EditBoxText">
             <styleset id="110" name="RCT_F2_WH">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="Border">
                         <value>100</value>
@@ -7401,7 +6980,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7414,7 +6993,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7427,7 +7006,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7440,7 +7019,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7460,7 +7039,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7473,7 +7052,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7486,7 +7065,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7499,7 +7078,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7519,7 +7098,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7532,7 +7111,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7545,7 +7124,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7558,7 +7137,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7578,7 +7157,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7591,7 +7170,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7604,7 +7183,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7617,7 +7196,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7637,7 +7216,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7650,7 +7229,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7663,7 +7242,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7676,7 +7255,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7696,7 +7275,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7709,7 +7288,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7722,7 +7301,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7735,7 +7314,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7755,7 +7334,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7768,7 +7347,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7781,7 +7360,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7794,7 +7373,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7814,7 +7393,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7827,7 +7406,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7840,7 +7419,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7853,7 +7432,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7873,7 +7452,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7886,7 +7465,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7899,7 +7478,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7912,7 +7491,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7932,7 +7511,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7945,7 +7524,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7958,7 +7537,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7971,7 +7550,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -7991,7 +7570,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -8004,7 +7583,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -8017,7 +7596,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -8030,7 +7609,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -8050,7 +7629,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -8063,7 +7642,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -8076,7 +7655,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -8089,7 +7668,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Edit"/>
+                        <stateItem stateRef="Edit" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -8104,7 +7683,7 @@
         </widgetDefinition>
         <widgetDefinition widgetCapacitiesRef="ExternalSource">
             <styleset id="1" name="BLANK">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="Border">
                         <value>40</value>
@@ -8137,14 +7716,13 @@
         </widgetDefinition>
         <widgetDefinition widgetCapacitiesRef="GpArcCircle">
             <styleset id="1" name="FREE">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="OutlineStipple">
                         <value>0</value>
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8164,7 +7742,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>4</value>
-                        <!-- LW4 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8184,7 +7761,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>1</value>
-                        <!-- LW1 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8204,7 +7780,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>1</value>
-                        <!-- LW1 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8224,7 +7799,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8244,7 +7818,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8264,7 +7837,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8284,7 +7856,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8304,7 +7875,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8320,14 +7890,13 @@
         </widgetDefinition>
         <widgetDefinition widgetCapacitiesRef="GpArcEllipse">
             <styleset id="1" name="FREE">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="OutlineStipple">
                         <value>0</value>
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8347,7 +7916,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>4</value>
-                        <!-- LW4 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8367,7 +7935,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>1</value>
-                        <!-- LW1 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8387,7 +7954,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>1</value>
-                        <!-- LW1 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8407,7 +7973,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8427,7 +7992,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8447,7 +8011,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8467,7 +8030,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8487,7 +8049,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8503,14 +8064,13 @@
         </widgetDefinition>
         <widgetDefinition widgetCapacitiesRef="GpCrown">
             <styleset id="1" name="FREE">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="OutlineStipple">
                         <value>0</value>
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8530,7 +8090,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>4</value>
-                        <!-- LW4 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8550,7 +8109,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>1</value>
-                        <!-- LW1 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8570,7 +8128,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>1</value>
-                        <!-- LW1 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8590,7 +8147,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8610,7 +8166,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8630,7 +8185,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8650,7 +8204,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8670,7 +8223,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8686,14 +8238,13 @@
         </widgetDefinition>
         <widgetDefinition widgetCapacitiesRef="GpLine">
             <styleset id="1" name="FREE">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="OutlineStipple">
                         <value>0</value>
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8710,7 +8261,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>4</value>
-                        <!-- LW4 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8727,7 +8277,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>1</value>
-                        <!-- LW1 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8744,7 +8293,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>1</value>
-                        <!-- LW1 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8761,7 +8309,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8778,7 +8325,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8795,7 +8341,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8808,14 +8353,13 @@
         </widgetDefinition>
         <widgetDefinition widgetCapacitiesRef="GpLinePolar">
             <styleset id="1" name="FREE">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="OutlineStipple">
                         <value>0</value>
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8832,7 +8376,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>4</value>
-                        <!-- LW4 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8849,7 +8392,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>1</value>
-                        <!-- LW1 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8866,7 +8408,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>1</value>
-                        <!-- LW1 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8883,7 +8424,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8900,7 +8440,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8917,7 +8456,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8930,14 +8468,13 @@
         </widgetDefinition>
         <widgetDefinition widgetCapacitiesRef="GpPolyline">
             <styleset id="1" name="FREE">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="OutlineStipple">
                         <value>0</value>
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8954,7 +8491,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>4</value>
-                        <!-- LW4 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8971,7 +8507,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>1</value>
-                        <!-- LW1 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -8988,7 +8523,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>1</value>
-                        <!-- LW1 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -9005,7 +8539,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -9022,7 +8555,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -9039,7 +8571,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -9052,14 +8583,13 @@
         </widgetDefinition>
         <widgetDefinition widgetCapacitiesRef="GpRectangle">
             <styleset id="1" name="FREE">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="OutlineStipple">
                         <value>0</value>
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -9079,7 +8609,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>4</value>
-                        <!-- LW4 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -9099,7 +8628,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>1</value>
-                        <!-- LW1 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -9119,7 +8647,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>1</value>
-                        <!-- LW1 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -9139,7 +8666,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -9159,7 +8685,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -9179,7 +8704,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -9199,7 +8723,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -9219,7 +8742,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -9235,14 +8757,13 @@
         </widgetDefinition>
         <widgetDefinition widgetCapacitiesRef="GpTriangle">
             <styleset id="1" name="FREE">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="OutlineStipple">
                         <value>0</value>
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -9262,7 +8783,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>4</value>
-                        <!-- LW4 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -9282,7 +8802,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>1</value>
-                        <!-- LW1 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -9302,7 +8821,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>1</value>
-                        <!-- LW1 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -9322,7 +8840,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -9342,7 +8859,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -9362,7 +8878,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -9382,7 +8897,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -9402,7 +8916,6 @@
                     </property>
                     <property attributeRef="OutlineWidth">
                         <value>0</value>
-                        <!-- LW0 -->
                     </property>
                     <property attributeRef="HaloColor">
                         <valueRef>C_BLACK</valueRef>
@@ -9418,7 +8931,7 @@
         </widgetDefinition>
         <widgetDefinition widgetCapacitiesRef="Label">
             <styleset id="1" name="FREE">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="BoundingRotate">
                         <valueRef>False</valueRef>
@@ -9709,7 +9222,7 @@
         </widgetDefinition>
         <widgetDefinition widgetCapacitiesRef="LabelComplex">
             <styleset id="50" name="F2_WH">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="BoundingClipped">
                         <valueRef>True</valueRef>
@@ -9850,1511 +9363,6 @@
                 </properties>
             </styleset>
         </widgetDefinition>
-        <widgetDefinition widgetCapacitiesRef="MapHorz_ItemList">
-            <styleset id="1" name="YL_1">
-                <properties>
-                    <property attributeRef="Halo">
-                        <value>1</value>
-                    </property>
-                    <property attributeRef="Alignment">
-                        <value>0</value>
-                    </property>
-                    <property attributeRef="CoordinatesDisplay">
-                        <valueRef>MHZ_NONE</valueRef>
-                    </property>
-                </properties>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="Normal"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>41</value>
-                            <!-- YELLOW -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="Highlight"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>41</value>
-                            <!-- YELLOW -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="PopUp"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>41</value>
-                            <!-- YELLOW -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-            </styleset>
-            <styleset id="2" name="AM_4">
-                <properties>
-                    <property attributeRef="Halo">
-                        <value>2</value>
-                    </property>
-                    <property attributeRef="Alignment">
-                        <value>0</value>
-                    </property>
-                    <property attributeRef="CoordinatesDisplay">
-                        <valueRef>MHZ_NONE</valueRef>
-                    </property>
-                </properties>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="Normal"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>31</value>
-                            <!-- AMBER -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>4</value>
-                            <!-- LW4 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="Highlight"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>31</value>
-                            <!-- AMBER -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>4</value>
-                            <!-- LW4 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>1</value>
-                            <!-- F2 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="PopUp"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>31</value>
-                            <!-- AMBER -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>4</value>
-                            <!-- LW4 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>2</value>
-                            <!-- F3 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-            </styleset>
-            <styleset id="3" name="WH_1">
-                <properties>
-                    <property attributeRef="Halo">
-                        <value>0</value>
-                    </property>
-                    <property attributeRef="Alignment">
-                        <value>0</value>
-                    </property>
-                    <property attributeRef="CoordinatesDisplay">
-                        <valueRef>MHZ_NONE</valueRef>
-                    </property>
-                </properties>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="Normal"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>1</value>
-                            <!-- WHITE -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="Highlight"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>1</value>
-                            <!-- WHITE -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="PopUp"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>1</value>
-                            <!-- WHITE -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-            </styleset>
-            <styleset id="4" name="WH_1_2">
-                <properties>
-                    <property attributeRef="Halo">
-                        <value>1</value>
-                    </property>
-                    <property attributeRef="Alignment">
-                        <value>0</value>
-                    </property>
-                    <property attributeRef="CoordinatesDisplay">
-                        <valueRef>MHZ_NONE</valueRef>
-                    </property>
-                </properties>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="Normal"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>1</value>
-                            <!-- WHITE -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>2</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="Highlight"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>1</value>
-                            <!-- WHITE -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>2</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="PopUp"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>1</value>
-                            <!-- WHITE -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>2</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-            </styleset>
-            <styleset id="5" name="WH_1_1">
-                <properties>
-                    <property attributeRef="Halo">
-                        <value>1</value>
-                    </property>
-                    <property attributeRef="Alignment">
-                        <value>0</value>
-                    </property>
-                    <property attributeRef="CoordinatesDisplay">
-                        <valueRef>MHZ_NONE</valueRef>
-                    </property>
-                </properties>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="Normal"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>1</value>
-                            <!-- WHITE -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>1</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="Highlight"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>1</value>
-                            <!-- WHITE -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>1</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="PopUp"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>1</value>
-                            <!-- WHITE -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>1</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-            </styleset>
-            <styleset id="6" name="DR_2">
-                <properties>
-                    <property attributeRef="Halo">
-                        <value>2</value>
-                    </property>
-                    <property attributeRef="Alignment">
-                        <value>0</value>
-                    </property>
-                    <property attributeRef="CoordinatesDisplay">
-                        <valueRef>MHZ_NONE</valueRef>
-                    </property>
-                </properties>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="Normal"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>26</value>
-                            <!-- DARKER RED -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>2</value>
-                            <!-- LW2 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>1</value>
-                            <!-- F2 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="Highlight"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>26</value>
-                            <!-- DARKER RED -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>2</value>
-                            <!-- LW2 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>1</value>
-                            <!-- F2 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="PopUp"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>26</value>
-                            <!-- DARKER RED -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>2</value>
-                            <!-- LW2 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>1</value>
-                            <!-- F2 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-            </styleset>
-            <styleset id="7" name="LineToCursor_1">
-                <properties>
-                    <property attributeRef="Halo">
-                        <value>1</value>
-                    </property>
-                    <property attributeRef="Alignment">
-                        <value>0</value>
-                    </property>
-                    <property attributeRef="CoordinatesDisplay">
-                        <valueRef>MHZ_DIST_HDG_FROM_LINE_BEGIN</valueRef>
-                    </property>
-                </properties>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="Normal"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>1</value>
-                            <!-- WHITE -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="Highlight"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>1</value>
-                            <!-- WHITE -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="PopUp"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>1</value>
-                            <!-- WHITE -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-            </styleset>
-            <styleset id="8" name="LineToCursor_2">
-                <properties>
-                    <property attributeRef="Halo">
-                        <value>1</value>
-                    </property>
-                    <property attributeRef="Alignment">
-                        <value>0</value>
-                    </property>
-                    <property attributeRef="CoordinatesDisplay">
-                        <valueRef>MHZ_DIST_HDG_FROM_AIRCRAFT</valueRef>
-                    </property>
-                </properties>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="Normal"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>1</value>
-                            <!-- WHITE -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="Highlight"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>1</value>
-                            <!-- WHITE -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="PopUp"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>1</value>
-                            <!-- WHITE -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-            </styleset>
-            <styleset id="9" name="LineToCursor_3">
-                <properties>
-                    <property attributeRef="Halo">
-                        <value>1</value>
-                    </property>
-                    <property attributeRef="Alignment">
-                        <value>0</value>
-                    </property>
-                    <property attributeRef="CoordinatesDisplay">
-                        <valueRef>MHZ_DIST_DIST_FROM_LINE_BEGIN</valueRef>
-                    </property>
-                </properties>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="Normal"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>1</value>
-                            <!-- WHITE -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="Highlight"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>1</value>
-                            <!-- WHITE -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="PopUp"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>1</value>
-                            <!-- WHITE -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-            </styleset>
-            <styleset id="10" name="LineToCursor_4">
-                <properties>
-                    <property attributeRef="Halo">
-                        <value>1</value>
-                    </property>
-                    <property attributeRef="Alignment">
-                        <value>0</value>
-                    </property>
-                    <property attributeRef="CoordinatesDisplay">
-                        <valueRef>MHZ_LAT_LON</valueRef>
-                    </property>
-                </properties>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="Normal"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>1</value>
-                            <!-- WHITE -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="Highlight"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>1</value>
-                            <!-- WHITE -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="PopUp"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>1</value>
-                            <!-- WHITE -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-            </styleset>
-        </widgetDefinition>
-        <widgetDefinition widgetCapacitiesRef="MapVert_ItemList">
-            <styleset id="1" name="YL_1">
-                <properties>
-                    <property attributeRef="Halo">
-                        <value>1</value>
-                    </property>
-                    <property attributeRef="Alignment">
-                        <value>0</value>
-                    </property>
-                    <property attributeRef="CoordinatesDisplay">
-                        <valueRef>MVT_NONE</valueRef>
-                    </property>
-                </properties>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="Normal"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>41</value>
-                            <!-- YELLOW -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="Highlight"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>41</value>
-                            <!-- YELLOW -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="PopUp"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>41</value>
-                            <!-- YELLOW -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-            </styleset>
-            <styleset id="2" name="AM_4">
-                <properties>
-                    <property attributeRef="Halo">
-                        <value>2</value>
-                    </property>
-                    <property attributeRef="Alignment">
-                        <value>0</value>
-                    </property>
-                    <property attributeRef="CoordinatesDisplay">
-                        <valueRef>MVT_NONE</valueRef>
-                    </property>
-                </properties>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="Normal"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>31</value>
-                            <!-- AMBER -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>4</value>
-                            <!-- LW4 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="Highlight"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>31</value>
-                            <!-- AMBER -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>4</value>
-                            <!-- LW4 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>1</value>
-                            <!-- F2 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="PopUp"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>31</value>
-                            <!-- AMBER -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>4</value>
-                            <!-- LW4 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>2</value>
-                            <!-- F3 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-            </styleset>
-            <styleset id="3" name="WH_1">
-                <properties>
-                    <property attributeRef="Halo">
-                        <value>0</value>
-                    </property>
-                    <property attributeRef="Alignment">
-                        <value>0</value>
-                    </property>
-                    <property attributeRef="CoordinatesDisplay">
-                        <valueRef>MVT_NONE</valueRef>
-                    </property>
-                </properties>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="Normal"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>1</value>
-                            <!-- WHITE -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="Highlight"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>1</value>
-                            <!-- WHITE -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="PopUp"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>1</value>
-                            <!-- WHITE -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-            </styleset>
-            <styleset id="4" name="WH_1_2">
-                <properties>
-                    <property attributeRef="Halo">
-                        <value>1</value>
-                    </property>
-                    <property attributeRef="Alignment">
-                        <value>0</value>
-                    </property>
-                    <property attributeRef="CoordinatesDisplay">
-                        <valueRef>MVT_NONE</valueRef>
-                    </property>
-                </properties>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="Normal"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>1</value>
-                            <!-- WHITE -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>2</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="Highlight"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>1</value>
-                            <!-- WHITE -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>2</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="PopUp"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>1</value>
-                            <!-- WHITE -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>2</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-            </styleset>
-            <styleset id="5" name="WH_1_1">
-                <properties>
-                    <property attributeRef="Halo">
-                        <value>1</value>
-                    </property>
-                    <property attributeRef="Alignment">
-                        <value>0</value>
-                    </property>
-                    <property attributeRef="CoordinatesDisplay">
-                        <valueRef>MVT_NONE</valueRef>
-                    </property>
-                </properties>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="Normal"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>1</value>
-                            <!-- WHITE -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>1</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="Highlight"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>1</value>
-                            <!-- WHITE -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>1</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="PopUp"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>1</value>
-                            <!-- WHITE -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>1</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-            </styleset>
-            <styleset id="6" name="DR_2">
-                <properties>
-                    <property attributeRef="Halo">
-                        <value>2</value>
-                    </property>
-                    <property attributeRef="Alignment">
-                        <value>0</value>
-                    </property>
-                    <property attributeRef="CoordinatesDisplay">
-                        <valueRef>MVT_NONE</valueRef>
-                    </property>
-                </properties>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="Normal"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>26</value>
-                            <!-- DARKER RED -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>2</value>
-                            <!-- LW2 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>1</value>
-                            <!-- F2 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="Highlight"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>26</value>
-                            <!-- DARKER RED -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>2</value>
-                            <!-- LW2 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>1</value>
-                            <!-- F2 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="PopUp"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>26</value>
-                            <!-- DARKER RED -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>2</value>
-                            <!-- LW2 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>1</value>
-                            <!-- F2 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-            </styleset>
-            <styleset id="7" name="LineToCursor_1">
-                <properties>
-                    <property attributeRef="Halo">
-                        <value>1</value>
-                    </property>
-                    <property attributeRef="Alignment">
-                        <value>0</value>
-                    </property>
-                    <property attributeRef="CoordinatesDisplay">
-                        <valueRef>MVT_DIST_ALT_DIFF_FROM_LINE_BEGIN</valueRef>
-                    </property>
-                </properties>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="Normal"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>1</value>
-                            <!-- WHITE -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="Highlight"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>1</value>
-                            <!-- WHITE -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="PopUp"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>1</value>
-                            <!-- WHITE -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-            </styleset>
-            <styleset id="8" name="LineToCursor_2">
-                <properties>
-                    <property attributeRef="Halo">
-                        <value>1</value>
-                    </property>
-                    <property attributeRef="Alignment">
-                        <value>0</value>
-                    </property>
-                    <property attributeRef="CoordinatesDisplay">
-                        <valueRef>MVT_DIST_ABSOLUTE_ALT_FROM_LINE_BEGIN</valueRef>
-                    </property>
-                </properties>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="Normal"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>1</value>
-                            <!-- WHITE -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="Highlight"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>1</value>
-                            <!-- WHITE -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="PopUp"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>1</value>
-                            <!-- WHITE -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-            </styleset>
-            <styleset id="9" name="LineToCursor_3">
-                <properties>
-                    <property attributeRef="Halo">
-                        <value>1</value>
-                    </property>
-                    <property attributeRef="Alignment">
-                        <value>0</value>
-                    </property>
-                    <property attributeRef="CoordinatesDisplay">
-                        <valueRef>MVT_DIST_ABSOLUTE_ALT_FROM_REFERENCE</valueRef>
-                    </property>
-                </properties>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="Normal"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>1</value>
-                            <!-- WHITE -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="Highlight"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>1</value>
-                            <!-- WHITE -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="PopUp"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="ColorIndex">
-                            <value>1</value>
-                            <!-- WHITE -->
-                        </property>
-                        <property attributeRef="LineWidth">
-                            <value>1</value>
-                            <!-- LW1 -->
-                        </property>
-                        <property attributeRef="LineStipple">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="Font">
-                            <value>0</value>
-                            <!-- F1 -->
-                        </property>
-                    </properties>
-                </stateDefinition>
-            </styleset>
-        </widgetDefinition>
         <widgetDefinition widgetCapacitiesRef="MapHorz_Panel">
             <styleset id="0" name="BLANK">
                 <properties>
@@ -11378,7 +9386,7 @@
                 </properties>
             </styleset>
             <styleset id="100" name="RCT">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="Frame">
                         <valueRef>RCT_UNSEL</valueRef>
@@ -11393,1436 +9401,9 @@
                 </properties>
             </styleset>
         </widgetDefinition>
-        <widgetDefinition widgetCapacitiesRef="MultiStateButton">
-            <styleset id="110" name="RCT_F2_WH">
-                <scade:default/>
-                <properties>
-                    <property attributeRef="Border">
-                        <value>100</value>
-                    </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
-                </properties>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_UNSEL</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F2_WH</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>0</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_UNSEL_DIS</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F2_GR_DIS</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>0</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_SEL_DIS</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F2_GR_DIS</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>20</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>-20</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_SEL</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F2_WH</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>20</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>-20</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-            </styleset>
-            <styleset id="111" name="RCT_F2_CY">
-                <properties>
-                    <property attributeRef="Border">
-                        <value>100</value>
-                    </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
-                </properties>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_UNSEL</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F2_CY</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>0</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_UNSEL_DIS</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F2_GR_DIS</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>0</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_SEL_DIS</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F2_GR_DIS</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>20</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>-20</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_SEL</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F2_CY</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>20</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>-20</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-            </styleset>
-            <styleset id="112" name="RCT_F2_GN">
-                <properties>
-                    <property attributeRef="Border">
-                        <value>100</value>
-                    </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
-                </properties>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_UNSEL</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F2_GN</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>0</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_UNSEL_DIS</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F2_GR_DIS</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>0</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_SEL_DIS</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F2_GR_DIS</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>20</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>-20</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_SEL</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F2_GN</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>20</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>-20</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-            </styleset>
-            <styleset id="113" name="RCT_F2_YL">
-                <properties>
-                    <property attributeRef="Border">
-                        <value>100</value>
-                    </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
-                </properties>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_UNSEL</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F2_YL</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>0</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_UNSEL_DIS</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F2_GR_DIS</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>0</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_SEL_DIS</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F2_GR_DIS</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>20</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>-20</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_SEL</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F2_YL</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>20</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>-20</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-            </styleset>
-            <styleset id="114" name="RCT_F2_AM">
-                <properties>
-                    <property attributeRef="Border">
-                        <value>100</value>
-                    </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
-                </properties>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_UNSEL</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F2_AM</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>0</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_UNSEL_DIS</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F2_GR_DIS</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>0</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_SEL_DIS</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F2_GR_DIS</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>20</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>-20</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_SEL</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F2_AM</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>20</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>-20</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-            </styleset>
-            <styleset id="115" name="RCT_F2_RD">
-                <properties>
-                    <property attributeRef="Border">
-                        <value>100</value>
-                    </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
-                </properties>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_UNSEL</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F2_RD</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>0</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_UNSEL_DIS</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F2_GR_DIS</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>0</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_SEL_DIS</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F2_GR_DIS</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>20</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>-20</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_SEL</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F2_RD</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>20</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>-20</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-            </styleset>
-            <styleset id="130" name="RCT_F3_WH">
-                <properties>
-                    <property attributeRef="Border">
-                        <value>100</value>
-                    </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
-                </properties>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_UNSEL</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F3_WH</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>0</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_UNSEL_DIS</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F3_GR_DIS</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>0</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_SEL_DIS</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F3_GR_DIS</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>20</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>-20</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_SEL</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F3_WH</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>20</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>-20</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-            </styleset>
-            <styleset id="131" name="RCT_F3_CY">
-                <properties>
-                    <property attributeRef="Border">
-                        <value>100</value>
-                    </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
-                </properties>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_UNSEL</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F3_CY</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>0</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_UNSEL_DIS</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F3_GR_DIS</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>0</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_SEL_DIS</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F3_GR_DIS</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>20</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>-20</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_SEL</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F3_CY</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>20</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>-20</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-            </styleset>
-            <styleset id="132" name="RCT_F3_GN">
-                <properties>
-                    <property attributeRef="Border">
-                        <value>100</value>
-                    </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
-                </properties>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_UNSEL</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F3_GN</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>0</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_UNSEL_DIS</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F3_GR_DIS</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>0</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_SEL_DIS</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F3_GR_DIS</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>20</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>-20</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_SEL</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F3_GN</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>20</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>-20</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-            </styleset>
-            <styleset id="133" name="RCT_F3_YL">
-                <properties>
-                    <property attributeRef="Border">
-                        <value>100</value>
-                    </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
-                </properties>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_UNSEL</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F3_YL</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>0</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_UNSEL_DIS</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F3_GR_DIS</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>0</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_SEL_DIS</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F3_GR_DIS</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>20</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>-20</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_SEL</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F3_YL</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>20</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>-20</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-            </styleset>
-            <styleset id="134" name="RCT_F3_AM">
-                <properties>
-                    <property attributeRef="Border">
-                        <value>100</value>
-                    </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
-                </properties>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_UNSEL</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F3_AM</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>0</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_UNSEL_DIS</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F3_GR_DIS</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>0</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_SEL_DIS</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F3_GR_DIS</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>20</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>-20</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_SEL</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F3_AM</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>20</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>-20</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-            </styleset>
-            <styleset id="135" name="RCT_F3_RD">
-                <properties>
-                    <property attributeRef="Border">
-                        <value>100</value>
-                    </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
-                </properties>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_UNSEL</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F3_RD</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>0</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_UNSEL_DIS</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F3_GR_DIS</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>0</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_SEL_DIS</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F3_GR_DIS</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>20</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>-20</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RCT_SEL</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F3_RD</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>20</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>-20</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-            </styleset>
-            <styleset id="210" name="RND_F2_BK">
-                <properties>
-                    <property attributeRef="Border">
-                        <value>100</value>
-                    </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
-                </properties>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RND_UNSEL</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F2_BK_UNSAT</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>0</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RND_UNSEL_DIS</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F2_BK_UNSAT</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>0</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RND_SEL_DIS</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F2_BK_UNSAT</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>20</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>-20</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RND_SEL</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F2_BK_UNSAT</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>20</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>-20</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-            </styleset>
-            <styleset id="211" name="RND_F2_CY">
-                <properties>
-                    <property attributeRef="Border">
-                        <value>100</value>
-                    </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
-                </properties>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RND_UNSEL</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F2_CY_UNSAT</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>0</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RND_UNSEL_DIS</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F2_BK_UNSAT</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>0</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RND_SEL_DIS</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F2_BK_UNSAT</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>20</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>-20</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RND_SEL</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F2_CY_UNSAT</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>20</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>-20</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-            </styleset>
-            <styleset id="230" name="RND_F3_BK">
-                <properties>
-                    <property attributeRef="Border">
-                        <value>100</value>
-                    </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
-                </properties>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RND_UNSEL</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F3_BK_UNSAT</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>0</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RND_UNSEL_DIS</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F3_BK_UNSAT</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>0</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RND_SEL_DIS</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F3_BK_UNSAT</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>20</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>-20</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RND_SEL</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F3_BK_UNSAT</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>20</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>-20</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-            </styleset>
-            <styleset id="231" name="RND_F3_CY">
-                <properties>
-                    <property attributeRef="Border">
-                        <value>100</value>
-                    </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
-                </properties>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RND_UNSEL</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F3_CY_UNSAT</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>0</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RND_UNSEL_DIS</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F3_BK_UNSAT</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>0</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>0</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RND_SEL_DIS</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F3_BK_UNSAT</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>20</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>-20</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-                <stateDefinition>
-                    <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
-                    </statesList>
-                    <properties>
-                        <property attributeRef="Frame">
-                            <valueRef>RND_SEL</valueRef>
-                        </property>
-                        <property attributeRef="Text">
-                            <valueRef>F3_CY_UNSAT</valueRef>
-                        </property>
-                        <property attributeRef="TextOffsetX">
-                            <value>20</value>
-                        </property>
-                        <property attributeRef="TextOffsetY">
-                            <value>-20</value>
-                        </property>
-                    </properties>
-                </stateDefinition>
-            </styleset>
-        </widgetDefinition>
         <widgetDefinition widgetCapacitiesRef="NumericReadout">
             <styleset id="50" name="F2_WH">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="BoundingRotate">
                         <valueRef>False</valueRef>
@@ -13145,7 +9726,7 @@
                 </properties>
             </styleset>
             <styleset id="100" name="RCT">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="Frame">
                         <valueRef>RCT_UNSEL</valueRef>
@@ -13233,7 +9814,7 @@
                 </properties>
             </styleset>
             <styleset id="100" name="RCT">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="Frame">
                         <valueRef>RCT_UNSEL</valueRef>
@@ -13250,13 +9831,10 @@
         </widgetDefinition>
         <widgetDefinition widgetCapacitiesRef="Picture">
             <styleset id="0" name="BLANK">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="Frame">
                         <valueRef>NO_FRAME</valueRef>
-                    </property>
-                    <property attributeRef="Clipping">
-                        <valueRef>NO_CLIPPING</valueRef>
                     </property>
                 </properties>
             </styleset>
@@ -13265,61 +9843,22 @@
                     <property attributeRef="Frame">
                         <valueRef>BORDER_WH</valueRef>
                     </property>
-                    <property attributeRef="Clipping">
-                        <valueRef>CLIPPING_NO_ROTATION</valueRef>
-                    </property>
                 </properties>
             </styleset>
             <styleset id="21" name="BORDER_GR">
                 <properties>
                     <property attributeRef="Frame">
                         <valueRef>BORDER_GR</valueRef>
-                    </property>
-                    <property attributeRef="Clipping">
-                        <valueRef>CLIPPING_NO_ROTATION</valueRef>
-                    </property>
-                </properties>
-            </styleset>
-            <styleset id="30" name="NO_BORDER_NO_CLIPPING">
-                <properties>
-                    <property attributeRef="Frame">
-                        <valueRef>NO_FRAME</valueRef>
-                    </property>
-                    <property attributeRef="Clipping">
-                        <valueRef>NO_CLIPPING</valueRef>
-                    </property>
-                </properties>
-            </styleset>
-            <styleset id="31" name="NO_BORDER_CLIPPING_ROTATE">
-                <properties>
-                    <property attributeRef="Frame">
-                        <valueRef>NO_FRAME</valueRef>
-                    </property>
-                    <property attributeRef="Clipping">
-                        <valueRef>CLIPPING_WITH_ROTATION</valueRef>
-                    </property>
-                </properties>
-            </styleset>
-            <styleset id="32" name="NO_BORDER_CLIPPING_NO_ROTATE">
-                <properties>
-                    <property attributeRef="Frame">
-                        <valueRef>NO_FRAME</valueRef>
-                    </property>
-                    <property attributeRef="Clipping">
-                        <valueRef>CLIPPING_NO_ROTATION</valueRef>
                     </property>
                 </properties>
             </styleset>
         </widgetDefinition>
         <widgetDefinition widgetCapacitiesRef="PictureAnimated">
             <styleset id="0" name="BLANK">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="Frame">
                         <valueRef>NO_FRAME</valueRef>
-                    </property>
-                    <property attributeRef="Clipping">
-                        <valueRef>NO_CLIPPING</valueRef>
                     </property>
                 </properties>
             </styleset>
@@ -13328,9 +9867,6 @@
                     <property attributeRef="Frame">
                         <valueRef>BORDER_WH</valueRef>
                     </property>
-                    <property attributeRef="Clipping">
-                        <valueRef>CLIPPING_NO_ROTATION</valueRef>
-                    </property>
                 </properties>
             </styleset>
             <styleset id="21" name="BORDER_GR">
@@ -13338,56 +9874,26 @@
                     <property attributeRef="Frame">
                         <valueRef>BORDER_GR</valueRef>
                     </property>
-                    <property attributeRef="Clipping">
-                        <valueRef>CLIPPING_NO_ROTATION</valueRef>
-                    </property>
-                </properties>
-            </styleset>
-            <styleset id="30" name="NO_BORDER_NO_CLIPPING">
-                <properties>
-                    <property attributeRef="Frame">
-                        <valueRef>NO_FRAME</valueRef>
-                    </property>
-                    <property attributeRef="Clipping">
-                        <valueRef>NO_CLIPPING</valueRef>
-                    </property>
-                </properties>
-            </styleset>
-            <styleset id="31" name="NO_BORDER_CLIPPING_ROTATE">
-                <properties>
-                    <property attributeRef="Frame">
-                        <valueRef>NO_FRAME</valueRef>
-                    </property>
-                    <property attributeRef="Clipping">
-                        <valueRef>CLIPPING_WITH_ROTATION</valueRef>
-                    </property>
-                </properties>
-            </styleset>
-            <styleset id="32" name="NO_BORDER_CLIPPING_NO_ROTATE">
-                <properties>
-                    <property attributeRef="Frame">
-                        <valueRef>NO_FRAME</valueRef>
-                    </property>
-                    <property attributeRef="Clipping">
-                        <valueRef>CLIPPING_NO_ROTATION</valueRef>
-                    </property>
                 </properties>
             </styleset>
         </widgetDefinition>
         <widgetDefinition widgetCapacitiesRef="PicturePushButton">
             <styleset id="110" name="RCT_F2_WH">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="PictureSizeLink">
+                        <value>2</value>
+                    </property>
+                    <property attributeRef="PictureSizePercent">
+                        <value>1</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -13406,7 +9912,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -13425,7 +9931,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -13444,7 +9950,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -13467,13 +9973,16 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="PictureSizeLink">
+                        <value>2</value>
+                    </property>
+                    <property attributeRef="PictureSizePercent">
+                        <value>1</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -13492,7 +10001,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -13511,7 +10020,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -13530,7 +10039,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -13553,13 +10062,16 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="PictureSizeLink">
+                        <value>2</value>
+                    </property>
+                    <property attributeRef="PictureSizePercent">
+                        <value>1</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -13578,7 +10090,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -13597,7 +10109,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -13616,7 +10128,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -13639,13 +10151,16 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="PictureSizeLink">
+                        <value>2</value>
+                    </property>
+                    <property attributeRef="PictureSizePercent">
+                        <value>1</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -13664,7 +10179,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -13683,7 +10198,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -13702,7 +10217,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -13725,13 +10240,16 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="PictureSizeLink">
+                        <value>2</value>
+                    </property>
+                    <property attributeRef="PictureSizePercent">
+                        <value>1</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -13750,7 +10268,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -13769,7 +10287,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -13788,7 +10306,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -13811,13 +10329,16 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="PictureSizeLink">
+                        <value>2</value>
+                    </property>
+                    <property attributeRef="PictureSizePercent">
+                        <value>1</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -13836,7 +10357,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -13855,7 +10376,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -13874,7 +10395,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -13897,13 +10418,16 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureLayout">
-                        <valueRef>SAME_SIZE_50P</valueRef>
+                    <property attributeRef="PictureSizeLink">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="PictureSizePercent">
+                        <value>0.5</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -13922,7 +10446,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -13941,7 +10465,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -13960,7 +10484,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -13983,13 +10507,16 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="PictureSizeLink">
+                        <value>2</value>
+                    </property>
+                    <property attributeRef="PictureSizePercent">
+                        <value>1</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14008,7 +10535,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14027,7 +10554,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14046,7 +10573,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14069,13 +10596,16 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="PictureSizeLink">
+                        <value>2</value>
+                    </property>
+                    <property attributeRef="PictureSizePercent">
+                        <value>1</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14094,7 +10624,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14113,7 +10643,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14132,7 +10662,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14155,13 +10685,16 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="PictureSizeLink">
+                        <value>2</value>
+                    </property>
+                    <property attributeRef="PictureSizePercent">
+                        <value>1</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14180,7 +10713,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14199,7 +10732,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14218,7 +10751,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14241,13 +10774,16 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="PictureSizeLink">
+                        <value>2</value>
+                    </property>
+                    <property attributeRef="PictureSizePercent">
+                        <value>1</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14266,7 +10802,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14285,7 +10821,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14304,7 +10840,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14327,13 +10863,16 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="PictureSizeLink">
+                        <value>2</value>
+                    </property>
+                    <property attributeRef="PictureSizePercent">
+                        <value>1</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14352,7 +10891,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14371,7 +10910,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14390,7 +10929,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14413,13 +10952,16 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="PictureSizeLink">
+                        <value>2</value>
+                    </property>
+                    <property attributeRef="PictureSizePercent">
+                        <value>1</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14438,7 +10980,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14457,7 +10999,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14476,7 +11018,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14499,13 +11041,16 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="PictureSizeLink">
+                        <value>2</value>
+                    </property>
+                    <property attributeRef="PictureSizePercent">
+                        <value>1</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14524,7 +11069,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14543,7 +11088,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14562,7 +11107,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14585,13 +11130,16 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="PictureSizeLink">
+                        <value>2</value>
+                    </property>
+                    <property attributeRef="PictureSizePercent">
+                        <value>1</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14610,7 +11158,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14629,7 +11177,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14648,7 +11196,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14671,13 +11219,16 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureLayout">
-                        <valueRef>SAME_SIZE_50P</valueRef>
+                    <property attributeRef="PictureSizeLink">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="PictureSizePercent">
+                        <value>0.5</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14696,7 +11247,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14715,7 +11266,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14734,7 +11285,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14757,13 +11308,16 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="PictureSizeLink">
+                        <value>2</value>
+                    </property>
+                    <property attributeRef="PictureSizePercent">
+                        <value>1</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14782,7 +11336,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14801,7 +11355,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14820,7 +11374,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14843,13 +11397,16 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="PictureSizeLink">
+                        <value>2</value>
+                    </property>
+                    <property attributeRef="PictureSizePercent">
+                        <value>1</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14868,7 +11425,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14887,7 +11444,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14906,7 +11463,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14927,18 +11484,21 @@
         </widgetDefinition>
         <widgetDefinition widgetCapacitiesRef="PictureToggleButton">
             <styleset id="110" name="RCT_F2_WH">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="PictureSizeLink">
+                        <value>2</value>
+                    </property>
+                    <property attributeRef="PictureSizePercent">
+                        <value>1</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14957,7 +11517,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14976,7 +11536,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -14995,7 +11555,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15014,7 +11574,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15033,7 +11593,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15056,13 +11616,16 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="PictureSizeLink">
+                        <value>2</value>
+                    </property>
+                    <property attributeRef="PictureSizePercent">
+                        <value>1</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15081,7 +11644,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15100,7 +11663,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15119,7 +11682,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15138,7 +11701,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15157,7 +11720,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15180,13 +11743,16 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="PictureSizeLink">
+                        <value>2</value>
+                    </property>
+                    <property attributeRef="PictureSizePercent">
+                        <value>1</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15205,7 +11771,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15224,7 +11790,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15243,7 +11809,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15262,7 +11828,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15281,7 +11847,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15304,13 +11870,16 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="PictureSizeLink">
+                        <value>2</value>
+                    </property>
+                    <property attributeRef="PictureSizePercent">
+                        <value>1</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15329,7 +11898,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15348,7 +11917,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15367,7 +11936,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15386,7 +11955,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15405,7 +11974,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15428,13 +11997,16 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="PictureSizeLink">
+                        <value>2</value>
+                    </property>
+                    <property attributeRef="PictureSizePercent">
+                        <value>1</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15453,7 +12025,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15472,7 +12044,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15491,7 +12063,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15510,7 +12082,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15529,7 +12101,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15552,13 +12124,16 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="PictureSizeLink">
+                        <value>2</value>
+                    </property>
+                    <property attributeRef="PictureSizePercent">
+                        <value>1</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15577,7 +12152,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15596,7 +12171,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15615,7 +12190,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15634,7 +12209,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15653,7 +12228,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15676,13 +12251,16 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureLayout">
-                        <valueRef>SAME_SIZE_50P</valueRef>
+                    <property attributeRef="PictureSizeLink">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="PictureSizePercent">
+                        <value>0.5</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15701,7 +12279,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15720,7 +12298,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15739,7 +12317,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15758,7 +12336,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15777,7 +12355,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15800,13 +12378,16 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="PictureSizeLink">
+                        <value>2</value>
+                    </property>
+                    <property attributeRef="PictureSizePercent">
+                        <value>1</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15825,7 +12406,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15844,7 +12425,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15863,7 +12444,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15882,7 +12463,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15901,7 +12482,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15924,13 +12505,16 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="PictureSizeLink">
+                        <value>2</value>
+                    </property>
+                    <property attributeRef="PictureSizePercent">
+                        <value>1</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15949,7 +12533,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15968,7 +12552,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -15987,7 +12571,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16006,7 +12590,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16025,7 +12609,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16048,13 +12632,16 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="PictureSizeLink">
+                        <value>2</value>
+                    </property>
+                    <property attributeRef="PictureSizePercent">
+                        <value>1</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16073,7 +12660,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16092,7 +12679,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16111,7 +12698,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16130,7 +12717,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16149,7 +12736,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16172,13 +12759,16 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="PictureSizeLink">
+                        <value>2</value>
+                    </property>
+                    <property attributeRef="PictureSizePercent">
+                        <value>1</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16197,7 +12787,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16216,7 +12806,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16235,7 +12825,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16254,7 +12844,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16273,7 +12863,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16296,13 +12886,16 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="PictureSizeLink">
+                        <value>2</value>
+                    </property>
+                    <property attributeRef="PictureSizePercent">
+                        <value>1</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16321,7 +12914,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16340,7 +12933,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16359,7 +12952,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16378,7 +12971,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16397,7 +12990,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16420,13 +13013,16 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="PictureSizeLink">
+                        <value>2</value>
+                    </property>
+                    <property attributeRef="PictureSizePercent">
+                        <value>1</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16445,7 +13041,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16464,7 +13060,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16483,7 +13079,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16502,7 +13098,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16521,7 +13117,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16544,13 +13140,16 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="PictureSizeLink">
+                        <value>2</value>
+                    </property>
+                    <property attributeRef="PictureSizePercent">
+                        <value>1</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16569,7 +13168,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16588,7 +13187,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16607,7 +13206,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16626,7 +13225,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16645,7 +13244,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16668,13 +13267,16 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="PictureSizeLink">
+                        <value>2</value>
+                    </property>
+                    <property attributeRef="PictureSizePercent">
+                        <value>1</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16693,7 +13295,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16712,7 +13314,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16731,7 +13333,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16750,7 +13352,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16769,7 +13371,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16792,13 +13394,16 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureLayout">
-                        <valueRef>SAME_SIZE_50P</valueRef>
+                    <property attributeRef="PictureSizeLink">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="PictureSizePercent">
+                        <value>0.5</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16817,7 +13422,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16836,7 +13441,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16855,7 +13460,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16874,7 +13479,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16893,7 +13498,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16916,13 +13521,16 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="PictureSizeLink">
+                        <value>2</value>
+                    </property>
+                    <property attributeRef="PictureSizePercent">
+                        <value>1</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16941,7 +13549,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16960,7 +13568,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16979,7 +13587,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -16998,7 +13606,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -17017,7 +13625,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -17040,13 +13648,16 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="PictureSizeLink">
+                        <value>2</value>
+                    </property>
+                    <property attributeRef="PictureSizePercent">
+                        <value>1</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -17065,7 +13676,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -17084,7 +13695,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -17103,7 +13714,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -17122,7 +13733,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -17141,7 +13752,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -17162,7 +13773,7 @@
         </widgetDefinition>
         <widgetDefinition widgetCapacitiesRef="PopUpMenu">
             <styleset id="110" name="RCT_F2_WH">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="PopUpBorder">
                         <value>40</value>
@@ -17178,12 +13789,6 @@
                     </property>
                     <property attributeRef="PopUpSeparatorStyle">
                         <value>1</value>
-                    </property>
-                    <property attributeRef="PopUpPictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="PopUpSymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
                     </property>
                 </properties>
             </styleset>
@@ -17204,18 +13809,12 @@
                     <property attributeRef="PopUpSeparatorStyle">
                         <value>2</value>
                     </property>
-                    <property attributeRef="PopUpPictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="PopUpSymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
             </styleset>
         </widgetDefinition>
         <widgetDefinition widgetCapacitiesRef="PopUpMenuButton">
             <styleset id="110" name="RCT_F2_WH">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="Border">
                         <value>100</value>
@@ -17235,22 +13834,10 @@
                     <property attributeRef="PopUpSeparatorStyle">
                         <value>1</value>
                     </property>
-                    <property attributeRef="PopUpPictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="PopUpSymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -17269,7 +13856,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -17288,7 +13875,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -17326,22 +13913,10 @@
                     <property attributeRef="PopUpSeparatorStyle">
                         <value>1</value>
                     </property>
-                    <property attributeRef="PopUpPictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="PopUpSymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -17360,7 +13935,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -17379,7 +13954,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -17417,22 +13992,10 @@
                     <property attributeRef="PopUpSeparatorStyle">
                         <value>2</value>
                     </property>
-                    <property attributeRef="PopUpPictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="PopUpSymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -17451,7 +14014,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -17470,7 +14033,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -17508,22 +14071,10 @@
                     <property attributeRef="PopUpSeparatorStyle">
                         <value>2</value>
                     </property>
-                    <property attributeRef="PopUpPictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="PopUpSymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -17542,7 +14093,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -17561,7 +14112,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -17603,7 +14154,7 @@
                 </properties>
             </styleset>
             <styleset id="100" name="RCT">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="Frame">
                         <valueRef>RCT_UNSEL</valueRef>
@@ -17620,7 +14171,7 @@
         </widgetDefinition>
         <widgetDefinition widgetCapacitiesRef="PopUpPanelButton">
             <styleset id="110" name="RCT_F2_WH">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="Border">
                         <value>100</value>
@@ -17628,16 +14179,10 @@
                     <property attributeRef="PopUpFrame">
                         <valueRef>RCT_UNSEL</valueRef>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -17656,7 +14201,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -17675,7 +14220,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -17701,16 +14246,10 @@
                     <property attributeRef="PopUpFrame">
                         <valueRef>RCT_UNSEL</valueRef>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -17729,7 +14268,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -17748,7 +14287,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -17774,16 +14313,10 @@
                     <property attributeRef="PopUpFrame">
                         <valueRef>RND_UNSEL</valueRef>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -17802,7 +14335,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -17821,7 +14354,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -17847,16 +14380,10 @@
                     <property attributeRef="PopUpFrame">
                         <valueRef>RND_UNSEL</valueRef>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -17875,7 +14402,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -17894,7 +14421,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -17915,21 +14442,15 @@
         </widgetDefinition>
         <widgetDefinition widgetCapacitiesRef="PushButton">
             <styleset id="110" name="RCT_F2_WH">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -17948,7 +14469,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -17967,7 +14488,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -17986,7 +14507,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18009,16 +14530,10 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18037,7 +14552,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18056,7 +14571,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18075,7 +14590,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18098,16 +14613,10 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18126,7 +14635,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18145,7 +14654,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18164,7 +14673,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18187,16 +14696,10 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18215,7 +14718,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18234,7 +14737,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18253,7 +14756,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18276,16 +14779,10 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18304,7 +14801,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18323,7 +14820,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18342,7 +14839,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18365,16 +14862,10 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18393,7 +14884,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18412,7 +14903,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18431,7 +14922,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18454,16 +14945,10 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18482,7 +14967,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18501,7 +14986,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18520,7 +15005,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18543,16 +15028,10 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18571,7 +15050,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18590,7 +15069,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18609,7 +15088,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18632,16 +15111,10 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18660,7 +15133,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18679,7 +15152,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18698,7 +15171,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18721,16 +15194,10 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18749,7 +15216,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18768,7 +15235,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18787,7 +15254,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18810,16 +15277,10 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18838,7 +15299,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18857,7 +15318,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18876,7 +15337,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18899,16 +15360,10 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18927,7 +15382,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18946,7 +15401,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18965,7 +15420,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -18988,16 +15443,10 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -19016,7 +15465,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -19035,7 +15484,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -19054,7 +15503,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -19077,16 +15526,10 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -19105,7 +15548,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -19124,7 +15567,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -19143,7 +15586,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -19166,16 +15609,10 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -19194,7 +15631,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -19213,7 +15650,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -19232,7 +15669,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -19255,16 +15692,10 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -19283,7 +15714,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -19302,7 +15733,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -19321,7 +15752,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -19342,7 +15773,7 @@
         </widgetDefinition>
         <widgetDefinition widgetCapacitiesRef="ScrollList">
             <styleset id="110" name="RCT_F2_WH">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="Border">
                         <value>40</value>
@@ -19358,12 +15789,6 @@
                     </property>
                     <property attributeRef="DisableEntry">
                         <valueRef>F2_GR60_DIS</valueRef>
-                    </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
                     </property>
                 </properties>
             </styleset>
@@ -19384,12 +15809,6 @@
                     <property attributeRef="DisableEntry">
                         <valueRef>F2_GR40_DIS</valueRef>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
             </styleset>
         </widgetDefinition>
@@ -19405,7 +15824,7 @@
                 </properties>
             </styleset>
             <styleset id="110" name="RCT">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="OutlineColor">
                         <valueRef>C_50p_GREY</valueRef>
@@ -19418,7 +15837,7 @@
         </widgetDefinition>
         <widgetDefinition widgetCapacitiesRef="SelectionListButton">
             <styleset id="110" name="RCT_F2_WH">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="Border">
                         <value>100</value>
@@ -19435,22 +15854,10 @@
                     <property attributeRef="PopUpSelectedEntryColor">
                         <valueRef>C_WHITE</valueRef>
                     </property>
-                    <property attributeRef="PopUpPictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="PopUpSymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -19472,7 +15879,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -19494,7 +15901,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -19516,7 +15923,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -19554,22 +15961,10 @@
                     <property attributeRef="PopUpSelectedEntryColor">
                         <valueRef>C_WHITE</valueRef>
                     </property>
-                    <property attributeRef="PopUpPictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="PopUpSymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -19591,7 +15986,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -19613,7 +16008,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -19635,7 +16030,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -19673,22 +16068,10 @@
                     <property attributeRef="PopUpSelectedEntryColor">
                         <valueRef>C_30p_GREY</valueRef>
                     </property>
-                    <property attributeRef="PopUpPictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="PopUpSymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -19710,7 +16093,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -19732,7 +16115,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -19754,7 +16137,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -19792,22 +16175,10 @@
                     <property attributeRef="PopUpSelectedEntryColor">
                         <valueRef>C_30p_GREY</valueRef>
                     </property>
-                    <property attributeRef="PopUpPictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="PopUpSymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -19829,7 +16200,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -19851,7 +16222,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -19873,7 +16244,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -19897,7 +16268,7 @@
         </widgetDefinition>
         <widgetDefinition widgetCapacitiesRef="ShuffleToFitContainer">
             <styleset id="1" name="OPPOSITE_SIZE_POS_NOT_FITTED">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="FitOppositeSize">
                         <valueRef>False</valueRef>
@@ -19940,7 +16311,7 @@
         </widgetDefinition>
         <widgetDefinition widgetCapacitiesRef="SizeToFitContainer">
             <styleset id="1" name="OPPOSITE_SIZE_POS_NOT_FITTED">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="FitOppositeSize">
                         <valueRef>False</valueRef>
@@ -19983,7 +16354,7 @@
         </widgetDefinition>
         <widgetDefinition widgetCapacitiesRef="Slider">
             <styleset id="1" name="CLASSIC">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="Shape">
                         <value>1</value>
@@ -20000,7 +16371,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Enabled"/>
+                        <stateItem stateRef="Enabled" />
                     </statesList>
                     <properties>
                         <property attributeRef="OutlineColor">
@@ -20013,7 +16384,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Disabled"/>
+                        <stateItem stateRef="Disabled" />
                     </statesList>
                     <properties>
                         <property attributeRef="OutlineColor">
@@ -20026,7 +16397,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValid"/>
+                        <stateItem stateRef="WaitForValid" />
                     </statesList>
                     <properties>
                         <property attributeRef="OutlineColor">
@@ -20055,7 +16426,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Enabled"/>
+                        <stateItem stateRef="Enabled" />
                     </statesList>
                     <properties>
                         <property attributeRef="OutlineColor">
@@ -20068,7 +16439,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Disabled"/>
+                        <stateItem stateRef="Disabled" />
                     </statesList>
                     <properties>
                         <property attributeRef="OutlineColor">
@@ -20081,7 +16452,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValid"/>
+                        <stateItem stateRef="WaitForValid" />
                     </statesList>
                     <properties>
                         <property attributeRef="OutlineColor">
@@ -20110,7 +16481,7 @@
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Enabled"/>
+                        <stateItem stateRef="Enabled" />
                     </statesList>
                     <properties>
                         <property attributeRef="OutlineColor">
@@ -20123,7 +16494,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="Disabled"/>
+                        <stateItem stateRef="Disabled" />
                     </statesList>
                     <properties>
                         <property attributeRef="OutlineColor">
@@ -20136,7 +16507,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValid"/>
+                        <stateItem stateRef="WaitForValid" />
                     </statesList>
                     <properties>
                         <property attributeRef="OutlineColor">
@@ -20151,125 +16522,308 @@
         </widgetDefinition>
         <widgetDefinition widgetCapacitiesRef="Symbol">
             <styleset id="1" name="THIN">
-                <scade:default/>
+                <scade:default />
                 <properties>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>THIN</valueRef>
+                    <property attributeRef="ColorIndex">
+                        <value>UA_VALUE</value>
+                    </property>
+                    <property attributeRef="Halo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="LineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="LineWidth">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="Font">
+                        <value>0</value>
                     </property>
                 </properties>
             </styleset>
             <styleset id="2" name="BOLD">
                 <properties>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>BOLD</valueRef>
+                    <property attributeRef="ColorIndex">
+                        <value>UA_VALUE</value>
+                    </property>
+                    <property attributeRef="Halo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="LineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="LineWidth">
+                        <value>5</value>
+                    </property>
+                    <property attributeRef="Font">
+                        <value>0</value>
                     </property>
                 </properties>
             </styleset>
             <styleset id="3" name="DOTTED">
                 <properties>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>DOTTED</valueRef>
+                    <property attributeRef="ColorIndex">
+                        <value>UA_VALUE</value>
+                    </property>
+                    <property attributeRef="Halo">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="LineStipple">
+                        <value>3</value>
+                    </property>
+                    <property attributeRef="LineWidth">
+                        <value>3</value>
+                    </property>
+                    <property attributeRef="Font">
+                        <value>0</value>
                     </property>
                 </properties>
             </styleset>
             <styleset id="4" name="DASHED">
                 <properties>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>DASHED</valueRef>
+                    <property attributeRef="ColorIndex">
+                        <value>UA_VALUE</value>
+                    </property>
+                    <property attributeRef="Halo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="LineStipple">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="LineWidth">
+                        <value>2</value>
+                    </property>
+                    <property attributeRef="Font">
+                        <value>0</value>
                     </property>
                 </properties>
             </styleset>
             <styleset id="20" name="COLOR_WH">
                 <properties>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
+                    <property attributeRef="ColorIndex">
+                        <valueRef>C_WHITE</valueRef>
+                    </property>
+                    <property attributeRef="Halo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="LineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="LineWidth">
+                        <value>2</value>
+                    </property>
+                    <property attributeRef="Font">
+                        <value>0</value>
                     </property>
                 </properties>
             </styleset>
             <styleset id="21" name="COLOR_GR">
                 <properties>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_GR</valueRef>
+                    <property attributeRef="ColorIndex">
+                        <valueRef>C_30p_GREY</valueRef>
+                    </property>
+                    <property attributeRef="Halo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="LineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="LineWidth">
+                        <value>2</value>
+                    </property>
+                    <property attributeRef="Font">
+                        <value>0</value>
                     </property>
                 </properties>
             </styleset>
             <styleset id="22" name="COLOR_YL">
                 <properties>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_YL</valueRef>
+                    <property attributeRef="ColorIndex">
+                        <valueRef>C_YELLOW</valueRef>
+                    </property>
+                    <property attributeRef="Halo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="LineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="LineWidth">
+                        <value>2</value>
+                    </property>
+                    <property attributeRef="Font">
+                        <value>0</value>
                     </property>
                 </properties>
             </styleset>
         </widgetDefinition>
         <widgetDefinition widgetCapacitiesRef="SymbolAnimated">
             <styleset id="1" name="THIN">
-                <scade:default/>
+                <scade:default />
                 <properties>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>THIN</valueRef>
+                    <property attributeRef="ColorIndex">
+                        <value>UA_VALUE</value>
+                    </property>
+                    <property attributeRef="Halo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="LineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="LineWidth">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="Font">
+                        <value>0</value>
                     </property>
                 </properties>
             </styleset>
             <styleset id="2" name="BOLD">
                 <properties>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>BOLD</valueRef>
+                    <property attributeRef="ColorIndex">
+                        <value>UA_VALUE</value>
+                    </property>
+                    <property attributeRef="Halo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="LineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="LineWidth">
+                        <value>5</value>
+                    </property>
+                    <property attributeRef="Font">
+                        <value>0</value>
                     </property>
                 </properties>
             </styleset>
             <styleset id="3" name="DOTTED">
                 <properties>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>DOTTED</valueRef>
+                    <property attributeRef="ColorIndex">
+                        <value>UA_VALUE</value>
+                    </property>
+                    <property attributeRef="Halo">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="LineStipple">
+                        <value>3</value>
+                    </property>
+                    <property attributeRef="LineWidth">
+                        <value>3</value>
+                    </property>
+                    <property attributeRef="Font">
+                        <value>0</value>
                     </property>
                 </properties>
             </styleset>
             <styleset id="4" name="DASHED">
                 <properties>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>DASHED</valueRef>
+                    <property attributeRef="ColorIndex">
+                        <value>UA_VALUE</value>
+                    </property>
+                    <property attributeRef="Halo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="LineStipple">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="LineWidth">
+                        <value>2</value>
+                    </property>
+                    <property attributeRef="Font">
+                        <value>0</value>
                     </property>
                 </properties>
             </styleset>
             <styleset id="20" name="COLOR_WH">
                 <properties>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
+                    <property attributeRef="ColorIndex">
+                        <valueRef>C_WHITE</valueRef>
+                    </property>
+                    <property attributeRef="Halo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="LineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="LineWidth">
+                        <value>2</value>
+                    </property>
+                    <property attributeRef="Font">
+                        <value>0</value>
                     </property>
                 </properties>
             </styleset>
             <styleset id="21" name="COLOR_GR">
                 <properties>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_GR</valueRef>
+                    <property attributeRef="ColorIndex">
+                        <valueRef>C_30p_GREY</valueRef>
+                    </property>
+                    <property attributeRef="Halo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="LineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="LineWidth">
+                        <value>2</value>
+                    </property>
+                    <property attributeRef="Font">
+                        <value>0</value>
                     </property>
                 </properties>
             </styleset>
             <styleset id="22" name="COLOR_YL">
                 <properties>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_YL</valueRef>
+                    <property attributeRef="ColorIndex">
+                        <valueRef>C_YELLOW</valueRef>
+                    </property>
+                    <property attributeRef="Halo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="LineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="LineWidth">
+                        <value>2</value>
+                    </property>
+                    <property attributeRef="Font">
+                        <value>0</value>
                     </property>
                 </properties>
             </styleset>
         </widgetDefinition>
         <widgetDefinition widgetCapacitiesRef="SymbolPushButton">
             <styleset id="110" name="RCT_F2_WH">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="SymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="SymbolSizeLink">
+                        <value>2</value>
                     </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
+                    <property attributeRef="SymbolSizePercent">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolColor">
+                        <valueRef>C_WHITE</valueRef>
+                    </property>
+                    <property attributeRef="SymbolHalo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineWidth">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolFont">
+                        <value>0</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -20288,7 +16842,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -20307,7 +16861,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -20326,7 +16880,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -20349,16 +16903,31 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="SymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="SymbolSizeLink">
+                        <value>2</value>
                     </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
+                    <property attributeRef="SymbolSizePercent">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolColor">
+                        <valueRef>C_WHITE</valueRef>
+                    </property>
+                    <property attributeRef="SymbolHalo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineWidth">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolFont">
+                        <value>0</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -20377,7 +16946,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -20396,7 +16965,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -20415,7 +16984,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -20438,16 +17007,31 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="SymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="SymbolSizeLink">
+                        <value>2</value>
                     </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
+                    <property attributeRef="SymbolSizePercent">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolColor">
+                        <valueRef>C_WHITE</valueRef>
+                    </property>
+                    <property attributeRef="SymbolHalo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineWidth">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolFont">
+                        <value>0</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -20466,7 +17050,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -20485,7 +17069,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -20504,7 +17088,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -20527,16 +17111,31 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="SymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="SymbolSizeLink">
+                        <value>2</value>
                     </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
+                    <property attributeRef="SymbolSizePercent">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolColor">
+                        <valueRef>C_WHITE</valueRef>
+                    </property>
+                    <property attributeRef="SymbolHalo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineWidth">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolFont">
+                        <value>0</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -20555,7 +17154,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -20574,7 +17173,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -20593,7 +17192,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -20616,16 +17215,31 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="SymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="SymbolSizeLink">
+                        <value>2</value>
                     </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
+                    <property attributeRef="SymbolSizePercent">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolColor">
+                        <valueRef>C_WHITE</valueRef>
+                    </property>
+                    <property attributeRef="SymbolHalo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineWidth">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolFont">
+                        <value>0</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -20644,7 +17258,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -20663,7 +17277,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -20682,7 +17296,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -20705,16 +17319,31 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="SymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="SymbolSizeLink">
+                        <value>2</value>
                     </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
+                    <property attributeRef="SymbolSizePercent">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolColor">
+                        <valueRef>C_WHITE</valueRef>
+                    </property>
+                    <property attributeRef="SymbolHalo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineWidth">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolFont">
+                        <value>0</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -20733,7 +17362,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -20752,7 +17381,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -20771,7 +17400,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -20794,16 +17423,31 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="SymbolLayout">
-                        <valueRef>SAME_SIZE_50P</valueRef>
+                    <property attributeRef="SymbolSizeLink">
+                        <value>1</value>
                     </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
+                    <property attributeRef="SymbolSizePercent">
+                        <value>0.5</value>
+                    </property>
+                    <property attributeRef="SymbolColor">
+                        <valueRef>C_WHITE</valueRef>
+                    </property>
+                    <property attributeRef="SymbolHalo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineWidth">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolFont">
+                        <value>0</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -20822,7 +17466,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -20841,7 +17485,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -20860,7 +17504,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -20883,16 +17527,31 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="SymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="SymbolSizeLink">
+                        <value>2</value>
                     </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
+                    <property attributeRef="SymbolSizePercent">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolColor">
+                        <valueRef>C_WHITE</valueRef>
+                    </property>
+                    <property attributeRef="SymbolHalo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineWidth">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolFont">
+                        <value>0</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -20911,7 +17570,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -20930,7 +17589,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -20949,7 +17608,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -20972,16 +17631,31 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="SymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="SymbolSizeLink">
+                        <value>2</value>
                     </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
+                    <property attributeRef="SymbolSizePercent">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolColor">
+                        <valueRef>C_WHITE</valueRef>
+                    </property>
+                    <property attributeRef="SymbolHalo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineWidth">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolFont">
+                        <value>0</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21000,7 +17674,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21019,7 +17693,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21038,7 +17712,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21061,16 +17735,31 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="SymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="SymbolSizeLink">
+                        <value>2</value>
                     </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
+                    <property attributeRef="SymbolSizePercent">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolColor">
+                        <valueRef>C_WHITE</valueRef>
+                    </property>
+                    <property attributeRef="SymbolHalo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineWidth">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolFont">
+                        <value>0</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21089,7 +17778,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21108,7 +17797,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21127,7 +17816,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21150,16 +17839,31 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="SymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="SymbolSizeLink">
+                        <value>2</value>
                     </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
+                    <property attributeRef="SymbolSizePercent">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolColor">
+                        <valueRef>C_WHITE</valueRef>
+                    </property>
+                    <property attributeRef="SymbolHalo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineWidth">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolFont">
+                        <value>0</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21178,7 +17882,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21197,7 +17901,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21216,7 +17920,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21239,16 +17943,31 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="SymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="SymbolSizeLink">
+                        <value>2</value>
                     </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
+                    <property attributeRef="SymbolSizePercent">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolColor">
+                        <valueRef>C_WHITE</valueRef>
+                    </property>
+                    <property attributeRef="SymbolHalo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineWidth">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolFont">
+                        <value>0</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21267,7 +17986,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21286,7 +18005,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21305,7 +18024,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21328,16 +18047,31 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="SymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="SymbolSizeLink">
+                        <value>2</value>
                     </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
+                    <property attributeRef="SymbolSizePercent">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolColor">
+                        <valueRef>C_WHITE</valueRef>
+                    </property>
+                    <property attributeRef="SymbolHalo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineWidth">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolFont">
+                        <value>0</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21356,7 +18090,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21375,7 +18109,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21394,7 +18128,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21417,16 +18151,31 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="SymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="SymbolSizeLink">
+                        <value>2</value>
                     </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
+                    <property attributeRef="SymbolSizePercent">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolColor">
+                        <valueRef>C_WHITE</valueRef>
+                    </property>
+                    <property attributeRef="SymbolHalo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineWidth">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolFont">
+                        <value>0</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21445,7 +18194,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21464,7 +18213,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21483,7 +18232,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21506,16 +18255,31 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="SymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="SymbolSizeLink">
+                        <value>2</value>
                     </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
+                    <property attributeRef="SymbolSizePercent">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolColor">
+                        <valueRef>C_WHITE</valueRef>
+                    </property>
+                    <property attributeRef="SymbolHalo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineWidth">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolFont">
+                        <value>0</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21534,7 +18298,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21553,7 +18317,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21572,7 +18336,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21595,16 +18359,31 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="SymbolLayout">
-                        <valueRef>SAME_SIZE_50P</valueRef>
+                    <property attributeRef="SymbolSizeLink">
+                        <value>1</value>
                     </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
+                    <property attributeRef="SymbolSizePercent">
+                        <value>0.5</value>
+                    </property>
+                    <property attributeRef="SymbolColor">
+                        <valueRef>C_WHITE</valueRef>
+                    </property>
+                    <property attributeRef="SymbolHalo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineWidth">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolFont">
+                        <value>0</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21623,7 +18402,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21642,7 +18421,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21661,7 +18440,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21684,16 +18463,31 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="SymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="SymbolSizeLink">
+                        <value>2</value>
                     </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
+                    <property attributeRef="SymbolSizePercent">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolColor">
+                        <valueRef>C_WHITE</valueRef>
+                    </property>
+                    <property attributeRef="SymbolHalo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineWidth">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolFont">
+                        <value>0</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21712,7 +18506,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21731,7 +18525,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21750,7 +18544,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21773,16 +18567,31 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="SymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="SymbolSizeLink">
+                        <value>2</value>
                     </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
+                    <property attributeRef="SymbolSizePercent">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolColor">
+                        <valueRef>C_WHITE</valueRef>
+                    </property>
+                    <property attributeRef="SymbolHalo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineWidth">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolFont">
+                        <value>0</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21801,7 +18610,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21820,7 +18629,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21839,7 +18648,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21860,21 +18669,36 @@
         </widgetDefinition>
         <widgetDefinition widgetCapacitiesRef="SymbolToggleButton">
             <styleset id="110" name="RCT_F2_WH">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="SymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="SymbolSizeLink">
+                        <value>2</value>
                     </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
+                    <property attributeRef="SymbolSizePercent">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolColor">
+                        <valueRef>C_WHITE</valueRef>
+                    </property>
+                    <property attributeRef="SymbolHalo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineWidth">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolFont">
+                        <value>0</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21893,7 +18717,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21912,7 +18736,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21931,7 +18755,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21950,7 +18774,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21969,7 +18793,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -21992,16 +18816,31 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="SymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="SymbolSizeLink">
+                        <value>2</value>
                     </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
+                    <property attributeRef="SymbolSizePercent">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolColor">
+                        <valueRef>C_WHITE</valueRef>
+                    </property>
+                    <property attributeRef="SymbolHalo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineWidth">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolFont">
+                        <value>0</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22020,7 +18859,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22039,7 +18878,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22058,7 +18897,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22077,7 +18916,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22096,7 +18935,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22119,16 +18958,31 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="SymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="SymbolSizeLink">
+                        <value>2</value>
                     </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
+                    <property attributeRef="SymbolSizePercent">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolColor">
+                        <valueRef>C_WHITE</valueRef>
+                    </property>
+                    <property attributeRef="SymbolHalo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineWidth">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolFont">
+                        <value>0</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22147,7 +19001,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22166,7 +19020,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22185,7 +19039,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22204,7 +19058,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22223,7 +19077,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22246,16 +19100,31 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="SymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="SymbolSizeLink">
+                        <value>2</value>
                     </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
+                    <property attributeRef="SymbolSizePercent">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolColor">
+                        <valueRef>C_WHITE</valueRef>
+                    </property>
+                    <property attributeRef="SymbolHalo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineWidth">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolFont">
+                        <value>0</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22274,7 +19143,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22293,7 +19162,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22312,7 +19181,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22331,7 +19200,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22350,7 +19219,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22373,16 +19242,31 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="SymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="SymbolSizeLink">
+                        <value>2</value>
                     </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
+                    <property attributeRef="SymbolSizePercent">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolColor">
+                        <valueRef>C_WHITE</valueRef>
+                    </property>
+                    <property attributeRef="SymbolHalo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineWidth">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolFont">
+                        <value>0</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22401,7 +19285,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22420,7 +19304,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22439,7 +19323,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22458,7 +19342,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22477,7 +19361,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22500,16 +19384,31 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="SymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="SymbolSizeLink">
+                        <value>2</value>
                     </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
+                    <property attributeRef="SymbolSizePercent">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolColor">
+                        <valueRef>C_WHITE</valueRef>
+                    </property>
+                    <property attributeRef="SymbolHalo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineWidth">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolFont">
+                        <value>0</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22528,7 +19427,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22547,7 +19446,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22566,7 +19465,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22585,7 +19484,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22604,7 +19503,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22627,16 +19526,31 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="SymbolLayout">
-                        <valueRef>SAME_SIZE_50P</valueRef>
+                    <property attributeRef="SymbolSizeLink">
+                        <value>1</value>
                     </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
+                    <property attributeRef="SymbolSizePercent">
+                        <value>0.5</value>
+                    </property>
+                    <property attributeRef="SymbolColor">
+                        <valueRef>C_WHITE</valueRef>
+                    </property>
+                    <property attributeRef="SymbolHalo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineWidth">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolFont">
+                        <value>0</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22655,7 +19569,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22674,7 +19588,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22693,7 +19607,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22712,7 +19626,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22731,7 +19645,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22754,16 +19668,31 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="SymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="SymbolSizeLink">
+                        <value>2</value>
                     </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
+                    <property attributeRef="SymbolSizePercent">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolColor">
+                        <valueRef>C_WHITE</valueRef>
+                    </property>
+                    <property attributeRef="SymbolHalo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineWidth">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolFont">
+                        <value>0</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22782,7 +19711,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22801,7 +19730,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22820,7 +19749,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22839,7 +19768,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22858,7 +19787,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22881,16 +19810,31 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="SymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="SymbolSizeLink">
+                        <value>2</value>
                     </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
+                    <property attributeRef="SymbolSizePercent">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolColor">
+                        <valueRef>C_WHITE</valueRef>
+                    </property>
+                    <property attributeRef="SymbolHalo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineWidth">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolFont">
+                        <value>0</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22909,7 +19853,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22928,7 +19872,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22947,7 +19891,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22966,7 +19910,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -22985,7 +19929,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23008,16 +19952,31 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="SymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="SymbolSizeLink">
+                        <value>2</value>
                     </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
+                    <property attributeRef="SymbolSizePercent">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolColor">
+                        <valueRef>C_WHITE</valueRef>
+                    </property>
+                    <property attributeRef="SymbolHalo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineWidth">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolFont">
+                        <value>0</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23036,7 +19995,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23055,7 +20014,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23074,7 +20033,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23093,7 +20052,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23112,7 +20071,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23135,16 +20094,31 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="SymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="SymbolSizeLink">
+                        <value>2</value>
                     </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
+                    <property attributeRef="SymbolSizePercent">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolColor">
+                        <valueRef>C_WHITE</valueRef>
+                    </property>
+                    <property attributeRef="SymbolHalo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineWidth">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolFont">
+                        <value>0</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23163,7 +20137,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23182,7 +20156,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23201,7 +20175,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23220,7 +20194,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23239,7 +20213,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23262,16 +20236,31 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="SymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="SymbolSizeLink">
+                        <value>2</value>
                     </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
+                    <property attributeRef="SymbolSizePercent">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolColor">
+                        <valueRef>C_WHITE</valueRef>
+                    </property>
+                    <property attributeRef="SymbolHalo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineWidth">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolFont">
+                        <value>0</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23290,7 +20279,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23309,7 +20298,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23328,7 +20317,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23347,7 +20336,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23366,7 +20355,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23389,16 +20378,31 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="SymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="SymbolSizeLink">
+                        <value>2</value>
                     </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
+                    <property attributeRef="SymbolSizePercent">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolColor">
+                        <valueRef>C_WHITE</valueRef>
+                    </property>
+                    <property attributeRef="SymbolHalo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineWidth">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolFont">
+                        <value>0</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23417,7 +20421,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23436,7 +20440,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23455,7 +20459,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23474,7 +20478,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23493,7 +20497,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23516,16 +20520,31 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="SymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="SymbolSizeLink">
+                        <value>2</value>
                     </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
+                    <property attributeRef="SymbolSizePercent">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolColor">
+                        <valueRef>C_WHITE</valueRef>
+                    </property>
+                    <property attributeRef="SymbolHalo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineWidth">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolFont">
+                        <value>0</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23544,7 +20563,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23563,7 +20582,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23582,7 +20601,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23601,7 +20620,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23620,7 +20639,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23643,16 +20662,31 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="SymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="SymbolSizeLink">
+                        <value>2</value>
                     </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
+                    <property attributeRef="SymbolSizePercent">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolColor">
+                        <valueRef>C_WHITE</valueRef>
+                    </property>
+                    <property attributeRef="SymbolHalo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineWidth">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolFont">
+                        <value>0</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23671,7 +20705,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23690,7 +20724,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23709,7 +20743,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23728,7 +20762,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23747,7 +20781,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23770,16 +20804,31 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="SymbolLayout">
-                        <valueRef>SAME_SIZE_50P</valueRef>
+                    <property attributeRef="SymbolSizeLink">
+                        <value>1</value>
                     </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
+                    <property attributeRef="SymbolSizePercent">
+                        <value>0.5</value>
+                    </property>
+                    <property attributeRef="SymbolColor">
+                        <valueRef>C_WHITE</valueRef>
+                    </property>
+                    <property attributeRef="SymbolHalo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineWidth">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolFont">
+                        <value>0</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23798,7 +20847,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23817,7 +20866,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23836,7 +20885,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23855,7 +20904,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23874,7 +20923,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23897,16 +20946,31 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="SymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="SymbolSizeLink">
+                        <value>2</value>
                     </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
+                    <property attributeRef="SymbolSizePercent">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolColor">
+                        <valueRef>C_WHITE</valueRef>
+                    </property>
+                    <property attributeRef="SymbolHalo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineWidth">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolFont">
+                        <value>0</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23925,7 +20989,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23944,7 +21008,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23963,7 +21027,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -23982,7 +21046,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -24001,7 +21065,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -24024,16 +21088,31 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="SymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="SymbolSizeLink">
+                        <value>2</value>
                     </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
+                    <property attributeRef="SymbolSizePercent">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolColor">
+                        <valueRef>C_WHITE</valueRef>
+                    </property>
+                    <property attributeRef="SymbolHalo">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineStipple">
+                        <value>0</value>
+                    </property>
+                    <property attributeRef="SymbolLineWidth">
+                        <value>1</value>
+                    </property>
+                    <property attributeRef="SymbolFont">
+                        <value>0</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -24052,7 +21131,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -24071,7 +21150,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -24090,7 +21169,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -24109,7 +21188,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -24128,7 +21207,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -24156,16 +21235,16 @@
                     <property attributeRef="PanelFrame">
                         <valueRef>NO_FRAME</valueRef>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="ButtonPictureSizeLink">
+                        <value>2</value>
                     </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
+                    <property attributeRef="ButtonPictureSizePercent">
+                        <value>1</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="ButtonFrame">
@@ -24184,7 +21263,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="ButtonFrame">
@@ -24203,7 +21282,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="ButtonFrame">
@@ -24222,7 +21301,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="ButtonFrame">
@@ -24241,7 +21320,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="ButtonFrame">
@@ -24260,7 +21339,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="ButtonFrame">
@@ -24279,7 +21358,7 @@
                 </stateDefinition>
             </styleset>
             <styleset id="100" name="RCT">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="Border">
                         <value>100</value>
@@ -24287,16 +21366,16 @@
                     <property attributeRef="PanelFrame">
                         <valueRef>RCT_FLAT</valueRef>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="ButtonPictureSizeLink">
+                        <value>2</value>
                     </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
+                    <property attributeRef="ButtonPictureSizePercent">
+                        <value>1</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="ButtonFrame">
@@ -24315,7 +21394,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="ButtonFrame">
@@ -24334,7 +21413,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="ButtonFrame">
@@ -24353,7 +21432,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="ButtonFrame">
@@ -24372,7 +21451,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="ButtonFrame">
@@ -24391,7 +21470,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="ButtonFrame">
@@ -24417,16 +21496,16 @@
                     <property attributeRef="PanelFrame">
                         <valueRef>RND_FLAT</valueRef>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
+                    <property attributeRef="ButtonPictureSizeLink">
+                        <value>2</value>
                     </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
+                    <property attributeRef="ButtonPictureSizePercent">
+                        <value>1</value>
                     </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="ButtonFrame">
@@ -24445,7 +21524,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="ButtonFrame">
@@ -24464,7 +21543,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="ButtonFrame">
@@ -24483,7 +21562,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="ButtonFrame">
@@ -24502,7 +21581,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="ButtonFrame">
@@ -24521,7 +21600,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="ButtonFrame">
@@ -24542,7 +21621,7 @@
         </widgetDefinition>
         <widgetDefinition widgetCapacitiesRef="TabbedPanelGroup">
             <styleset id="0" name="BLANK">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="TabDefaultHeight">
                         <value>1000</value>
@@ -24584,21 +21663,15 @@
         </widgetDefinition>
         <widgetDefinition widgetCapacitiesRef="ToggleButton">
             <styleset id="110" name="RCT_F2_WH">
-                <scade:default/>
+                <scade:default />
                 <properties>
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -24617,7 +21690,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -24636,7 +21709,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -24655,7 +21728,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -24674,7 +21747,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -24693,7 +21766,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -24716,16 +21789,10 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -24744,7 +21811,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -24763,7 +21830,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -24782,7 +21849,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -24801,7 +21868,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -24820,7 +21887,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -24843,16 +21910,10 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -24871,7 +21932,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -24890,7 +21951,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -24909,7 +21970,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -24928,7 +21989,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -24947,7 +22008,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -24970,16 +22031,10 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -24998,7 +22053,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25017,7 +22072,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25036,7 +22091,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25055,7 +22110,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25074,7 +22129,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25097,16 +22152,10 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25125,7 +22174,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25144,7 +22193,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25163,7 +22212,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25182,7 +22231,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25201,7 +22250,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25224,16 +22273,10 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25252,7 +22295,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25271,7 +22314,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25290,7 +22333,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25309,7 +22352,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25328,7 +22371,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25351,16 +22394,10 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25379,7 +22416,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25398,7 +22435,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25417,7 +22454,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25436,7 +22473,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25455,7 +22492,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25478,16 +22515,10 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25506,7 +22537,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25525,7 +22556,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25544,7 +22575,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25563,7 +22594,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25582,7 +22613,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25605,16 +22636,10 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25633,7 +22658,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25652,7 +22677,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25671,7 +22696,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25690,7 +22715,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25709,7 +22734,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25732,16 +22757,10 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25760,7 +22779,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25779,7 +22798,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25798,7 +22817,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25817,7 +22836,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25836,7 +22855,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25859,16 +22878,10 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25887,7 +22900,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25906,7 +22919,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25925,7 +22938,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25944,7 +22957,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25963,7 +22976,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -25986,16 +22999,10 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -26014,7 +23021,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -26033,7 +23040,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -26052,7 +23059,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -26071,7 +23078,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -26090,7 +23097,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -26113,16 +23120,10 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -26141,7 +23142,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -26160,7 +23161,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -26179,7 +23180,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -26198,7 +23199,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -26217,7 +23218,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -26240,16 +23241,10 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -26268,7 +23263,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -26287,7 +23282,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -26306,7 +23301,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -26325,7 +23320,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -26344,7 +23339,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -26367,16 +23362,10 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -26395,7 +23384,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -26414,7 +23403,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -26433,7 +23422,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -26452,7 +23441,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -26471,7 +23460,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -26494,16 +23483,10 @@
                     <property attributeRef="Border">
                         <value>100</value>
                     </property>
-                    <property attributeRef="PictureSymbolLayout">
-                        <valueRef>OPPOSITE_SIZE_100P</valueRef>
-                    </property>
-                    <property attributeRef="SymbolStyle">
-                        <valueRef>COLOR_WH</valueRef>
-                    </property>
                 </properties>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledUnselected"/>
+                        <stateItem stateRef="EnabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -26522,7 +23505,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledUnselected"/>
+                        <stateItem stateRef="DisabledUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -26541,7 +23524,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidUnselected"/>
+                        <stateItem stateRef="WaitForValidUnselected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -26560,7 +23543,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="EnabledSelected"/>
+                        <stateItem stateRef="EnabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -26579,7 +23562,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="DisabledSelected"/>
+                        <stateItem stateRef="DisabledSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -26598,7 +23581,7 @@
                 </stateDefinition>
                 <stateDefinition>
                     <statesList>
-                        <stateItem stateRef="WaitForValidSelected"/>
+                        <stateItem stateRef="WaitForValidSelected" />
                     </statesList>
                     <properties>
                         <property attributeRef="Frame">
@@ -26619,6 +23602,4 @@
         </widgetDefinition>
     </widgetsDefinitions>
 </LookDefinition>
-
-<!-- crc32 : 711855807 -->
-
+<!-- crc32 : 625510819 -->

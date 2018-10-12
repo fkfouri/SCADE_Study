@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?dom version="19.0" ?>
+<?dom version="R16" ?>
+
+<?scade_release version="R16.2" ?>
 
 <fontTable generateAsBitmap="true" generateHalo="false" name="font_table" size="5">
     <fontDefinition index="0" path="$(SCADEDISPLAY_HOME)\config\fonts\MonoBold16 A661.nfd"/>

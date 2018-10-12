@@ -1,32 +1,32 @@
 
 [STUDIO\TOOLS\CONFIGURATIONS\Code Generator]
 
-"E:\\Projetos\\SCADE_Study\\integration\\Team1\\UserApplication\\project1.etp"="Simulation" 
+"C:\\Listex_2\\Team1\\UserApplication\\project1\\project1.etp"="Simulation" 
+"C:\\Listex_2\\Team1\\UserApplication\\project1.etp"="Simulation" 
 
 [STUDIO\TOOLS\CONFIGURATIONS\Reporter]
 
-"E:\\Projetos\\SCADE_Study\\integration\\Team1\\UserApplication\\project1.etp"="HTML" 
+"C:\\Listex_2\\Team1\\UserApplication\\project1\\project1.etp"="HTML" 
+"C:\\Listex_2\\Team1\\UserApplication\\project1.etp"="HTML" 
 
 [STUDIO\TOOLS\CONFIGURATIONS\Synchronization]
 
-"E:\\Projetos\\SCADE_Study\\integration\\Team1\\UserApplication\\project1.etp"="KCG" 
-
-[STUDIO\TOOLS\CONFIGURATIONS\Import/Export]
-
-"E:\\Projetos\\SCADE_Study\\integration\\Team1\\UserApplication\\project1.etp"="KCG" 
-"E:\\Projetos\\SCADE_Study\\integration\\Team1\\UserApplication\\project1.etp"="KCG" 
-
-[STUDIO\TOOLS\CONFIGURATIONS\Timing and Stack Analysis Tools]
-
-"E:\\Projetos\\SCADE_Study\\integration\\Team1\\UserApplication\\project1.etp"="KCG" 
+"C:\\Listex_2\\Team1\\UserApplication\\project1\\project1.etp"="Synchronization" 
+"C:\\Listex_2\\Team1\\UserApplication\\project1.etp"="Synchronization" 
 
 [STUDIO\TOOLS\CONFIGURATIONS\DiffAnalyzer]
 
-"E:\\Projetos\\SCADE_Study\\integration\\Team1\\UserApplication\\project1.etp"="KCG" 
+"C:\\Listex_2\\Team1\\UserApplication\\project1\\project1.etp"="KCG" 
+"C:\\Listex_2\\Team1\\UserApplication\\project1.etp"="KCG" 
+
+[STUDIO\TOOLS\CONFIGURATIONS\Instrumenter]
+
+"C:\\Listex_2\\Team1\\UserApplication\\project1\\project1.etp"="Coverage" 
+"C:\\Listex_2\\Team1\\UserApplication\\project1.etp"="Coverage" 
 
 [STUDIO\Workspace]
 
-"ActiveProject"="E:\\Projetos\\SCADE_Study\\integration\\Team1\\UserApplication\\project1.etp" 
+"ActiveProject"="C:\\Listex_2\\Team1\\UserApplication\\project1.etp" 
 
 [SCADE\Editor\Shortcut]
 
@@ -36,7 +36,6 @@
 
 "UsePolyline"="false" 
 "TransitionKind"="strong" 
-"McVersion"="MC66" 
 
 [SCADE\Diff\Tool]
 
@@ -83,7 +82,3 @@
 [SCADE\Simulator\TclBreakpoint]
 
 "Count"="0" 
-
-[STUDIO\TOOLS\CONFIGURATIONS\Import/Export]
-
-"E:\\Projetos\\SCADE_Study\\integration\\Team1\\UserApplication\\project1.etp"="KCG" 

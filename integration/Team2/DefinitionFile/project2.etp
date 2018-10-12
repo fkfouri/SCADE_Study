@@ -5,7 +5,7 @@
 			<value>UAPC</value>
 		</Prop>
 		<Prop id="3" name="@SDY:RELEASE">
-			<value>19.0</value>
+			<value>R17</value>
 		</Prop>
 		<Prop id="4" name="@SDY:RATIO">
 			<value>20.0</value>
@@ -80,7 +80,7 @@
 			<configuration>51</configuration>
 		</Prop>
 		<Prop id="56" name="@UAPC:DFGENERATOR">
-			<value>dfgen67</value>
+			<value>dfgen66</value>
 			<configuration>51</configuration>
 		</Prop>
 		<Prop id="57" name="@UAPC:SERVERCONF">
@@ -165,8 +165,7 @@
 			<configuration>59</configuration>
 		</Prop>
 		<Prop id="80" name="@SDYREP:HEADERLEFT">
-			<value>$(ReferenceNr)
-$(CreatedDate)</value>
+			<value>$(ReferenceNr)&#xA;$(CreatedDate)</value>
 			<configuration>59</configuration>
 		</Prop>
 		<Prop id="81" name="@SDYREP:HEADERCENTER">
@@ -223,7 +222,7 @@ $(CreatedDate)</value>
 				<FileRef id="15" persistAs="font_table.sft"/>
 			</elements>
 		</Folder>
-		<Folder id="33" extensions="sdt;pdt;slc;sld;cnt" name="A661 Resource Files">
+		<Folder id="33" extensions="sdt;pdt;slc;sld" name="A661 Resource Files">
 			<elements>
 				<FileRef id="41" persistAs="$(SCADEDISPLAY_HOME)\config\Stylesets\look_capacities.slc"/>
 				<FileRef id="42" persistAs="look_definition.sld"/>
@@ -263,7 +262,7 @@ $(CreatedDate)</value>
 		</Folder>
 		<Folder id="31" extensions="sgfx;ogfx;pgfx" name="Model Files">
 			<elements>
-				<FileRef id="92" persistAs="project2_display.sgfx"/>
+				<FileRef id="92" persistAs="project2.sgfx"/>
 			</elements>
 		</Folder>
 		<Folder id="32" extensions="sdfx" name="Symbol Model Files"/>

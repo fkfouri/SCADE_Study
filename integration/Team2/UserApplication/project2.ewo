@@ -1,41 +1,41 @@
 
-[SCADE\Editor\Shortcut]
-
-"groupNb"="0" 
-
 [STUDIO\TOOLS\CONFIGURATIONS\Code Generator]
 
-"E:\\Projetos\\SCADE_Study\\integration\\Team2\\UserApplication\\project2.etp"="Simulation" 
+"C:\\Listex_2\\Team2\\UserApplication\\project2\\project2.etp"="KCG" 
+"C:\\Listex_2\\Team2\\UserApplication\\project2.etp"="Simulation" 
 
 [STUDIO\TOOLS\CONFIGURATIONS\Reporter]
 
-"E:\\Projetos\\SCADE_Study\\integration\\Team2\\UserApplication\\project2.etp"="HTML" 
+"C:\\Listex_2\\Team2\\UserApplication\\project2\\project2.etp"="HTML" 
+"C:\\Listex_2\\Team2\\UserApplication\\project2.etp"="HTML" 
 
 [STUDIO\TOOLS\CONFIGURATIONS\Synchronization]
 
-"E:\\Projetos\\SCADE_Study\\integration\\Team2\\UserApplication\\project2.etp"="KCG" 
-
-[STUDIO\TOOLS\CONFIGURATIONS\Import/Export]
-
-"E:\\Projetos\\SCADE_Study\\integration\\Team2\\UserApplication\\project2.etp"="KCG" 
-
-[STUDIO\TOOLS\CONFIGURATIONS\Timing and Stack Analysis Tools]
-
-"E:\\Projetos\\SCADE_Study\\integration\\Team2\\UserApplication\\project2.etp"="KCG" 
+"C:\\Listex_2\\Team2\\UserApplication\\project2\\project2.etp"="Synchronization" 
+"C:\\Listex_2\\Team2\\UserApplication\\project2.etp"="Synchronization" 
 
 [STUDIO\TOOLS\CONFIGURATIONS\DiffAnalyzer]
 
-"E:\\Projetos\\SCADE_Study\\integration\\Team2\\UserApplication\\project2.etp"="KCG" 
+"C:\\Listex_2\\Team2\\UserApplication\\project2\\project2.etp"="KCG" 
+"C:\\Listex_2\\Team2\\UserApplication\\project2.etp"="KCG" 
+
+[STUDIO\TOOLS\CONFIGURATIONS\Instrumenter]
+
+"C:\\Listex_2\\Team2\\UserApplication\\project2\\project2.etp"="Coverage" 
+"C:\\Listex_2\\Team2\\UserApplication\\project2.etp"="Coverage" 
 
 [STUDIO\Workspace]
 
-"ActiveProject"="E:\\Projetos\\SCADE_Study\\integration\\Team2\\UserApplication\\project2.etp" 
+"ActiveProject"="C:\\Listex_2\\Team2\\UserApplication\\project2.etp" 
+
+[SCADE\Editor\Shortcut]
+
+"groupNb"="0" 
 
 [SCADE\Editor\Tool]
 
 "UsePolyline"="false" 
 "TransitionKind"="strong" 
-"McVersion"="MC66" 
 
 [SCADE\Diff\Tool]
 
@@ -82,7 +82,3 @@
 [SCADE\Simulator\TclBreakpoint]
 
 "Count"="0" 
-
-[STUDIO\TOOLS\CONFIGURATIONS\Import/Export]
-
-"E:\\Projetos\\SCADE_Study\\integration\\Team2\\UserApplication\\project2.etp"="KCG" 
