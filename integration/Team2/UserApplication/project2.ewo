@@ -95,3 +95,7 @@
 [STUDIO\TOOLS\CONFIGURATIONS\Timing and Stack Analysis Tools]
 
 "E:\\Projetos\\SCADE_Study\\integration\\Team2\\UserApplication\\project2.etp"="KCG" 
+
+[STUDIO\TOOLS\CONFIGURATIONS\Import/Export]
+
+"E:\\Projetos\\SCADE_Study\\integration\\Team2\\UserApplication\\project2.etp"="KCG" 
