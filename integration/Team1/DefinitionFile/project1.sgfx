@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?dom version="R16" ?>
-
-<?scade_release version="R17" ?>
+<?dom version="19.0" ?>
 
 <specification>
     <IDE>
@@ -12,7 +10,7 @@
     <symbology>
         <dimension height="256" width="256"/>
     </symbology>
-    <A661 library_version="1" supp_version="5">
+    <A661 library_version="1" supp_version="6">
         <intprop name="ApplicationId">1</intprop>
     </A661>
     <children>
@@ -64,6 +62,7 @@
                     <events>
                         <connect msg_id="A661_EVT_SELECTION" name="PushButton_A661_EVT_SELECTION"/>
                     </events>
+                    <children/>
                 </widget>
                 <widget name="GpArcCircle" oid="d5af4a92-a7df-4bcd-bfca-4d0a365234f4" type="GpArcCircle">
                     <model>
@@ -95,6 +94,7 @@
                         <connect msg_id="A661_REQ_FOCUS_ON_WIDGET" name="GpArcCircle_A661_REQ_FOCUS_ON_WIDGET"/>
                         <connect msg_id="A661_REQ_CURSOR_ON_WIDGET" name="GpArcCircle_A661_REQ_CURSOR_ON_WIDGET"/>
                     </runtime>
+                    <children/>
                 </widget>
                 <widget name="Label" oid="4b40046e-92c8-4ee1-b2eb-7a9c8f5a4c4a" type="Label">
                     <model>
@@ -127,6 +127,7 @@
                         <connect msg_id="A661_REQ_FOCUS_ON_WIDGET" name="Label_A661_REQ_FOCUS_ON_WIDGET"/>
                         <connect msg_id="A661_REQ_CURSOR_ON_WIDGET" name="Label_A661_REQ_CURSOR_ON_WIDGET"/>
                     </runtime>
+                    <children/>
                 </widget>
                 <widget name="Label" oid="553f7806-cae8-4bba-ad34-47e06720ae8c" type="Label">
                     <model>
@@ -159,11 +160,12 @@
                         <connect msg_id="A661_REQ_FOCUS_ON_WIDGET" name="Label_A661_REQ_FOCUS_ON_WIDGET"/>
                         <connect msg_id="A661_REQ_CURSOR_ON_WIDGET" name="Label_A661_REQ_CURSOR_ON_WIDGET"/>
                     </runtime>
+                    <children/>
                 </widget>
             </children>
         </A661Layer>
     </children>
 </specification>
 
-<!-- crc32 : 388862490 -->
+<!-- crc32 : 4174323221 -->
 

@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?dom version="R16" ?>
-
-<?scade_release version="R16" ?>
+<?dom version="19.0" ?>
 
 <lineStippleTable name="line_stipple_table" size="16">
     <lineStippleDefinition index="0" name="" type="solid"/>

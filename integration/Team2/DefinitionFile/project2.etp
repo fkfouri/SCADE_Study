@@ -5,7 +5,7 @@
 			<value>UAPC</value>
 		</Prop>
 		<Prop id="3" name="@SDY:RELEASE">
-			<value>R17</value>
+			<value>19.0</value>
 		</Prop>
 		<Prop id="4" name="@SDY:RATIO">
 			<value>20.0</value>
@@ -165,7 +165,8 @@
 			<configuration>59</configuration>
 		</Prop>
 		<Prop id="80" name="@SDYREP:HEADERLEFT">
-			<value>$(ReferenceNr)&#xA;$(CreatedDate)</value>
+			<value>$(ReferenceNr)
+$(CreatedDate)</value>
 			<configuration>59</configuration>
 		</Prop>
 		<Prop id="81" name="@SDYREP:HEADERCENTER">
