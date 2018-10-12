@@ -3,21 +3,25 @@
 
 "C:\\Listex_2\\Team2\\UserApplication\\project2\\project2.etp"="KCG" 
 "C:\\Listex_2\\Team2\\UserApplication\\project2.etp"="Simulation" 
+"E:\\Projetos\\SCADE_Study\\integration\\Team2\\UserApplication\\project2.etp"="KCG" 
 
 [STUDIO\TOOLS\CONFIGURATIONS\Reporter]
 
 "C:\\Listex_2\\Team2\\UserApplication\\project2\\project2.etp"="HTML" 
 "C:\\Listex_2\\Team2\\UserApplication\\project2.etp"="HTML" 
+"E:\\Projetos\\SCADE_Study\\integration\\Team2\\UserApplication\\project2.etp"="HTML" 
 
 [STUDIO\TOOLS\CONFIGURATIONS\Synchronization]
 
 "C:\\Listex_2\\Team2\\UserApplication\\project2\\project2.etp"="Synchronization" 
 "C:\\Listex_2\\Team2\\UserApplication\\project2.etp"="Synchronization" 
+"E:\\Projetos\\SCADE_Study\\integration\\Team2\\UserApplication\\project2.etp"="Synchronization" 
 
 [STUDIO\TOOLS\CONFIGURATIONS\DiffAnalyzer]
 
 "C:\\Listex_2\\Team2\\UserApplication\\project2\\project2.etp"="KCG" 
 "C:\\Listex_2\\Team2\\UserApplication\\project2.etp"="KCG" 
+"E:\\Projetos\\SCADE_Study\\integration\\Team2\\UserApplication\\project2.etp"="KCG" 
 
 [STUDIO\TOOLS\CONFIGURATIONS\Instrumenter]
 
@@ -26,7 +30,7 @@
 
 [STUDIO\Workspace]
 
-"ActiveProject"="C:\\Listex_2\\Team2\\UserApplication\\project2.etp" 
+"ActiveProject"="E:\\Projetos\\SCADE_Study\\integration\\Team2\\UserApplication\\project2.etp" 
 
 [SCADE\Editor\Shortcut]
 
@@ -36,6 +40,7 @@
 
 "UsePolyline"="false" 
 "TransitionKind"="strong" 
+"McVersion"="" 
 
 [SCADE\Diff\Tool]
 
@@ -44,7 +49,7 @@
 
 [SCADE\Generator\Tool]
 
-"PragmaTarget"="" 
+"PragmaTarget"="C" 
 
 [SCADE\Simulator\Simulation]
 
@@ -82,3 +87,11 @@
 [SCADE\Simulator\TclBreakpoint]
 
 "Count"="0" 
+
+[STUDIO\TOOLS\CONFIGURATIONS\Import/Export]
+
+"E:\\Projetos\\SCADE_Study\\integration\\Team2\\UserApplication\\project2.etp"="KCG" 
+
+[STUDIO\TOOLS\CONFIGURATIONS\Timing and Stack Analysis Tools]
+
+"E:\\Projetos\\SCADE_Study\\integration\\Team2\\UserApplication\\project2.etp"="KCG" 
