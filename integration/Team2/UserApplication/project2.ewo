@@ -3,13 +3,13 @@
 
 "C:\\Listex_2\\Team2\\UserApplication\\project2\\project2.etp"="KCG" 
 "C:\\Listex_2\\Team2\\UserApplication\\project2.etp"="Simulation" 
-"E:\\Projetos\\SCADE_Study\\integration\\Team2\\UserApplication\\project2.etp"="KCG" 
+"E:\\Projetos\\SCADE_Study\\integration\\Team2\\UserApplication\\project2.etp"="Simulation" 
 
 [STUDIO\TOOLS\CONFIGURATIONS\Reporter]
 
 "C:\\Listex_2\\Team2\\UserApplication\\project2\\project2.etp"="HTML" 
 "C:\\Listex_2\\Team2\\UserApplication\\project2.etp"="HTML" 
-"E:\\Projetos\\SCADE_Study\\integration\\Team2\\UserApplication\\project2.etp"="HTML" 
+"E:\\Projetos\\SCADE_Study\\integration\\Team2\\UserApplication\\project2.etp"="RTF" 
 
 [STUDIO\TOOLS\CONFIGURATIONS\Synchronization]
 
@@ -90,6 +90,7 @@
 
 [STUDIO\TOOLS\CONFIGURATIONS\Import/Export]
 
+"E:\\Projetos\\SCADE_Study\\integration\\Team2\\UserApplication\\project2.etp"="KCG" 
 "E:\\Projetos\\SCADE_Study\\integration\\Team2\\UserApplication\\project2.etp"="KCG" 
 
 [STUDIO\TOOLS\CONFIGURATIONS\Timing and Stack Analysis Tools]

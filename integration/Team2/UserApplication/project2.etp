@@ -62,10 +62,6 @@
 			<value>$(TargetDir)\user_macros.h</value>
 			<configuration>22</configuration>
 		</Prop>
-		<Prop id="33" name="@REPORTER:SCRIPT">
-			<value>Reporter/ScadeReport.tcl</value>
-			<configuration>32</configuration>
-		</Prop>
 		<Prop id="34" name="@REPORTER:RotateLandscape">
 			<value>true</value>
 			<configuration>32</configuration>
@@ -254,28 +250,16 @@
 			<value>true</value>
 		</Prop>
 		<Prop id="87" name="@STUDIO:TITLE">
-			<value>&lt;title&gt;</value>
+			<value>Listex_02</value>
 		</Prop>
 		<Prop id="88" name="@STUDIO:SUBTITLE">
-			<value>&lt;subtitle&gt;</value>
-		</Prop>
-		<Prop id="89" name="@STUDIO:DESCRIPTION">
-			<value>&lt;description&gt;</value>
+			<value>Integraçao Scade</value>
 		</Prop>
 		<Prop id="90" name="@STUDIO:AUTHORS">
-			<value>&lt;authors&gt;</value>
+			<value>Fabio Kfouri e Luciana Kfouri</value>
 		</Prop>
 		<Prop id="91" name="@STUDIO:COMPAGNY">
-			<value>&lt;company&gt;</value>
-		</Prop>
-		<Prop id="92" name="@STUDIO:DATE">
-			<value>&lt;date&gt;</value>
-		</Prop>
-		<Prop id="93" name="@STUDIO:INDEX">
-			<value>&lt;index&gt;</value>
-		</Prop>
-		<Prop id="94" name="@STUDIO:REFERENCE">
-			<value>&lt;reference&gt;</value>
+			<value>ITA - Instituto Tecnológico de Aeronáutica</value>
 		</Prop>
 		<Prop id="95" name="@STUDIO:TOOLCONF">
 			<value>DiffAnalyzer</value>
@@ -359,6 +343,10 @@
 		<Prop id="124" name="@GENERATOR:DEBUG">
 			<value>true</value>
 			<configuration>14</configuration>
+		</Prop>
+		<Prop id="33" name="@REPORTER:SCRIPT">
+			<value>Reporter/ScadeReport.tcl</value>
+			<configuration>32</configuration>
 		</Prop>
 	</props>
 	<roots>
