@@ -105,22 +105,23 @@
 			<configuration>59</configuration>
 		</Prop>
 		<Prop id="64" name="@SDYREP:AUTHORS">
-			<value>&lt;authors></value>
+			<value>Luciana Kfouri e Fabio Kfouri</value>
 			<configuration>59</configuration>
 		</Prop>
 		<Prop id="65" name="@SDYREP:CLASSIFICATION">
-			<value>&lt;document classification></value>
+			<value></value>
 			<configuration>59</configuration>
 		</Prop>
 		<Prop id="66" name="@SDYREP:COMPANYINFO">
-			<value>&lt;company></value>
+			<value>ITA – Instituto Tecnológico de Aeronáutica</value>
 			<configuration>59</configuration>
 		</Prop>
 		<Prop id="67" name="@SDYREP:DISTLIST">
-			<value>&lt;distribution list></value>
+			<value></value>
 			<configuration>59</configuration>
 		</Prop>
 		<Prop id="68" name="@SDYREP:IMAGEPATH">
+			<value>.</value>
 			<configuration>59</configuration>
 		</Prop>
 		<Prop id="69" name="@SDYREP:LOGOPATH">
@@ -128,10 +129,11 @@
 			<configuration>59</configuration>
 		</Prop>
 		<Prop id="70" name="@SDYREP:BANNERPATH">
+			<value>.</value>
 			<configuration>59</configuration>
 		</Prop>
 		<Prop id="71" name="@SDYREP:SUMMARY">
-			<value>&lt;summary></value>
+			<value></value>
 			<configuration>59</configuration>
 		</Prop>
 		<Prop id="72" name="@SDYREP:DATE">
@@ -144,7 +146,7 @@ desenvolvido para cumprimento da Listex 1.</value>
 			<configuration>59</configuration>
 		</Prop>
 		<Prop id="74" name="@SDYREP:INDEX">
-			<value>&lt;index></value>
+			<value></value>
 			<configuration>59</configuration>
 		</Prop>
 		<Prop id="75" name="@SDYREP:ISSUE">
@@ -152,7 +154,7 @@ desenvolvido para cumprimento da Listex 1.</value>
 			<configuration>59</configuration>
 		</Prop>
 		<Prop id="76" name="@SDYREP:REFERENCE">
-			<value>&lt;reference></value>
+			<value></value>
 			<configuration>59</configuration>
 		</Prop>
 		<Prop id="77" name="@SDYREP:REFERENCENB">
@@ -213,7 +215,7 @@ $(CreatedDate)</value>
 			<configuration>59</configuration>
 		</Prop>
 		<Prop id="91" name="@SDYREP:FORMAT">
-			<value>HTML</value>
+			<value>RTF</value>
 			<configuration>59</configuration>
 		</Prop>
 		<Prop id="95" name="@SDYREP:TRANSPSCREENSHOTS">

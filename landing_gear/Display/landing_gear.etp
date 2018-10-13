@@ -108,7 +108,7 @@
 			<configuration>259</configuration>
 		</Prop>
 		<Prop id="263" name="@SDYREP:AUTHORS">
-			<value>Luciana Kfouri</value>
+			<value>Luciana Kfouri e Fabio Kfouri</value>
 			<configuration>259</configuration>
 		</Prop>
 		<Prop id="264" name="@SDYREP:CLASSIFICATION">
@@ -217,7 +217,7 @@ $(CreatedDate)</value>
 			<configuration>259</configuration>
 		</Prop>
 		<Prop id="290" name="@SDYREP:FORMAT">
-			<value>HTML</value>
+			<value>RTF</value>
 			<configuration>259</configuration>
 		</Prop>
 		<Prop id="291" name="@SDYREP:TRANSPSCREENSHOTS">

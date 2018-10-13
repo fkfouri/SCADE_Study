@@ -15,7 +15,7 @@ Project Properties:
 - @UAPC:STYLESETDEFINITION: look_definition.sld
 
 Reporter Properties:
-- @SDYREP:AUTHORS: Luciana Kfouri
+- @SDYREP:AUTHORS: Luciana Kfouri e Fabio Kfouri
 - @SDYREP:CLASSIFICATION: <document classification>
 - @SDYREP:COMPANYINFO: ITA
 - @SDYREP:CONFSOURCE: E:\Projetos\SCADE_Study\landing_gear\Display\LG.sgfx
@@ -25,7 +25,7 @@ Reporter Properties:
 - @SDYREP:FOOTERCENTER: <Corporate Info>
 - @SDYREP:FOOTERLEFT: 
 - @SDYREP:FOOTERRIGHT: 
-- @SDYREP:FORMAT: HTML
+- @SDYREP:FORMAT: RTF
 - @SDYREP:HEADERCENTER: $(IssueNr)
 - @SDYREP:HEADERLEFT: $(ReferenceNr)
 $(CreatedDate)
