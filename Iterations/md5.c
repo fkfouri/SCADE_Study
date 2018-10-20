@@ -130,7 +130,7 @@ unsigned *md5( const char *msg, int mlen)
     return h;
 }    
 
-void checkMd5(char *Send, char *Output, int *temp , char *Output2)
+void checkMd5(T_String *Send, T_String *Output, int *temp)
 {
     char *msg = "The quick brown fox jumped over the lazy dog's back";
     
@@ -138,7 +138,7 @@ void checkMd5(char *Send, char *Output, int *temp , char *Output2)
 
     //Output2[0] = '\0';
     //memcpy(*Output2, *Send, strlen(*Send) +1);
-    strcpy(Output2, Send);
+    //strcpy(Output2, Send);
 
 
     //Converte texto em codigo Md5 em Hex
@@ -167,13 +167,13 @@ void checkMd5(char *Send, char *Output, int *temp , char *Output2)
     
     //Remove o H do inicio do Vetor
     char subbuff[32];
-    memcpy( subbuff, &tmpStrMd5[1], 32 );
+    memcpy(subbuff, &tmpStrMd5[1], 32 );
     subbuff[32] = '\0';
 
     //copia a variavel de origem para a destino
     //memcpy(*Output, "teste", strlen("teste"));
     //strcpy(*Output, d);
-    strcpy(Output, subbuff);
+    strcpy(*Output, subbuff);
 
     //Tamanho da variavel de saida
     *temp = strlen(subbuff);

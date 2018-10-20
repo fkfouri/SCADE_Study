@@ -29,18 +29,6 @@
 						<ed:Variable oid="!ed/b39e/2141/39D4/5bc93c01140"/>
 					</pragmas>
 				</Variable>
-				<Variable name="Output2">
-					<type>
-						<NamedType>
-							<type>
-								<TypeRef name="T_String"/>
-							</type>
-						</NamedType>
-					</type>
-					<pragmas>
-						<ed:Variable oid="!ed/4b2e/232F/19E8/5bcb4fbe796b"/>
-					</pragmas>
-				</Variable>
 				<Variable name="temp">
 					<type>
 						<NamedType>
