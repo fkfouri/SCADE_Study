@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Project id="1" oid_count="104" defaultConfiguration="24">
+<Project id="1" oid_count="109" defaultConfiguration="24">
 	<props>
 		<Prop id="10" name="@STUDIO:PRODUCT">
 			<value>SC</value>
@@ -366,6 +366,18 @@
 			<value>59</value>
 			<value>68</value>
 		</Prop>
+		<Prop id="105" name="@GENERATOR:ROOTNODE">
+			<value>Walk</value>
+			<configuration>24</configuration>
+		</Prop>
+		<Prop id="106" name="@GENERATOR:ROOTNODE">
+			<value>Operator1</value>
+			<configuration>14</configuration>
+		</Prop>
+		<Prop id="107" name="@GENERATOR:EXPAND_MODE">
+			<value>1</value>
+			<configuration>24</configuration>
+		</Prop>
 	</props>
 	<roots>
 		<Folder id="3" extensions="vsp;etp" name="SCADE Libraries">
@@ -385,6 +397,7 @@
 				<FileRef id="94" persistAs="plus_one.xscade"/>
 				<FileRef id="99" persistAs="Iterations.xscade"/>
 				<FileRef id="104" persistAs="checkMd5.xscade"/>
+				<FileRef id="109" persistAs="Walk.xscade"/>
 			</elements>
 		</Folder>
 		<Folder id="100" extensions="c;adb;ada" name="External Code">

@@ -5,12 +5,12 @@
 			<type>
 				<NamedType>
 					<type>
-						<TypeRef name="T_String"/>
+						<TypeRef name="T_String_5"/>
 					</type>
 				</NamedType>
 			</type>
 			<value>
-				<!-- ['F', 'A', 'B', 'I', 'O', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ... -->
+				<!-- ['F', 'A', 'B', 'I', 'O'] -->
 				<DataArrayOp>
 					<data>
 						<ConstValue value="'F'"/>
@@ -18,61 +18,6 @@
 						<ConstValue value="'B'"/>
 						<ConstValue value="'I'"/>
 						<ConstValue value="'O'"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
 					</data>
 				</DataArrayOp>
 			</value>
@@ -99,5 +44,73 @@
 				<ed:Type oid="!ed/b3b9/2141/39D4/5bc93c2e6af5"/>
 			</pragmas>
 		</Type>
+		<Type name="T_String_32">
+			<definition>
+				<Table>
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="char"/>
+							</type>
+						</NamedType>
+					</type>
+					<size>
+						<ConstValue value="32"/>
+					</size>
+				</Table>
+			</definition>
+			<pragmas>
+				<ed:Type oid="!ed/4c14/9DC/5564/5bcb5f9f3c9"/>
+			</pragmas>
+		</Type>
+		<Type name="T_String_5">
+			<definition>
+				<Table>
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="char"/>
+							</type>
+						</NamedType>
+					</type>
+					<size>
+						<ConstValue value="5"/>
+					</size>
+				</Table>
+			</definition>
+			<pragmas>
+				<ed:Type oid="!ed/4c2a/9DC/5564/5bcb5fb83e30"/>
+			</pragmas>
+		</Type>
+		<Constant name="VELOCITY">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="int32"/>
+					</type>
+				</NamedType>
+			</type>
+			<value>
+				<ConstValue value="1"/>
+			</value>
+			<pragmas>
+				<ed:Constant oid="!ed/4caa/9DC/5564/5bcbfcb74ce2"/>
+			</pragmas>
+		</Constant>
+		<Constant name="STEPS">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="int32"/>
+					</type>
+				</NamedType>
+			</type>
+			<value>
+				<ConstValue value="5"/>
+			</value>
+			<pragmas>
+				<ed:Constant oid="!ed/4cab/9DC/5564/5bcbfcc54fae"/>
+			</pragmas>
+		</Constant>
 	</declarations>
 </File>

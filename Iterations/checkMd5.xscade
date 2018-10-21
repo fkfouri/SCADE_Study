@@ -7,7 +7,7 @@
 					<type>
 						<NamedType>
 							<type>
-								<TypeRef name="T_String"/>
+								<TypeRef name="T_String_5"/>
 							</type>
 						</NamedType>
 					</type>
@@ -21,12 +21,24 @@
 					<type>
 						<NamedType>
 							<type>
-								<TypeRef name="T_String"/>
+								<TypeRef name="T_String_32"/>
 							</type>
 						</NamedType>
 					</type>
 					<pragmas>
 						<ed:Variable oid="!ed/b39e/2141/39D4/5bc93c01140"/>
+					</pragmas>
+				</Variable>
+				<Variable name="Out">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="T_String_32"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/4c0d/EF9/56FC/5bcb5c392797"/>
 					</pragmas>
 				</Variable>
 				<Variable name="temp">
