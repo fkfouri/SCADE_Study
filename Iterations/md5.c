@@ -50,7 +50,7 @@ unsigned rol( unsigned v, short amt )
     return ((v>>(32-amt)) & msk1) | ((v<<amt) & ~msk1);
 }
  
-unsigned *md5( const char *msg, int mlen) 
+unsigned *md5(  char *msg, int mlen) 
 {
     static Digest h0 = { 0x67452301, 0xEFCDAB89, 0x98BADCFE, 0x10325476 };
 //    static Digest h0 = { 0x01234567, 0x89ABCDEF, 0xFEDCBA98, 0x76543210 };
@@ -140,7 +140,7 @@ char *removeFirstChar(char *ref){
 }
 
 
-void checkMd5(char *Send, char *Output, int *temp,char *Out)
+void checkMd5(char *Send, char *Output, int *temp, char *Out)
 {
     char *msg;// = "The quick brown fox jumped over the lazy dog's back";
     

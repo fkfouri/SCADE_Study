@@ -883,10 +883,10 @@
 								</StateGE>
 								<EquationGE presentable="!ed/4e3c/9DC/5564/5bcc02be4c06">
 									<position>
-										<Point x="18923" y="3683"/>
+										<Point x="18254" y="3683"/>
 									</position>
 									<size>
-										<Size width="360" height="508"/>
+										<Size width="1028" height="508"/>
 									</size>
 								</EquationGE>
 								<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/4d5d/9DC/5564/5bcbff8f23b4" dstEquation="!ed/4e3c/9DC/5564/5bcc02be4c06">

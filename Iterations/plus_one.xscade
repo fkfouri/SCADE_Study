@@ -147,18 +147,18 @@
 							<presentationElements>
 								<EquationGE presentable="!ed/b898/7E2/4C7C/5bc80abe3962">
 									<position>
-										<Point x="5609" y="3768"/>
+										<Point x="4847" y="3768"/>
 									</position>
 									<size>
-										<Size width="254" height="508"/>
+										<Size width="1016" height="508"/>
 									</size>
 								</EquationGE>
 								<EquationGE presentable="!ed/b89a/7E2/4C7C/5bc80abe6f1f">
 									<position>
-										<Point x="11557" y="3852"/>
+										<Point x="10855" y="3852"/>
 									</position>
 									<size>
-										<Size width="338" height="508"/>
+										<Size width="1040" height="508"/>
 									</size>
 								</EquationGE>
 								<EquationGE kind="OBJ_LIT" presentable="!ed/b8a1/7E2/4C7C/5bc80ac41992">

@@ -1,0 +1,4 @@
+*** Post-namespace Warning (WAR_508): Unused flow
+  at file C:\Users\fkfouri\AppData\Local\Temp\ScadeChecker\1876\Operator1.scade, line 160, character 0
+  at path Operator1/a/
+ The input variable a is never used

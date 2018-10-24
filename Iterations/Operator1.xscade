@@ -24,25 +24,6 @@
 				</Variable>
 			</inputs>
 			<outputs>
-				<Variable name="b">
-					<type>
-						<Table>
-							<type>
-								<NamedType>
-									<type>
-										<TypeRef name="int8"/>
-									</type>
-								</NamedType>
-							</type>
-							<size>
-								<ConstValue value="12"/>
-							</size>
-						</Table>
-					</type>
-					<pragmas>
-						<ed:Variable oid="!ed/b83f/7E2/4C7C/5bc809fc2872"/>
-					</pragmas>
-				</Variable>
 				<Variable name="C">
 					<type>
 						<NamedType>
@@ -91,44 +72,6 @@
 					</type>
 					<pragmas>
 						<ed:Variable oid="!ed/4b3f/D83/150C/5bce92a92244"/>
-					</pragmas>
-				</Variable>
-				<Variable name="_L1">
-					<type>
-						<Table>
-							<type>
-								<NamedType>
-									<type>
-										<TypeRef name="int8"/>
-									</type>
-								</NamedType>
-							</type>
-							<size>
-								<ConstValue value="12"/>
-							</size>
-						</Table>
-					</type>
-					<pragmas>
-						<ed:Variable oid="!ed/b877/7E2/4C7C/5bc80a463d68"/>
-					</pragmas>
-				</Variable>
-				<Variable name="_L2">
-					<type>
-						<Table>
-							<type>
-								<NamedType>
-									<type>
-										<TypeRef name="int8"/>
-									</type>
-								</NamedType>
-							</type>
-							<size>
-								<ConstValue value="12"/>
-							</size>
-						</Table>
-					</type>
-					<pragmas>
-						<ed:Variable oid="!ed/b8b8/7E2/4C7C/5bc80adbd6"/>
 					</pragmas>
 				</Variable>
 				<Variable name="_L3">
@@ -205,73 +148,6 @@
 				</Variable>
 			</locals>
 			<data>
-				<!-- _L1 = a; -->
-				<Equation>
-					<lefts>
-						<VariableRef name="_L1"/>
-					</lefts>
-					<right>
-						<IdExpression>
-							<path>
-								<ConstVarRef name="a"/>
-							</path>
-						</IdExpression>
-					</right>
-					<pragmas>
-						<ed:Equation oid="!ed/b876/7E2/4C7C/5bc80a463c6"/>
-					</pragmas>
-				</Equation>
-				<!-- _L2 = (map plus_one <<12>>)(_L1); -->
-				<Equation>
-					<lefts>
-						<VariableRef name="_L2"/>
-					</lefts>
-					<right>
-						<!-- (map plus_one <<12>>)(_L1) -->
-						<CallExpression>
-							<operator>
-								<IteratorOp name="1" iterator="map">
-									<operator>
-										<OpCall name="1">
-											<operator>
-												<OperatorRef name="plus_one"/>
-											</operator>
-										</OpCall>
-									</operator>
-									<size>
-										<ConstValue value="12"/>
-									</size>
-								</IteratorOp>
-							</operator>
-							<callParameters>
-								<IdExpression>
-									<path>
-										<ConstVarRef name="_L1"/>
-									</path>
-								</IdExpression>
-							</callParameters>
-						</CallExpression>
-					</right>
-					<pragmas>
-						<ed:Equation oid="!ed/b8b7/7E2/4C7C/5bc80adb42e4"/>
-					</pragmas>
-				</Equation>
-				<!-- b = _L2; -->
-				<Equation>
-					<lefts>
-						<VariableRef name="b"/>
-					</lefts>
-					<right>
-						<IdExpression>
-							<path>
-								<ConstVarRef name="_L2"/>
-							</path>
-						</IdExpression>
-					</right>
-					<pragmas>
-						<ed:Equation oid="!ed/b8cd/7E2/4C7C/5bc80b223b4a"/>
-					</pragmas>
-				</Equation>
 				<!-- _L3 = TEXTO_TESTE; -->
 				<Equation>
 					<lefts>
@@ -382,18 +258,18 @@
 						<ed:Equation oid="!ed/4b20/D83/150C/5bce927427e9"/>
 					</pragmas>
 				</Equation>
-				<!-- _L9 = convert(_L8); -->
+				<!-- _L9 = convert2Int(_L8); -->
 				<Equation>
 					<lefts>
 						<VariableRef name="_L9"/>
 					</lefts>
 					<right>
-						<!-- convert(_L8) -->
+						<!-- convert2Int(_L8) -->
 						<CallExpression>
 							<operator>
 								<OpCall name="1">
 									<operator>
-										<OperatorRef name="convert"/>
+										<OperatorRef name="convert2Int"/>
 									</operator>
 								</OpCall>
 							</operator>
@@ -432,46 +308,6 @@
 					<diagrams>
 						<NetDiagram name="Operator1_1" landscape="true" format="A4 (210 297)" oid="!ed/b83d/7E2/4C7C/5bc809ef52d8">
 							<presentationElements>
-								<EquationGE presentable="!ed/b876/7E2/4C7C/5bc80a463c6">
-									<position>
-										<Point x="2879" y="3175"/>
-									</position>
-									<size>
-										<Size width="254" height="508"/>
-									</size>
-								</EquationGE>
-								<EquationGE presentable="!ed/b8b7/7E2/4C7C/5bc80adb42e4">
-									<position>
-										<Point x="6236" y="2003"/>
-									</position>
-									<size>
-										<Size width="3382" height="2852"/>
-									</size>
-								</EquationGE>
-								<EquationGE presentable="!ed/b8cd/7E2/4C7C/5bc80b223b4a">
-									<position>
-										<Point x="14626" y="3175"/>
-									</position>
-									<size>
-										<Size width="338" height="508"/>
-									</size>
-								</EquationGE>
-								<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/b8b7/7E2/4C7C/5bc80adb42e4" dstEquation="!ed/b8cd/7E2/4C7C/5bc80b223b4a">
-									<positions>
-										<Point x="9610" y="3429"/>
-										<Point x="12129" y="3429"/>
-										<Point x="12129" y="3429"/>
-										<Point x="14669" y="3429"/>
-									</positions>
-								</Edge>
-								<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/b876/7E2/4C7C/5bc80a463c6" dstEquation="!ed/b8b7/7E2/4C7C/5bc80adb42e4">
-									<positions>
-										<Point x="3133" y="3429"/>
-										<Point x="4678" y="3429"/>
-										<Point x="4678" y="3429"/>
-										<Point x="6244" y="3429"/>
-									</positions>
-								</Edge>
 								<EquationGE kind="OBJ_LIT" presentable="!ed/b407/2141/39D4/5bc93caf336">
 									<position>
 										<Point x="4487" y="8086"/>
@@ -509,7 +345,7 @@
 										<Point x="12827" y="7916"/>
 										<Point x="15240" y="7916"/>
 										<Point x="15240" y="5757"/>
-										<Point x="17949" y="5757"/>
+										<Point x="17907" y="5757"/>
 									</positions>
 								</Edge>
 								<EquationGE presentable="!ed/4b27/8CC/1D08/5bc944945077">

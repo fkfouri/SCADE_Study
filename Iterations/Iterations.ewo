@@ -7,7 +7,7 @@
 
 "UsePolyline"="false" 
 "TransitionKind"="weak" 
-"McVersion"="" 
+"McVersion"="MC66" 
 
 [SCADE\Diff\Tool]
 
@@ -71,6 +71,8 @@
 
 [STUDIO\TOOLS\CONFIGURATIONS\Import/Export]
 
+"E:\\Projetos\\SCADE_Study\\Iterations\\Iterations.etp"="KCG" 
+"E:\\Projetos\\SCADE_Study\\Iterations\\Iterations.etp"="KCG" 
 "E:\\Projetos\\SCADE_Study\\Iterations\\Iterations.etp"="KCG" 
 "E:\\Projetos\\SCADE_Study\\Iterations\\Iterations.etp"="KCG" 
 "E:\\Projetos\\SCADE_Study\\Iterations\\Iterations.etp"="KCG" 
