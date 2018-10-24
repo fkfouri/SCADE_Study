@@ -39,7 +39,7 @@
 
 "Watch1"="Operator1/a/" 
 "Watch2"="Operator1/a/" 
-"Count"="2" 
+"Count"="0" 
 
 [SCADE\Simulator\Graph]
 
@@ -71,6 +71,9 @@
 
 [STUDIO\TOOLS\CONFIGURATIONS\Import/Export]
 
+"E:\\Projetos\\SCADE_Study\\Iterations\\Iterations.etp"="KCG" 
+"E:\\Projetos\\SCADE_Study\\Iterations\\Iterations.etp"="KCG" 
+"E:\\Projetos\\SCADE_Study\\Iterations\\Iterations.etp"="KCG" 
 "E:\\Projetos\\SCADE_Study\\Iterations\\Iterations.etp"="KCG" 
 
 [STUDIO\TOOLS\CONFIGURATIONS\Timing and Stack Analysis Tools]

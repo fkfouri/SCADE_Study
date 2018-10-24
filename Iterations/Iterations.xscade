@@ -112,5 +112,29 @@
 				<ed:Constant oid="!ed/4cab/9DC/5564/5bcbfcc54fae"/>
 			</pragmas>
 		</Constant>
+		<Constant name="myNumber">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="T_String_5"/>
+					</type>
+				</NamedType>
+			</type>
+			<value>
+				<!-- ['0', '0', '8', '3', '2'] -->
+				<DataArrayOp>
+					<data>
+						<ConstValue value="'0'"/>
+						<ConstValue value="'0'"/>
+						<ConstValue value="'8'"/>
+						<ConstValue value="'3'"/>
+						<ConstValue value="'2'"/>
+					</data>
+				</DataArrayOp>
+			</value>
+			<pragmas>
+				<ed:Constant oid="!ed/4aee/D83/150C/5bce923e3f0c"/>
+			</pragmas>
+		</Constant>
 	</declarations>
 </File>

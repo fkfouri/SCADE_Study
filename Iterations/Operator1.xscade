@@ -81,6 +81,18 @@
 						<ed:Variable oid="!ed/4c0f/EF9/56FC/5bcb5c476ba1"/>
 					</pragmas>
 				</Variable>
+				<Variable probe="true" name="Probe3">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="int32"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/4b3f/D83/150C/5bce92a92244"/>
+					</pragmas>
+				</Variable>
 				<Variable name="_L1">
 					<type>
 						<Table>
@@ -165,6 +177,30 @@
 					</type>
 					<pragmas>
 						<ed:Variable oid="!ed/4c0e/EF9/56FC/5bcb5c397edf"/>
+					</pragmas>
+				</Variable>
+				<Variable name="_L8">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="T_String_5"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/4b21/D83/150C/5bce92744007"/>
+					</pragmas>
+				</Variable>
+				<Variable name="_L9">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="int32"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/4b36/D83/150C/5bce92933a10"/>
 					</pragmas>
 				</Variable>
 			</locals>
@@ -330,6 +366,66 @@
 						<ed:Equation oid="!ed/4c10/EF9/56FC/5bcb5c476366"/>
 					</pragmas>
 				</Equation>
+				<!-- _L8 = myNumber; -->
+				<Equation>
+					<lefts>
+						<VariableRef name="_L8"/>
+					</lefts>
+					<right>
+						<IdExpression>
+							<path>
+								<ConstVarRef name="myNumber"/>
+							</path>
+						</IdExpression>
+					</right>
+					<pragmas>
+						<ed:Equation oid="!ed/4b20/D83/150C/5bce927427e9"/>
+					</pragmas>
+				</Equation>
+				<!-- _L9 = convert(_L8); -->
+				<Equation>
+					<lefts>
+						<VariableRef name="_L9"/>
+					</lefts>
+					<right>
+						<!-- convert(_L8) -->
+						<CallExpression>
+							<operator>
+								<OpCall name="1">
+									<operator>
+										<OperatorRef name="convert"/>
+									</operator>
+								</OpCall>
+							</operator>
+							<callParameters>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="_L8"/>
+									</path>
+								</IdExpression>
+							</callParameters>
+						</CallExpression>
+					</right>
+					<pragmas>
+						<ed:Equation oid="!ed/4b26/D83/150C/5bce92772512"/>
+					</pragmas>
+				</Equation>
+				<!-- Probe3 = _L9; -->
+				<Equation>
+					<lefts>
+						<VariableRef name="Probe3"/>
+					</lefts>
+					<right>
+						<IdExpression>
+							<path>
+								<ConstVarRef name="_L9"/>
+							</path>
+						</IdExpression>
+					</right>
+					<pragmas>
+						<ed:Equation oid="!ed/4b40/D83/150C/5bce92a96989"/>
+					</pragmas>
+				</Equation>
 			</data>
 			<pragmas>
 				<ed:Operator oid="!ed/b83c/7E2/4C7C/5bc809ef1bb0" xmlns="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5">
@@ -446,6 +542,46 @@
 										<Point x="15812" y="8276"/>
 										<Point x="15812" y="8615"/>
 										<Point x="18182" y="8615"/>
+									</positions>
+								</Edge>
+								<EquationGE kind="OBJ_LIT" presentable="!ed/4b20/D83/150C/5bce927427e9">
+									<position>
+										<Point x="5630" y="11218"/>
+									</position>
+									<size>
+										<Size width="170" height="318"/>
+									</size>
+								</EquationGE>
+								<EquationGE presentable="!ed/4b26/D83/150C/5bce92772512">
+									<position>
+										<Point x="8649" y="10766"/>
+									</position>
+									<size>
+										<Size width="3763" height="1413"/>
+									</size>
+								</EquationGE>
+								<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/4b20/D83/150C/5bce927427e9" dstEquation="!ed/4b26/D83/150C/5bce92772512">
+									<positions>
+										<Point x="5800" y="11388"/>
+										<Point x="7218" y="11388"/>
+										<Point x="7218" y="11472"/>
+										<Point x="8657" y="11472"/>
+									</positions>
+								</Edge>
+								<EquationGE presentable="!ed/4b40/D83/150C/5bce92a96989">
+									<position>
+										<Point x="14732" y="12700"/>
+									</position>
+									<size>
+										<Size width="212" height="339"/>
+									</size>
+								</EquationGE>
+								<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/4b26/D83/150C/5bce92772512" dstEquation="!ed/4b40/D83/150C/5bce92a96989">
+									<positions>
+										<Point x="12404" y="11472"/>
+										<Point x="13610" y="11472"/>
+										<Point x="13610" y="12954"/>
+										<Point x="14838" y="12954"/>
 									</positions>
 								</Edge>
 							</presentationElements>
