@@ -60,14 +60,17 @@
 [STUDIO\TOOLS\CONFIGURATIONS\Code Generator]
 
 "E:\\Projetos\\SCADE_Study\\Iterations\\Iterations.etp"="Simulation" 
+"D:\\SUPPORT\\ITA\\Iterations.etp"="Simulation" 
 
 [STUDIO\TOOLS\CONFIGURATIONS\Reporter]
 
 "E:\\Projetos\\SCADE_Study\\Iterations\\Iterations.etp"="HTML" 
+"D:\\SUPPORT\\ITA\\Iterations.etp"="HTML" 
 
 [STUDIO\TOOLS\CONFIGURATIONS\Synchronization]
 
 "E:\\Projetos\\SCADE_Study\\Iterations\\Iterations.etp"="KCG" 
+"D:\\SUPPORT\\ITA\\Iterations.etp"="KCG" 
 
 [STUDIO\TOOLS\CONFIGURATIONS\Import/Export]
 
@@ -77,14 +80,20 @@
 "E:\\Projetos\\SCADE_Study\\Iterations\\Iterations.etp"="KCG" 
 "E:\\Projetos\\SCADE_Study\\Iterations\\Iterations.etp"="KCG" 
 "E:\\Projetos\\SCADE_Study\\Iterations\\Iterations.etp"="KCG" 
+"E:\\Projetos\\SCADE_Study\\Iterations\\Iterations.etp"="KCG" 
+"D:\\SUPPORT\\ITA\\Iterations.etp"="KCG" 
+"D:\\SUPPORT\\ITA\\Iterations.etp"="KCG" 
+"E:\\Projetos\\SCADE_Study\\Iterations\\Iterations.etp"="KCG" 
 
 [STUDIO\TOOLS\CONFIGURATIONS\Timing and Stack Analysis Tools]
 
 "E:\\Projetos\\SCADE_Study\\Iterations\\Iterations.etp"="KCG" 
+"D:\\SUPPORT\\ITA\\Iterations.etp"="KCG" 
 
 [STUDIO\TOOLS\CONFIGURATIONS\DiffAnalyzer]
 
 "E:\\Projetos\\SCADE_Study\\Iterations\\Iterations.etp"="KCG" 
+"D:\\SUPPORT\\ITA\\Iterations.etp"="KCG" 
 
 [STUDIO\Workspace]
 

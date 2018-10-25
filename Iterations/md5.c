@@ -140,9 +140,10 @@ char *removeFirstChar(char *ref){
 }
 
 
-void checkMd5(char *Send, char *Output, int *temp, char *Out)
+/*void checkMd5(char *Send, char *Output, int *temp, char *Out)*/
+void checkMd5(/* Send/ */  T_String_5 *Send, /* Output/ */ T_String_32 *Output, /* Out/ */ T_String_32 *Out, /* temp/ */ kcg_int32 *temp)
 {
-    char *msg;// = "The quick brown fox jumped over the lazy dog's back";
+    char *msg= "The quick brown fox jumped over the lazy dog's back";
     
     //char *msg;
 
@@ -154,7 +155,7 @@ void checkMd5(char *Send, char *Output, int *temp, char *Out)
 	//strncpy(msg, Send, strlen(Send));
 
     //Converte texto em codigo Md5 em Hex
-    unsigned *tmpHexMd5 = md5(Send, strlen(Send));
+    unsigned *tmpHexMd5 = md5(msg, strlen(msg));
 
 
     char tmpStrMd5[33];
@@ -187,7 +188,9 @@ void checkMd5(char *Send, char *Output, int *temp, char *Out)
     //copia a variavel de origem para a destino
     //memcpy(*Output, "teste", strlen("teste"));
     //strcpy(*Output, d);
-    strcpy(Output, removeFirstChar(tmpStrMd5));
+    //strcpy(Output, removeFirstChar(tmpStrMd5));
+
+    strcpy(Output, tmpStrMd5);
 
     //Tamanho da variavel de saida
     //*temp = strlen(subbuff);
@@ -196,3 +199,5 @@ void checkMd5(char *Send, char *Output, int *temp, char *Out)
     strcpy(Out, Send);
     //strcpy(Out, removeFirstChar(Send));
 }
+
+

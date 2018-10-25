@@ -10,7 +10,7 @@
 				</NamedType>
 			</type>
 			<value>
-				<!-- ['F', 'A', 'B', 'I', 'O'] -->
+				<!-- ['F', 'A', 'B', 'I', 'O', '\x00'] -->
 				<DataArrayOp>
 					<data>
 						<ConstValue value="'F'"/>
@@ -18,6 +18,7 @@
 						<ConstValue value="'B'"/>
 						<ConstValue value="'I'"/>
 						<ConstValue value="'O'"/>
+						<ConstValue value="'\x00'"/>
 					</data>
 				</DataArrayOp>
 			</value>
@@ -74,7 +75,7 @@
 						</NamedType>
 					</type>
 					<size>
-						<ConstValue value="5"/>
+						<ConstValue value="6"/>
 					</size>
 				</Table>
 			</definition>
@@ -121,7 +122,7 @@
 				</NamedType>
 			</type>
 			<value>
-				<!-- ['0', '0', '8', '3', '2'] -->
+				<!-- ['0', '0', '8', '3', '2', '\x00'] -->
 				<DataArrayOp>
 					<data>
 						<ConstValue value="'0'"/>
@@ -129,6 +130,7 @@
 						<ConstValue value="'8'"/>
 						<ConstValue value="'3'"/>
 						<ConstValue value="'2'"/>
+						<ConstValue value="'\x00'"/>
 					</data>
 				</DataArrayOp>
 			</value>

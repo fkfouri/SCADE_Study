@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<File xmlns="http://www.esterel-technologies.com/ns/scade/6" xmlns:ed="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5" xmlns:kcg="http://www.esterel-technologies.com/ns/scade/pragmas/codegen/3" xmlns:asammcd2mc="unknown_address">
+	<declarations>
+		<Operator kind="function" external="imported" name="convert2Char">
+			<inputs>
+				<Variable name="Send">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="int32"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/4abd/5C64/481C/5bd1310130e"/>
+					</pragmas>
+				</Variable>
+				<Variable name="Size">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="int32"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/4ac6/5C64/481C/5bd1310b2443"/>
+					</pragmas>
+				</Variable>
+			</inputs>
+			<outputs>
+				<Variable name="Output">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="T_String_32"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/4acf/5C64/481C/5bd131223e51"/>
+						<asammcd2mc:Pragma>
+							Measurement:&#xA;Meas=0&#xA;MeasConversion=NO_COMPU_METHOD
+						</asammcd2mc:Pragma>
+					</pragmas>
+				</Variable>
+			</outputs>
+			<pragmas>
+				<ed:Operator oid="!ed/4ae0/5556/2788/5bd111a028c0"/>
+			</pragmas>
+		</Operator>
+	</declarations>
+</File>
