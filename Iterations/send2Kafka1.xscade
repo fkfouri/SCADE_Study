@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<File xmlns="http://www.esterel-technologies.com/ns/scade/6" xmlns:ed="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5" xmlns:kcg="http://www.esterel-technologies.com/ns/scade/pragmas/codegen/3">
+	<declarations>
+		<Operator kind="function" external="imported" name="send2Kafka">
+			<inputs>
+				<Variable name="Send">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="T_String_32"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/4a97/4C12/45C/5bec5d867c9c"/>
+					</pragmas>
+				</Variable>
+			</inputs>
+			<pragmas>
+				<ed:Operator oid="!ed/4a96/4C12/45C/5bec5d634c49"/>
+			</pragmas>
+		</Operator>
+	</declarations>
+</File>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Project id="1" oid_count="135" defaultConfiguration="22">
+<Project id="1" oid_count="142" defaultConfiguration="22">
 	<props>
 		<Prop id="10" name="@STUDIO:PRODUCT">
 			<value>SC</value>
@@ -25,10 +25,6 @@
 		</Prop>
 		<Prop id="19" name="@GENERATOR:USER_CONFIG">
 			<value>$(TargetDir)\user_macros.h</value>
-			<configuration>14</configuration>
-		</Prop>
-		<Prop id="20" name="@GENERATOR:ENABLE_EXTENSIONS">
-			<value>false</value>
 			<configuration>14</configuration>
 		</Prop>
 		<Prop id="21" name="@STUDIO:TOOLCONF">
@@ -326,11 +322,8 @@
 		</Prop>
 		<Prop id="130" name="@GENERATOR:DISPLAY_ENABLED_PANELS">
 			<value>..\DefinitionFile\project1.sgfx,DF Generation</value>
+			<value>..\DefinitionFile\project2.sgfx,DF Generation</value>
 			<configuration>22</configuration>
-		</Prop>
-		<Prop id="131" name="@GENERATOR:TARGET_ADAPTOR">
-			<value></value>
-			<configuration>14</configuration>
 		</Prop>
 		<Prop id="132" name="@GENERATOR:OBSERVE_MODE">
 			<value>4</value>
@@ -347,6 +340,42 @@
 		<Prop id="135" name="@GENERATOR:SKIP_UNUSED">
 			<value>true</value>
 			<configuration>14</configuration>
+		</Prop>
+		<Prop id="136" name="@STUDIO:TOOLCONF">
+			<value>Timing and Stack Analysis Tools</value>
+			<value>14</value>
+			<value>22</value>
+			<value>32</value>
+			<value>37</value>
+			<value>42</value>
+			<value>53</value>
+			<value>61</value>
+			<value>64</value>
+			<value>72</value>
+		</Prop>
+		<Prop id="137" name="@STUDIO:TOOLCONF">
+			<value>Import/Export</value>
+			<value>14</value>
+			<value>22</value>
+			<value>32</value>
+			<value>37</value>
+			<value>42</value>
+			<value>53</value>
+			<value>61</value>
+			<value>64</value>
+			<value>72</value>
+		</Prop>
+		<Prop id="138" name="@GENERATOR:ENABLE_EXTENSIONS">
+			<value>false</value>
+			<configuration>14</configuration>
+		</Prop>
+		<Prop id="139" name="@GENERATOR:TARGET_ADAPTOR">
+			<value></value>
+			<configuration>14</configuration>
+		</Prop>
+		<Prop id="142" name="@SIMULATOR:CPU_TYPE">
+			<value>win64</value>
+			<configuration>22</configuration>
 		</Prop>
 	</props>
 	<roots>

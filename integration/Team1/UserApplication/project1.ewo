@@ -3,25 +3,29 @@
 
 "C:\\Listex_2\\Team1\\UserApplication\\project1\\project1.etp"="Simulation" 
 "C:\\Listex_2\\Team1\\UserApplication\\project1.etp"="Simulation" 
-"E:\\Projetos\\SCADE_Study\\integration\\Team1\\UserApplication\\project1.etp"="KCG" 
+"E:\\Projetos\\SCADE_Study\\integration\\Team1\\UserApplication\\project1.etp"="Simulation" 
+"E:\\Projetos\\SCADE_Study\\integration\\Team2\\UserApplication\\project2.etp"="KCG" 
 
 [STUDIO\TOOLS\CONFIGURATIONS\Reporter]
 
 "C:\\Listex_2\\Team1\\UserApplication\\project1\\project1.etp"="HTML" 
 "C:\\Listex_2\\Team1\\UserApplication\\project1.etp"="HTML" 
 "E:\\Projetos\\SCADE_Study\\integration\\Team1\\UserApplication\\project1.etp"="HTML" 
+"E:\\Projetos\\SCADE_Study\\integration\\Team2\\UserApplication\\project2.etp"="HTML" 
 
 [STUDIO\TOOLS\CONFIGURATIONS\Synchronization]
 
 "C:\\Listex_2\\Team1\\UserApplication\\project1\\project1.etp"="Synchronization" 
 "C:\\Listex_2\\Team1\\UserApplication\\project1.etp"="Synchronization" 
 "E:\\Projetos\\SCADE_Study\\integration\\Team1\\UserApplication\\project1.etp"="Synchronization" 
+"E:\\Projetos\\SCADE_Study\\integration\\Team2\\UserApplication\\project2.etp"="Synchronization" 
 
 [STUDIO\TOOLS\CONFIGURATIONS\DiffAnalyzer]
 
 "C:\\Listex_2\\Team1\\UserApplication\\project1\\project1.etp"="KCG" 
 "C:\\Listex_2\\Team1\\UserApplication\\project1.etp"="KCG" 
 "E:\\Projetos\\SCADE_Study\\integration\\Team1\\UserApplication\\project1.etp"="KCG" 
+"E:\\Projetos\\SCADE_Study\\integration\\Team2\\UserApplication\\project2.etp"="KCG" 
 
 [STUDIO\TOOLS\CONFIGURATIONS\Instrumenter]
 
@@ -91,11 +95,15 @@
 [STUDIO\TOOLS\CONFIGURATIONS\Import/Export]
 
 "E:\\Projetos\\SCADE_Study\\integration\\Team1\\UserApplication\\project1.etp"="KCG" 
+"E:\\Projetos\\SCADE_Study\\integration\\Team1\\UserApplication\\project1.etp"="KCG" 
+"E:\\Projetos\\SCADE_Study\\integration\\Team1\\UserApplication\\project1.etp"="KCG" 
 
 [STUDIO\TOOLS\CONFIGURATIONS\Timing and Stack Analysis Tools]
 
 "E:\\Projetos\\SCADE_Study\\integration\\Team1\\UserApplication\\project1.etp"="KCG" 
+"E:\\Projetos\\SCADE_Study\\integration\\Team2\\UserApplication\\project2.etp"="KCG" 
 
 [STUDIO\TOOLS\CONFIGURATIONS\Import/Export]
 
 "E:\\Projetos\\SCADE_Study\\integration\\Team1\\UserApplication\\project1.etp"="KCG" 
+"E:\\Projetos\\SCADE_Study\\integration\\Team2\\UserApplication\\project2.etp"="KCG" 

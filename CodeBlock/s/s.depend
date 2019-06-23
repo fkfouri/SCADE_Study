@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1540263635 source:e:\projetos\scade_study\codeblock\s\teste\convertstring2int.c
+	<stdio.h>
+	<errno.h>
+	<stdlib.h>
+
+1540263831 source:e:\projetos\scade_study\codeblock\s\teste\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

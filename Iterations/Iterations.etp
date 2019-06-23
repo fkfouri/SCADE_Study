@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Project id="1" oid_count="127" defaultConfiguration="24">
+<Project id="1" oid_count="139" defaultConfiguration="24">
 	<props>
 		<Prop id="10" name="@STUDIO:PRODUCT">
 			<value>SC</value>
@@ -84,20 +84,12 @@
 			<value>size</value>
 			<configuration>24</configuration>
 		</Prop>
-		<Prop id="29" name="@GENERATOR:OPTLEVEL">
-			<value>0</value>
-			<configuration>24</configuration>
-		</Prop>
 		<Prop id="31" name="@GENERATOR:PROBES">
 			<value>true</value>
 			<configuration>24</configuration>
 		</Prop>
 		<Prop id="32" name="@GENERATOR:SKIP_UNUSED">
 			<value>true</value>
-			<configuration>24</configuration>
-		</Prop>
-		<Prop id="33" name="@GENERATOR:TARGET_ADAPTOR">
-			<value>Simulator</value>
 			<configuration>24</configuration>
 		</Prop>
 		<Prop id="34" name="@GENERATOR:USER_CONFIG">
@@ -385,6 +377,14 @@
 		<Prop id="125" name="@SCADE:ASSTRING_TRIM">
 			<value>\x00</value>
 		</Prop>
+		<Prop id="29" name="@GENERATOR:OPTLEVEL">
+			<value>0</value>
+			<configuration>24</configuration>
+		</Prop>
+		<Prop id="33" name="@GENERATOR:TARGET_ADAPTOR">
+			<value>Simulator</value>
+			<configuration>24</configuration>
+		</Prop>
 	</props>
 	<roots>
 		<Folder id="3" extensions="vsp;etp" name="SCADE Libraries">
@@ -405,6 +405,8 @@
 				<FileRef id="104" persistAs="checkMd5.xscade"/>
 				<FileRef id="115" persistAs="convert2Int.xscade"/>
 				<FileRef id="127" persistAs="convert2Char.xscade"/>
+				<FileRef id="134" persistAs="send2Kafka1.xscade"/>
+				<FileRef id="139" persistAs="Toggle.xscade"/>
 			</elements>
 		</Folder>
 		<Folder id="100" extensions="c;adb;ada" name="External Code">
@@ -427,6 +429,17 @@
 						<Prop id="118" name="@SCADE:IMPORTED_NODES">
 							<value>convert2Int</value>
 							<value>convert2Char</value>
+						</Prop>
+					</props>
+				</FileRef>
+				<FileRef id="128" persistAs="..\..\librdkafka\src\rdkafka.c"/>
+				<FileRef id="135" persistAs="..\..\stagiho-tr\Time_1\ExoSkeleton_Display\Integration\send2Kafka.c">
+					<props>
+						<Prop id="136" name="@SIMULATOR:FILEKIND">
+							<value>CS</value>
+						</Prop>
+						<Prop id="137" name="@SCADE:IMPORTED_NODES">
+							<value>send2Kafka</value>
 						</Prop>
 					</props>
 				</FileRef>
